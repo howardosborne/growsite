@@ -1,0 +1,266 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9262171,
+                    52.0157188,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Untrained dogs",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "Dogs roaming around the farm buildings and adjoining housing. Didn't feel in danger from these untrained pets (not guard dogs) but might intimidate some. Speaking to others using the route - this isn't the first time."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.77669,
+                    52.08865,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Road without verges",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "Road that can have large fast vehicles on it"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9221337,
+                    52.018675,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Unclear where style was from entry to field",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "Not clear where the style was from the previous point."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9026596,
+                    52.0211113,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Way not clear",
+                "styleUrl": "#icon-1541-F57C00-nodesc",
+                "styleHash": "203a67dc",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-nodesc-normal",
+                    "highlight": "#icon-1541-F57C00-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.71003,
+                    52.10017,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Signage not clear",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "May find it easier to walk along the path into Sherington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.8751371,
+                    52.0257456,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Signage hidden",
+                "styleUrl": "#icon-1541-F57C00-nodesc",
+                "styleHash": "203a67dc",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-nodesc-normal",
+                    "highlight": "#icon-1541-F57C00-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9200198,
+                    52.0205571,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "difficult style",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "A style takes you onto the A421 at Cattleford Bridge but it's clearly not used and people use the farmer's gate in the field instead."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.8930415,
+                    52.0253018,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "nettles and suspected giant hogweed",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "Go to a more friendly field after crossing nettles and suspected giant hogweed"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.7178296,
+                    52.1089208,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Signage not clear",
+                "styleUrl": "#icon-1899-F57C00-nodesc",
+                "styleHash": "-2c658468",
+                "styleMapHash": {
+                    "normal": "#icon-1899-F57C00-nodesc-normal",
+                    "highlight": "#icon-1899-F57C00-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9412257,
+                    52.0113088,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Overgrown",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "Beautifully shaded making it ideal for nettles"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.861136,
+                    52.0360199,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Unclear signage",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "As you come towards Calverton and the western expansion of Milton Keynes, the Buckinghamshire signage stops and the MK signage doesn't quite get going"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.8662606,
+                    52.0320168,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Misleading signage",
+                "styleUrl": "#icon-1541-F57C00",
+                "styleHash": "1dcf64db",
+                "styleMapHash": {
+                    "normal": "#icon-1541-F57C00-normal",
+                    "highlight": "#icon-1541-F57C00-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "Need to stay on the road side of the hedge.<br>First sight of Hanslope church spire"
+            }
+        }
+    ]
+}
