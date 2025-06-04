@@ -1,0 +1,375 @@
+[
+	{
+		"lng": -0.9776866000000002,
+		"lat": 51.9997315,
+		"name": "Buckingham Edible Woodland",
+		"image": "/assets/images/points/bistort_1_orig.jpg",
+		"description": "Community project creating food for all",
+		"link": "https://bucksedwood.org.uk"
+	},
+	{
+		"lng": -1.0809702,
+		"lat": 52.0724375,
+		"name": "St James the Great, Syresham",
+		"image": "/assets/images/points/st_james_syresham.jpg",
+		"description": "old church with original decoration still remaining in parts.",
+		"link": "https://historicengland.org.uk/listing/the-list/list-entry/1190438"
+	},
+	{
+		"lng": -1.0085824,
+		"lat": 52.0220025,
+		"name": "Stowe Gardens",
+		"image": "/assets/images/points/stowe.jpg",
+		"description": "It's been described as 'Gardening on the grandest scale' and this Georgian landscape garden doesn't dissapoint.",
+		"link": "https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens"
+	},
+	{
+		"lng": -0.9691640999999998,
+		"lat": 51.99805849999999,
+		"name": "Buckingham Canal",
+		"image": "/assets/images/points/buckingham_canal.jpg",
+		"description": "Former branch of the Grand Union Canal that is now managed for nature.",
+		"link": "https://www.buckinghamcanal.org.uk/"
+	},
+	{
+		"lng": -0.9864688,
+		"lat": 52.00089889999999,
+		"name": "Buckingham Old Gaol",
+		"image": "/assets/images/points/buckingham_gaol.jpg",
+		"description": "Former local clink that's now a museum.",
+		"link": "https://www.buckinghamoldgaol.org.uk/"
+	},
+	{
+		"lng": -0.6265990000000001,
+		"lat": 52.1631951,
+		"name": "sunken mauseleum",
+		"image": "/assets/images/points/turvey_memorial.jpg",
+		"description": "church with curious memorial to the local bigwigs",
+		"link": "https://www.allsaintsturvey.org.uk"
+	},
+	{
+		"lng": -0.7485094999999999,
+		"lat": 52.110423,
+		"name": "Tyringham Bridge",
+		"image": "/assets/images/points/tyringham_bridge.jpg",
+		"description": "Great views of Tyringham Hall and Arched gatehouse"
+	},
+	{
+		"lng": -0.6873325,
+		"lat": 52.1534093,
+		"name": "medieval tombs",
+		"image": "/assets/images/points/st_mary_the_virgin.jpg",
+		"description": "old church with interesting tombs"
+	},
+	{
+		"lng": -1.0747544084061917,
+		"lat": 52.09576640023888,
+		"name": "Source of the Great Ouse",
+		"image": "/assets/images/points/source_of_the_great_ouse.jpg",
+		"description": "Pond in field which is the nominal source of the Great Ouse",
+		"link": ""
+	},
+	{
+		"lng": -0.7820882,
+		"lat": 52.0767104,
+		"name": "Remains of St Peter's Church",
+		"image": "/assets/images/points/st_peters_ruin.jpg",
+		"description": "Former church for the village of Stantonbury",
+		"link": "https://www.theparkstrust.com/our-work/heritage/st-peters-church/"
+	},
+	{
+		"lng": -0.7949514,
+		"lat": 52.0553886,
+		"name": "Bancroft Roman Villa",
+		"image": "/assets/images/points/roman_villa.jpg",
+		"description": "Roman site that actually dates back to before the founding of Rome",
+		"link": "https://www.theparkstrust.com/our-work/heritage/bancroft-roman-villa/"
+	},
+	{
+		"lng": -0.8047165000000001,
+		"lat": 52.05612379999999,
+		"name": "Milton Keynes Museum",
+		"link": "https://miltonkeynesmuseum.org.uk/",
+		"image": "/assets/images/points/milton_keynes_museum.jpg",
+		"description": "The story of Milton Keynes and what was here before - big on tranport and telephones..."
+	},
+	{
+		"lng": -0.7951737,
+		"lat": 52.0511044,
+		"name": "Concrete Cows",
+		"description": "what MK is most famous for - apart from roundabouts",
+		"image": "/assets/images/points/mk_cows.jpg",
+		"link": "https://en.wikipedia.org/wiki/Concrete_Cows"
+	},
+	{
+		"lng": -0.7049381,
+		"lat": 52.1094727,
+		"name": "Burying the hatchet",
+		"image": "/assets/images/points/hatchet.jpg",
+		"description": "Comemoration of a formal burying of the hatchet at the halfway point between Oxford and Cambridge in 1935"
+	},
+	{
+		"lng": -0.7008575000000001,
+		"lat": 52.1525845,
+		"name": "Cowper and Newton Museum",
+		"description": "Museum exploring the history of the creators of Amazing Grace",
+		"image": "/assets/images/points/cowper.jpg",
+		"link": "https://cowperandnewtonmuseum.org.uk/"
+	},
+	{
+		"lng": -0.416336,
+		"lat": 52.11954,
+		"name": "R101 Memorial",
+		"image": "/assets/images/points/r101.jpg",
+		"description": "Fitting memorial to those who lost their lives in the R10 disaster",
+		"link": "https://bedsarchives.bedford.gov.uk/CommunityHistories/Shortstown/TheR101VictimsFuneralAndMemorial.aspx"
+	},
+	{
+		"lng": -0.4626093,
+		"lat": 52.1364579,
+		"name": "Panacea Museum",
+		"image": "/assets/images/points/panacea.jpg",
+		"description": "Vist the place where preparations were made for the end times of civilisation.",
+		"link": "https://panaceamuseum.org/"
+	},
+	{
+		"lng": -1.0217297,
+		"lat": 52.0736364,
+		"name": "Silverstone Circuit",
+		"image": "/assets/images/points/silverstone.jpg",
+		"description": "Home of the UK Grand Prix",
+		"link": "https://www.silverstone.co.uk/"
+	},
+	{
+		"lng": -0.8487750000000001,
+		"lat": 52.0622582,
+		"name": "Stony Stratford Nature Reserve",
+		"image": "/assets/images/points/stony_nature.jpg",
+		"description": "Thriving wetland habitas with bird hides",
+		"link": "https://www.theparkstrust.com/find-a-park/stony-stratford-nature-reserve/"
+	},
+	{
+		"lng": -0.4634009000000001,
+		"lat": 52.136733,
+		"name": "John Bunyan Museum",
+		"image": "/assets/images/points/bunyan_museum.jpg",
+		"description": "Find out more about the habitual walker and author of Pligrim's Progress",
+		"link": "https://www.bunyanmeeting.co.uk/museum"
+	},
+	{
+		"lng": -0.1845462,
+		"lat": 52.3308489,
+		"name": "Cromwell Museum",
+		"image": "/assets/images/points/cromwell_museum.jpg",
+		"description": "Bijoux museum run by enthusiastic volunteers telling the story of Cromwell's life.",
+		"link": "https://www.cromwellmuseum.org"
+	},
+	{
+		"lng": 0.04728,
+		"lat": 52.34865010000001,
+		"name": "RSPB Ouse Fen",
+		"image": "/assets/images/points/ouse_fen.jpg",
+		"description": "Former sand and gravel quarry that has become a thriving nature reserve.",
+		"link": "https://www.rspb.org.uk/days-out/reserves/ouse-fen"
+	},
+	{
+		"lng": 0.0435469,
+		"lat": 52.3553952,
+		"name": "Earith Bulwark",
+		"image": "/assets/images/3/earith_bulwark_2.jpg",
+		"description": "Civil War defence structure, revived in the Second World War, that is now home to rabbits.",
+		"link": "https://historicengland.org.uk/listing/the-list/list-entry/1013282"
+	},
+	{
+		"lng": 0.2630359999999999,
+		"lat": 52.40051,
+		"name": "Ely Museum",
+		"image": "/assets/images/points/ely_museum.jpg",
+		"description": "Find out how the unique location of Ely led to a unique way of life for its inhabitants.",
+		"link": "https://www.elymuseum.org.uk/"
+	},
+	{
+		"lng": 0.263779,
+		"lat": 52.398661,
+		"name": "Ely Cathedral",
+		"image": "/assets/images/3/ely_4.jpg",
+		"description": "a.k.a Ship of the Fens, Ely Cathedral makes a big impact, especially after its 19th Century Gilbert Scott facelift.",
+		"link": "https://www.elycathedral.org/"
+	},
+	{
+		"lng": 0.3992032,
+		"lat": 52.75386710000001,
+		"name": "Lynn Museum",
+		"image": "/assets/images/points/lynn_museum.jpg",
+		"description": "Find out about Lynn's history including Seahenge and its trading past.",
+		"link": "https://www.lynnmuseum.norfolk.gov.uk/"
+	},
+	{
+		"lng": -0.5511751,
+		"lat": 52.1642324,
+		"name": "Bedfordshire's (l)only Windmill",
+		"image": "/assets/images/1/stevington_postmill.jpg",
+		"description": "The only remaining windmill in Bedfordshre, Stevington Windmill (technically a postmill) was used to make cattle feed.",
+		"link": "https://www.bedford.gov.uk/leisure-parks-and-sport/arts-and-culture/history-and-heritage/stevington-windmill"
+	},
+	{
+		"lng": -0.5531100999999999,
+		"lat": 52.17220340000001,
+		"name": "St Mary's church",
+		"image": "/assets/images/1/pew_carvings_1.jpg",
+		"description": "Church with intriguing medieval pew carvings and a holy well still serving people water.",
+		"link": "https://stmarysstevington.org.uk/"
+	},
+	{
+		"lng": -0.6288712999999999,
+		"lat": 52.1653415,
+		"name": "Turvey House",
+		"image": "/assets/images/points/turvey_house.jpg",
+		"description": "Local manor house which is open to the public on selected days. The riverside cottage is available for rent and appeared on Mortimer and Whitehouse Gone Fishing.",
+		"link": "https://www.turveyhouse.co.uk/"
+	},
+	{
+		"lng": -0.6059135,
+		"lat": 52.1871922,
+		"name": "CAMRA pub",
+		"image": "/assets/images/1/fox.jpg",
+		"description": "The Fox Inn prides itself on its real ale and consequential CAMRA awards.",
+		"link": "http://www.thefoxatcarlton.pub/"
+	},
+	{
+		"lng": -0.6019443999999999,
+		"lat": 52.20027779999999,
+		"name": "Harrold Odell Country Park",
+		"image": "/assets/images/points/hocp.jpg",
+		"description": "An accessible nature-rich habitat created thanks to quarrying for sand and gravel. Thereâ€™s a visitor centre, cafe and pay-by-donation car park. The bridge is also a popular place for bathers and paddlers heading towards Felmersham.",
+		"link": "https://hocp.co.uk/"
+	},
+	{
+		"lng": -0.3845956,
+		"lat": 52.1369377,
+		"name": "Willington Dovecote",
+		"image": "/assets/images/points/willington.jpg",
+		"description": "Pretty 16th-century stone dovecote and stables",
+		"link": "https://www.nationaltrust.org.uk/visit/essex-bedfordshire-hertfordshire/willington-dovecote-and-stables"
+	},
+	{
+		"lng": -0.1206316,
+		"lat": 52.3308955,
+		"name": "Houghton Mill",
+		"image": "/assets/images/2/houghton_mill_2.jpg",
+		"description": "Working 18th-century watermill which is popular for paddling and has a campsite",
+		"link": "https://www.nationaltrust.org.uk/visit/cambridgeshire/houghton-mill-and-waterclose-meadows"
+	},
+	{
+		"lng": -0.0402593,
+		"lat": 52.3189017,
+		"name": "Holywell",
+		"image": "/assets/images/2/holywell_5.jpg",
+		"description": "Pretty village with a good pub for overnighting when walking the Ouse Valley Way. As the name suggests, there's also a holy well.",
+		"link": "https://www.greeneking.co.uk/pubs/cambridgeshire/old-ferry-boat"
+	},
+	{
+		"lng": -0.0323272,
+		"lat": 52.3110362,
+		"name": "RSPB Fen Drayton",
+		"image": "/assets/images/points/fen_drayton.jpg",
+		"description": "Former gravel extraction site that's now a nature reserve and bird sanctuary.",
+		"link": "https://www.rspb.org.uk/days-out/reserves/fen-drayton-lakes"
+	},
+	{
+		"lng": -0.07702569999999999,
+		"lat": 52.32526009999999,
+		"name": "The Norris Museum",
+		"image": "/assets/images/points/norris.jpg",
+		"description": "33,000 item collection started by amateur historian Herbert Norris showing a slice of Huntingdonshire.",
+		"link": "https://www.norrismuseum.org.uk/"
+	},
+	{
+		"lng": -0.0751283,
+		"lat": 52.3230199,
+		"name": "A bawdy bridge",
+		"image": "/assets/images/2/st_ives_bridge.jpg",
+		"description": "Bridge over the Great Ouse with its own chapel that was (for a time) a bawdy house.",
+		"link": "https://en.wikipedia.org/wiki/St_Ives_Bridge"
+	},
+	{
+		"lng": -0.3432838999999999,
+		"lat": 52.1510554,
+		"name": "Great Barford Bridge",
+		"image": "/assets/images/2/great_barford.jpg",
+		"description": "Historic bridge over the Great Ouse that's a popular place to paddle or just picnic.",
+		"link": "https://en.wikipedia.org/wiki/Great_Barford_Bridge"
+	},
+	{
+		"lng": -0.4321146000000001,
+		"lat": 52.130733,
+		"name": "Prior Country Park",
+		"image": "/assets/images/2/grange.jpg",
+		"description": "Former quarry pits now a nature habitat.",
+		"link": "https://www.bedford.gov.uk/leisure-parks-and-sport/parks-and-open-spaces/parks-bedford-borough/priory-country-park"
+	},
+	{
+		"lng": -0.3878919,
+		"lat": 52.1393838,
+		"name": "The matchstick woods",
+		"image": "/assets/images/points/grange_estate.jpg",
+		"description": "Once owned by Bryant &May - trees were grown for matchwood. Now part of the Bedford River Valley Park creating a wildlife habitat within the Great Ouse flood plain.",
+		"link": "https://www.woodlandtrust.org.uk/visiting-woods/woods/the-grange-estate/"
+	},
+	{
+		"lng": -0.4545243000000001,
+		"lat": 52.13272629999999,
+		"name": "Canoe Trail",
+		"image": "/assets/images/points/canoe_trail.jpg",
+		"description": "Hire a canoe, kayak or paddle boards. They also offer trips including to Great Barford.",
+		"link": "https://www.canoetrail.co.uk/canoe-kayak-sup-hire/bedford"
+	},
+	{
+		"lng": -0.4855297,
+		"lat": 52.1311912,
+		"name": "Guru Nanak Gurdwara",
+		"image": "/assets/images/points/bedford_gurdwara.jpg",
+		"description": "Sikh Gurdwara serving the Sangat and wider community in Bedford",
+		"link": "https://www.instagram.com/gngbedford/?hl=en"
+	},
+	{
+		"lng": -0.3169309999999999,
+		"lat": 52.1762785,
+		"name": "Roxton Congregational Church",
+		"image": "/assets/images/2/roxton_church.jpg",
+		"description": "Delightfully rustic non-conformist chapel.",
+		"link": "https://roxtonchapel.wixsite.com/about"
+	},
+	{
+		"lng": -0.2529186,
+		"lat": 52.2946594,
+		"name": "Buckden Towers",
+		"image": "/assets/images/points/buckden_towers.jpg",
+		"description": "Historic home of the bishops of Lincoln where it'spossible to stay.",
+		"link": "https://www.buckden-towers.org.uk"
+	},
+	{
+		"lng": -0.7951214,
+		"lat": 52.04846209999999,
+		"name": "Bradwell Abbey",
+		"description": "Medieval Benedictine Priory with a dedicated pilgrimage chapel",
+		"image": "/assets/images/points/bradwell_abbey.jpg",
+		"link": "https://www.mkcdc.org.uk/"
+	},
+	{
+		"lng": -0.7897225,
+		"lat": 52.0619902,
+		"name": "Bradwell Windmill",
+		"description": "Not the sort of thing you might expect to find in a brand new city, the windmill gives a sense of how old the landscape in Milton Keynes is.",
+		"image": "/assets/images/points/bradwell_windmill.jpg",
+		"link": "https://miltonkeynesmuseum.org.uk/about-us/contact/bradwell-windmill/"
+	},
+	{
+		"lng": -0.604210369455214,
+		"lat": 52.17960352774417,
+		"name": "Emmaus Village",
+		"description": "Cafe and shop run by charity offering active support to people who have experienced homelessness",
+		"image": "/assets/images/points/emmaus.jpg",
+		"link": "https://emmaus.org.uk/village-carlton/"
+	}
+]

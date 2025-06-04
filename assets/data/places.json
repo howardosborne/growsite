@@ -1,0 +1,170 @@
+{
+	"bedford": {
+		"title": "Bedford",
+		"lat": 52.13834442793227,
+		"lng": -0.4674572440035926,
+		"image": "/assets/images/bedford.jpg",
+		"pagelink": "/places/bedford.html",
+		"description": "Bedford, as the name suggests, was founded as a ford on the Great Ouse and became a prospeous market town thanks to the river being made navigable. It's a place that has made the most of its river setting and many locals take advantage of the strollable Embankment and Priory Country Park."
+	},
+	"buckingham": {
+		"title": "Buckingham",
+		"lat": 52.0019278,
+		"lng": -0.986902381,
+		"image": "/assets/images/buckingham.jpg",
+		"pagelink": "/places/buckingham.html",
+		"description": "Old market town with a selection of places to eat and drink. Market days are Tuesday and Saturday which take over Market Hill and the High Street cattle pens."
+	},
+	"downham_market": {
+		"title": "Downham Market",
+		"lat": 52.603132343708868,
+		"lng": 0.3692407003595178,
+		"image": "/assets/images/downham_market.jpg",
+		"pagelink": "/places/downham_market.html",
+		"description": "Downham Market is a town of around 10,000 people and, as the name suggests, developed as a place to buy and sell produce from the Fens and was famed for its butter market."
+	},
+	"earith": {
+		"title": "Earith",
+		"lat": 52.35395495250184,
+		"lng": 0.03209079459288711,
+		"image": "/assets/images/3/earith.jpg",
+		"pagelink": "/places/earith.html",
+		"description": "Earith is village of around 1,500 people and one of the best places to get a sense of the work undertaken to create the Fens as they are now."
+	},
+	"ely": {
+		"title": "Ely",
+		"lat": 52.40028185637627,
+		"lng": 0.2644206051502959,
+		"image": "/assets/images/3/ely_4.jpg",
+		"pagelink": "/places/ely.html",
+		"description": "Ely is a great place to stop and repose when walking either the Ouse Valley Way or Fen Rivers Way. The *city* of Ely, also known as the *Isle* of Ely, might feel like odd epithets for a town-sized place surrounded by dry land, but they are both clues to its past."
+	},
+	"godmanchester": {
+		"title": "Godmanchester",
+		"lat": 52.31882767438056,
+		"lng": -0.17000009773498513,
+		"image": "/assets/images/godmanchester.jpg",
+		"pagelink": "/places/godmanchester.html",
+		"description": "Godmanchester, like Eaton Socon, is a town on the Great Ouse with a more substantial neighbour across the water. As a result, there interesting things here but most of the facilities are in Huntingdon. The Chinese Bridge provides a focus for the town connecting it to a water meadow."
+	},
+	"great_barford": {
+		"title": "Great Barford",
+		"lat": 52.15140427058968,
+		"lng": -0.3436272269134937,
+		"image": "/assets/images/2/great_barford.jpg",
+		"pagelink": "/places/great_barford.html",
+		"description": "Great Barford is a pleasant village of around 2,000 people with a pub and an old church but the star of the show is its expansive bridge, which has been keep ferrymen out of business since the 15th Century."
+	},
+	"harrold": {
+		"title": "Harrold",
+		"lat": 52.20139849694009,
+		"lng": -0.6083486434900376,
+		"image": "/assets/images/1/harrold_bridge_2.jpg",
+		"pagelink": "/places/harrold.html",
+		"description": "Harrold is an attractive limestone village of around 1,500 people, but it's best features are out of town. Harrold bridge is a popular put-in point for kayak and paddleboarders while the adjoining Country Park offers walks around the former gravel pit turned nature reserve."
+	},
+	"holywell": {
+		"title": "Holywell",
+		"lat": 52.31900004449097,
+		"lng": -0.04009837165005383,
+		"image": "/assets/images/holywell.jpg",
+		"pagelink": "/places/holywell.html",
+		"description": "The 80 house village of Holywell (also Holywell-cum-Needingworth) owes its name to the holy well fed by a spring in front of St John the Baptist church. What makes it a particularly pleasant place to be is the river setting and lack of a through road. The Old Ferry Boat is also a good place to stop over while walking the Ouse Valley Way."
+	},
+	"kings_lynn": {
+		"title": "Kings Lynn",
+		"lat": 52.75179022460529,
+		"lng": 0.40098147553041887,
+		"image": "/assets/images/3/kings_lynn.jpg",
+		"pagelink": "/places/kings_lynn.html",
+		"description": "The 40,000 strong town of King's Lynn has a long history of trade and has a collection of buildings reflecting its commercial past. Nikolaus Pevsner in his building of Britain series described the Custom House as \"one of the most perfect buildings ever built\"."
+	},
+	"newport_pagnell": {
+		"title": "Newport Pagnell",
+		"lat": 52.086789581444957,
+		"lng": -0.7226481689292037,
+		"image": "/assets/images/newport.jpg",
+		"pagelink": "/places/newport_pagnell.html",
+		"description": "Newport Pagnell is one of the 13 historic towns and villages that make up the city of Milton Keynes. To the north of the town is the expansive Bury Field which has a small beach on the banks of the Great Ouse and is a popular area for wild swimming, particularly dogs..."
+	},
+	"odell": {
+		"title": "Odell",
+		"lat": 52.20840823586665,
+		"lng": -0.591779254626702,
+		"image": "/assets/images/1/odell_church.jpg",
+		"pagelink": "/places/odell.html",
+		"description": "Odell is a village of around 200 people which apparently takes its name from the woad that was gathered nearby. Any erstwhile dying industry has gone the same way as the castle that used to be here, but what has been left behind is a substantial church and a pub."
+	},
+	"olney": {
+		"title": "Olney",
+		"lat": 52.15372899991827,
+		"lng": -0.7018320955237472,
+		"image": "/assets/images/olney.jpg",
+		"pagelink": "/places/odell.html",
+		"description": "Olney is a comfortable Georgian market town of around 6,500 people that prides itself as the 'Home of Amazing Grace' and pancake racing."
+	},
+	"pavenham": {
+		"title": "Pavenham",
+		"lat": 52.18818085506983,
+		"lng": -0.5537713460200238,
+		"image": "/assets/images/pavenham.jpg",
+		"pagelink": "/places/pavenham.html",
+		"description": "Thanks to local limstone, the village of Pavenham has pretty buildings and a site of special scientific interest."
+	},
+	"sharnbrook": {
+		"title": "Sharnbrook",
+		"lat": 52.226063,
+		"lng": -0.544396,
+		"image": "/assets/images/sharnbrook.jpg",
+		"pagelink": "/places/sharnbrook.html",
+		"description": "The village of Sharnbrook, named after the Sharn Brook which runs along the edge of the village can thank the local limestone for its looks."
+	},
+	"st_ives": {
+		"title": "St Ives",
+		"lat": 52.32334013148187,
+		"lng": -0.07443862003660841,
+		"image": "/assets/images/st_ives_bridge.jpg",
+		"pagelink": "/places/st_ives.html",
+		"description": "St Ives is a historic market town in Huntingdonshire that grew in prosperity thanks to water-based trade links despite its vulnerability to flooding."
+	},
+	"st_neots": {
+		"title": "St Neots",
+		"lat": 52.22967123346944,
+		"lng": -0.2686299059948712,
+		"image": "/assets/images/2/eaton_socon_weir.jpg",
+		"pagelink": "/places/st_neots.html",
+		"description": "St Neots is a town of around 30,000 inhabitants. It includes Eaton Socon and Eaton Ford on the west bank of the river. The river is a well used highlight of the town(s) with pleasant parkland setting the scene."
+	},
+	"stevington": {
+		"title": "Stevington",
+		"lat": 52.1686910083216,
+		"lng": -0.5547563562733605,
+		"image": "/assets/images/1/stevington_postmill.jpg",
+		"pagelink": "/places/stevington.html",
+		"description": "Stevington is a village of around 500 people with a windmill, a holy well and a popular garden."
+	},
+	"stony": {
+		"title": "Stony Stratford",
+		"lat": 52.0622582,
+		"lng": -0.848775,
+		"image": "/assets/images/stony.jpg",
+		"pagelink": "/places/stony.html",
+		"description": "Stony Stratford is an old coaching town on Watling street that has become part of the city of Milton Keynes. As the name suggests, it's where Watling Street crossed the Great Ouse (street ford) and is a good place to stay or at least get something to eat and drink."
+	},
+	"stowe": {
+		"title": "Stowe",
+		"lat": 52.0220025,
+		"lng": -1.0085824,
+		"image": "/assets/images/stowe.jpg",
+		"pagelink": "/places/stowe.html",
+		"description": "What could be more quintessentially English than gardening? In terms of scale and quality, there is little to match Stowe as an English garden on the grandest scale. As well as being a 'Capability' Brown masterpiece, it's also filled with temples and monuments stacked with meaning."
+	},
+	"syresham": {
+		"title": "Syresham",
+		"lat": 52.0687645,
+		"lng": -1.0817606,
+		"image": "/assets/images/syresham.jpg",
+		"pagelink": "/places/syresham.html",
+		"description": "Syresham is a pretty village on the Northamptonshire side of the border with Buckinghamshire. The nearby limestone quarry was used to make many of its older buildings."
+	}
+}

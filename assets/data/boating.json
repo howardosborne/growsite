@@ -1,0 +1,30 @@
+[
+	{
+		"lng": -0.2832752000000001,
+		"lat": 52.2142989,
+		"name": "All Aboard Boating",
+		"image": "/assets/images/points/all_aboard.jpg",
+		"description": " The River Mill, School Ln, Eaton Socon, St. Neots PE19 8GW +44 7765 846145 www.allaboardboathire.co.uk"
+	},
+	{
+		"lng": -0.0744724,
+		"lat": 52.3226594,
+		"name": "Electric Riverboat Company",
+		"image": "/assets/images/points/electric_riverboat.jpg",
+		"description": "The Quay, St Ives, St. Ives PE27 5AR +44 7906 257308 https://electricriverboat.co.uk"
+	},
+	{
+		"lng": -0.004203699999999999,
+		"lat": 52.3240129,
+		"name": "Riverside Marine Services Ltd",
+		"image": "/assets/images/points/riverside.jpg",
+		"description": " Needingworth, St. Ives PE27 4TW +44 7703 258414"
+	},
+	{
+		"lng": 0.252524,
+		"lat": 52.3475763,
+		"name": "Fish and Duck Marina",
+		"image": "/assets/images/points/fish_and_duck.jpg",
+		"description": "Popes Corner Marina, Holt Fen, Little Thetford, ELY CB6 3HR +44 1353 648081 https://www.fishandduck.co.uk"
+	}
+]

@@ -20,7 +20,7 @@
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://greatouseways.info/places.html">
+  <link rel="canonical" href="http://localhost:4000/places.html">
   <link rel="alternate" type="application/rss+xml" title="Great Ouse Ways" href="/feed.xml">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -56,7 +56,7 @@
           <a class="nav-link" href="/boating.html">Boating</a>
         </li>       
         <li class="nav-item">
-          <a class="nav-link" href="/places.html">Places</a>
+          <a class="nav-link" href="/join.html">Get Involved</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/posts.html">News</a>
@@ -106,340 +106,245 @@
 </nav>
 -->
 
-  <!-- Page Header -->
+  <p>Here are the great places along the Great Ouse with practical details of how to get there and where to stay.</p>
 
-<header class="masthead" style="background-image: url('/assets/images/places.jpg')">
-  
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 mx-auto">
-          <div class="page-heading">
-            <h1>Places</h1>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+<div id="map" class="col-md-12" style="height: 400px;"></div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+<script>
+  function _showPlaceDetails(e){
+    console.log("hello");
+  }
 
-        <p>Here is a list of places along the Great Ouse with practical details of how to get there and where to stay.</p>
+  function _placeOnClick(e){
+  popup_text = `
+    <div class="card mb-3">
+     <img src="${e.sourceTarget.properties.background}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.name}" title = "${e.sourceTarget.properties.name}">
+     <div class="card-img-overlay">
+       <div class="row justify-content-evenly"><div class="col"><a href="#" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
+     </div>
+     <ul class="list-group list-group-flush">
+      <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.description)} <a href="${e.sourceTarget.properties.pagelink}" > more...</a></li>
+     </ul>
+    </div>`
+  popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
+}
 
-<div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-md-10 mx-auto">
+  const map = L.map('map').setView([50, 0], 5);
+  const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+    var my_icon = L.icon({iconUrl: "../assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
+    var markers = L.layerGroup();
+    map.addLayer(markers);
+    marker = L.marker([52.13834442793227, -0.4674572440035926],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Bedford`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Bedford, as the name suggests, was founded as a ford on the Great Ouse and became a prospeous market town thanks to the river being made navigable. It's a place that has made the most of its river setting and many locals take advantage of the strollable Embankment and Priory Country Park.`;
+    marker.properties.pagelink = `/places/bedford.html`;  
+    marker.bindTooltip(`Bedford`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.0019278, -0.986902381],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Buckingham`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Old market town with a selection of places to eat and drink. Market days are Tuesday and Saturday which take over Market Hill and the High Street cattle pens.`;
+    marker.properties.pagelink = `/places/buckingham.html`;  
+    marker.bindTooltip(`Buckingham`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.603132343708864, 0.3692407003595178],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Downham Market`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Downham Market is a town of around 10,000 people and, as the name suggests, developed as a place to buy and sell produce from the Fens and was famed for its butter market.`;
+    marker.properties.pagelink = `/places/downham_market.html`;  
+    marker.bindTooltip(`Downham Market`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.35395495250184, 0.03209079459288711],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Earith`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Earith is village of around 1,500 people and one of the best places to get a sense of the work undertaken to create the Fens as they are now.`;
+    marker.properties.pagelink = `/places/earith.html`;  
+    marker.bindTooltip(`Earith`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.40028185637627, 0.2644206051502959],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Ely`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Ely is a great place to stop and repose when walking either the Ouse Valley Way or Fen Rivers Way. The *city* of Ely, also known as the *Isle* of Ely, might feel like odd epithets for a town-sized place surrounded by dry land, but they are both clues to its past.`;
+    marker.properties.pagelink = `/places/ely.html`;  
+    marker.bindTooltip(`Ely`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.31882767438056, -0.17000009773498512],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Godmanchester`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Godmanchester, like Eaton Socon, is a town on the Great Ouse with a more substantial neighbour across the water. As a result, there interesting things here but most of the facilities are in Huntingdon. The Chinese Bridge provides a focus for the town connecting it to a water meadow.`;
+    marker.properties.pagelink = `/places/godmanchester.html`;  
+    marker.bindTooltip(`Godmanchester`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.15140427058968, -0.3436272269134937],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Great Barford`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Great Barford is a pleasant village of around 2,000 people with a pub and an old church but the star of the show is its expansive bridge, which has been keep ferrymen out of business since the 15th Century.`;
+    marker.properties.pagelink = `/places/great_barford.html`;  
+    marker.bindTooltip(`Great Barford`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.20139849694009, -0.6083486434900376],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Harrold`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Harrold is an attractive limestone village of around 1,500 people, but it's best features are out of town. Harrold bridge is a popular put-in point for kayak and paddleboarders while the adjoining Country Park offers walks around the former gravel pit turned nature reserve.`;
+    marker.properties.pagelink = `/places/harrold.html`;  
+    marker.bindTooltip(`Harrold`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.31900004449097, -0.04009837165005383],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Holywell`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `The 80 house village of Holywell (also Holywell-cum-Needingworth) owes its name to the holy well fed by a spring in front of St John the Baptist church. What makes it a particularly pleasant place to be is the river setting and lack of a through road. The Old Ferry Boat is also a good place to stop over while walking the Ouse Valley Way.`;
+    marker.properties.pagelink = `/places/holywell.html`;  
+    marker.bindTooltip(`Holywell`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.75179022460529, 0.40098147553041885],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Kings Lynn`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `The 40,000 strong town of King's Lynn has a long history of trade and has a collection of buildings reflecting its commercial past. Nikolaus Pevsner in his building of Britain series described the Custom House as "one of the most perfect buildings ever built".`;
+    marker.properties.pagelink = `/places/kings_lynn.html`;  
+    marker.bindTooltip(`Kings Lynn`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.086789581444954, -0.7226481689292037],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Newport Pagnell`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Newport Pagnell is one of the 13 historic towns and villages that make up the city of Milton Keynes. To the north of the town is the expansive Bury Field which has a small beach on the banks of the Great Ouse and is a popular area for wild swimming, particularly dogs...`;
+    marker.properties.pagelink = `/places/newport_pagnell.html`;  
+    marker.bindTooltip(`Newport Pagnell`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.20840823586665, -0.591779254626702],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Odell`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Odell is a village of around 200 people which apparently takes its name from the woad that was gathered nearby. Any erstwhile dying industry has gone the same way as the castle that used to be here, but what has been left behind is a substantial church and a pub.`;
+    marker.properties.pagelink = `/places/odell.html`;  
+    marker.bindTooltip(`Odell`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.15372899991827, -0.7018320955237471],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Olney`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Olney is a comfortable Georgian market town of around 6,500 people that prides itself as the 'Home of Amazing Grace' and pancake racing.`;
+    marker.properties.pagelink = `/places/odell.html`;  
+    marker.bindTooltip(`Olney`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.18818085506983, -0.5537713460200238],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Pavenham`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Thanks to local limstone, the village of Pavenham has pretty buildings and a site of special scientific interest.`;
+    marker.properties.pagelink = `/places/pavenham.html`;  
+    marker.bindTooltip(`Pavenham`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.226063, -0.544396],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Sharnbrook`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `The village of Sharnbrook, named after the Sharn Brook which runs along the edge of the village can thank the local limestone for its looks.`;
+    marker.properties.pagelink = `/places/sharnbrook.html`;  
+    marker.bindTooltip(`Sharnbrook`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.32334013148187, -0.07443862003660841],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `St Ives`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `St Ives is a historic market town in Huntingdonshire that grew in prosperity thanks to water-based trade links despite its vulnerability to flooding.`;
+    marker.properties.pagelink = `/places/st_ives.html`;  
+    marker.bindTooltip(`St Ives`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.22967123346944, -0.2686299059948712],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `St Neots`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `St Neots is a town of around 30,000 inhabitants. It includes Eaton Socon and Eaton Ford on the west bank of the river. The river is a well used highlight of the town(s) with pleasant parkland setting the scene.`;
+    marker.properties.pagelink = `/places/st_neots.html`;  
+    marker.bindTooltip(`St Neots`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.1686910083216, -0.5547563562733605],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Stevington`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Stevington is a village of around 500 people with a windmill, a holy well and a popular garden.`;
+    marker.properties.pagelink = `/places/stevington.html`;  
+    marker.bindTooltip(`Stevington`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.0622582, -0.848775],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Stony Stratford`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Stony Stratford is an old coaching town on Watling street that has become part of the city of Milton Keynes. As the name suggests, it's where Watling Street crossed the Great Ouse (street ford) and is a good place to stay or at least get something to eat and drink.`;
+    marker.properties.pagelink = `/places/stony.html`;  
+    marker.bindTooltip(`Stony Stratford`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.0220025, -1.0085824],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Stowe`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `What could be more quintessentially English than gardening? In terms of scale and quality, there is little to match Stowe as an English garden on the grandest scale. As well as being a 'Capability' Brown masterpiece, it's also filled with temples and monuments stacked with meaning.`;
+    marker.properties.pagelink = `/places/stowe.html`;  
+    marker.bindTooltip(`Stowe`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    
+    marker = L.marker([52.0687645, -1.0817606],{icon:my_icon});
+    marker.properties = {};
+    marker.properties.name = `Syresham`; 
+    marker.properties.background = ``; 
+    marker.properties.description = `Syresham is a pretty village on the Northamptonshire side of the border with Buckinghamshire. The nearby limestone quarry was used to make many of its older buildings.`;
+    marker.properties.pagelink = `/places/syresham.html`;  
+    marker.bindTooltip(`Syresham`);
+    marker.addEventListener('click', _placeOnClick);
+    marker.addTo(markers);
+    </script>
 
-        <!-- Place List -->
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/bedford.jpg" class="card-img" style="max-height:300px" alt="Bedford" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/bedford.html">Bedford</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/buckden.jpg" class="card-img" style="max-height:300px" alt="Buckden" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/buckden.html">Buckden</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/buckingham.jpg" class="card-img" style="max-height:300px" alt="Buckingham" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/buckingham.html">Buckingham</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/cardington.jpg" class="card-img" style="max-height:300px" alt="Cardington" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/cardington.html">Cardington</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/downham_market.jpg" class="card-img" style="max-height:300px" alt="Downham Market" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/downham-market.html">Downham Market</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/3/earith.jpg" class="card-img" style="max-height:300px" alt="Earith" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/earith.html">Earith</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/3/ely_4.jpg" class="card-img" style="max-height:300px" alt="Ely" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/ely.html">Ely</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/godmanchester.jpg" class="card-img" style="max-height:300px" alt="Godmanchester" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/godmanchester.html">Godmanchester</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/2/great_barford.jpg" class="card-img" style="max-height:300px" alt="Great Barford" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/great-barford.html">Great Barford</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/1/harrold_bridge_2.jpg" class="card-img" style="max-height:300px" alt="Harrold" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/harrold.html">Harrold</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/holywell.jpg" class="card-img" style="max-height:300px" alt="Holywell" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/holywell.html">Holywell</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/3/kings_lynn.jpg" class="card-img" style="max-height:300px" alt="Kings Lynn" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/kings-lynn.html">Kings Lynn</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/1/newport_pagnell.jpg" class="card-img" style="max-height:300px" alt="Newport Pagnell" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/newport-pagnell.html">Newport Pagnell</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/odell.jpg" class="card-img" style="max-height:300px" alt="Odell" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/odell.html">Odell</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/olney.jpg" class="card-img" style="max-height:300px" alt="Olney" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/olney.html">Olney</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/pavenham.jpg" class="card-img" style="max-height:300px" alt="Pavenham" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/pavenham.html">Pavenham</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/sharnbrook.jpg" class="card-img" style="max-height:300px" alt="Sharnbrook" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/sharnbrook.html">Sharnbrook</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/2/st_ives_2.jpg" class="card-img" style="max-height:300px" alt="St Ives" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/st-ives.html">St Ives</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/2/eaton_socon_weir.jpg" class="card-img" style="max-height:300px" alt="St Neots" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/st-neots.html">St Neots</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/1/stevington_postmill.jpg" class="card-img" style="max-height:300px" alt="Stevington" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/stevington.html">Stevington</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/stony.jpg" class="card-img" style="max-height:300px" alt="Stony Stratford" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/stony.html">Stony Stratford</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/stowe.jpg" class="card-img" style="max-height:300px" alt="Stowe" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/stowe.html">Stowe</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="/assets/images/syresham_1.jpg" class="card-img" style="max-height:300px" alt="Syresham" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5><a href="/places/syresham.html">Syresham</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-    </div>
-  </div>
-
-
-      </div>
-    </div>
-  </div>
 
 
   <!-- Footer -->

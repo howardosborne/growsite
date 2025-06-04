@@ -20,7 +20,7 @@
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://greatouseways.info/swimming.html">
+  <link rel="canonical" href="http://localhost:4000/swimming.html">
   <link rel="alternate" type="application/rss+xml" title="Great Ouse Ways" href="/feed.xml">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -28,7 +28,23 @@
 </head>
 
 
-<body>
+<body onload="loadSwims()">
+
+
+<header class="masthead" style="background-image: url('/assets/images/swimming.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="page-heading">
+            <h1>Swimming</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -56,7 +72,7 @@
           <a class="nav-link" href="/boating.html">Boating</a>
         </li>       
         <li class="nav-item">
-          <a class="nav-link" href="/places.html">Places</a>
+          <a class="nav-link" href="/join.html">Get Involved</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/posts.html">News</a>
@@ -106,32 +122,12 @@
 </nav>
 -->
 
-  <!-- Page Header -->
-
-<header class="masthead" style="background-image: url('/assets/images/swimming.jpg')">
-  
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 mx-auto">
-          <div class="page-heading">
-            <h1>Swimming</h1>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        <p>Here is a guide to swimming in and around the Great Ouse. But before you dive in, there are a few things to consider.</p>
+  <p>Here is a guide to swimming in and around the Great Ouse. But before you dive in, there are a few things to consider.</p>
 
 <h2 id="where-can-i-swim">Where can I swim?</h2>
 <p>Here is a map of locations where people go swimming, with links to the details</p>
-<iframe src="https://www.google.com/maps/d/embed?mid=1Nn9JkHQvOaGKG5f4jb43voF-AEPHTMw&amp;ehbc=2E312F" width="100%" height="480"></iframe>
+
+<div id="map" class="col-md-12" style="height: 600px;"></div>
 
 <h3 id="lake-swims">Lake swims</h3>
 <p>Lake swimming is a great way to experience outdoor swimming without the concerns that come with being connected to a sewage network.</p>
@@ -172,11 +168,6 @@
 <p><a href="https://outdoorswimmer.com/">Outdoor Swimmer</a></p>
 
 <p><a href="https://wildopenwater.com">Wild Openwater</a></p>
-
-
-      </div>
-    </div>
-  </div>
 
 
   <!-- Footer -->
@@ -227,6 +218,8 @@
 
 
 
+  
+  <script src="/assets/map.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id="></script>

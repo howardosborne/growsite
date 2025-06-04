@@ -1,0 +1,10 @@
+from,to,mode,details
+bedford,buckingham,bus,X5
+bedford,stony,bus,X5
+bedford,harrold,bus,25
+bedford,pavenham,bus,25
+bedford,great_barford,bus,905
+bedford,roxton,bus,905
+bedford,wyboston,bus,905
+bedford,st_neots,bus,905
+bedford,huntingdon,bus,905 then 66

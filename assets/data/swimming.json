@@ -1,0 +1,114 @@
+[
+	{
+		"lng": -0.8528386,
+		"lat": 52.0498417,
+		"name": "Mortimer Park",
+		"image": "/assets/images/swimming.png",
+		"description": null
+	},
+	{
+		"lng": -0.7282212,
+		"lat": 52.097467,
+		"name": "Bury Field",
+		"image": "/assets/images/swimming.png",
+		"description": null
+	},
+	{
+		"lng": -0.6927446,
+		"lat": 52.154983,
+		"name": "Olney Recreation ground",
+		"image": "/assets/images/swimming.png",
+		"description": null
+	},
+	{
+		"lng": -0.7208114,
+		"lat": 52.05185420000001,
+		"name": "Aqua Parcs Milton Keynes",
+		"image": "/assets/images/points/aqua_parks.jpg",
+		"description": null
+	},
+	{
+		"lng": -0.5219273999999999,
+		"lat": 52.1256129,
+		"name": "Box End Park",
+		"image": "/assets/images/points/box_end_park.jpg",
+		"description": null
+	},
+	{
+		"lng": -0.3427559,
+		"lat": 52.1515373,
+		"name": "Great Barford",
+		"image": "/assets/images/swimming.png",
+		"description": "https://wildopenwater.com/swimspot/great-barford-bridge-bedford-england-united-kingdom"
+	},
+	{
+		"lng": -0.2114771,
+		"lat": 52.31424,
+		"name": "Brampton",
+		"image": "/assets/images/swimming.png",
+		"description": "https://wildopenwater.com/swimspot/brampton-cambridgeshire-england-united-kingdom"
+	},
+	{
+		"lng": -0.2051972,
+		"lat": 52.3198241,
+		"name": "Brampton Mill",
+		"image": "/assets/images/swimming.png",
+		"description": "https://wildopenwater.com/swimspot/brampton-mill-cambridgeshire-england-united-kingdom"
+	},
+	{
+		"lng": -0.1943671,
+		"lat": 52.3194956,
+		"name": "Godmanchester",
+		"image": "/assets/images/swimming.png",
+		"description": "https://wildopenwater.com/swimspot/sandy-banks-godmanchester-cambridgeshire-england-united-kingdom"
+	},
+	{
+		"lng": -0.0033556,
+		"lat": 52.3238693,
+		"name": "Chain Road",
+		"image": "/assets/images/swimming.png",
+		"description": "https://www.imogensriverswims.co.uk/blog/places/locations-for-friday-cambs-swims/"
+	},
+	{
+		"lng": -0.1197273,
+		"lat": 52.3307683,
+		"name": "Houghton Mill",
+		"image": "/assets/images/swimming.png",
+		"description": null
+	},
+	{
+		"lng": -0.18099,
+		"lat": 52.31769,
+		"name": "Godmanchester",
+		"image": "/assets/images/swimming.png",
+		"description": "https://www.imogensriverswims.co.uk/blog/places/locations-for-friday-cambs-swims/"
+	},
+	{
+		"lng": 0.0270635,
+		"lat": 52.3516946,
+		"name": "Earith",
+		"image": "/assets/images/swimming.png",
+		"description": "https://www.imogensriverswims.co.uk/blog/places/locations-for-friday-cambs-swims/"
+	},
+	{
+		"lng": 0.2893027,
+		"lat": 52.4004285,
+		"name": "Cuckoo Bridge",
+		"image": "/assets/images/swimming.png",
+		"description": "https://www.imogensriverswims.co.uk/blog/places/locations-for-friday-cambs-swims/"
+	},
+	{
+		"lng": 0.2868286,
+		"lat": 52.3075683,
+		"name": "Monk's Lode",
+		"image": "/assets/images/swimming.png",
+		"description": "https://www.imogensriverswims.co.uk/blog/places/locations-for-sunday-cambs-swims/"
+	},
+	{
+		"lng": 0.2701532,
+		"lat": 52.2989571,
+		"name": "Adventurer's Fen",
+		"image": "/assets/images/swimming.png",
+		"description": "https://www.imogensriverswims.co.uk/blog/places/locations-for-sunday-cambs-swims/"
+	}
+]

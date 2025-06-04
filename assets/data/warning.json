@@ -1,0 +1,74 @@
+[
+	{
+		"lng": -0.9262171,
+		"lat": 52.0157188,
+		"name": "Untrained dogs",
+		"description": "Dogs roaming around the farm buildings and adjoining housing. Didn't feel in danger from these untrained pets (not guard dogs) but might intimidate some. Speaking to others using the route - this isn't the first time."
+	},
+	{
+		"lng": -0.77669,
+		"lat": 52.08865,
+		"name": "Road without verges",
+		"description": "Road that can have large fast vehicles on it"
+	},
+	{
+		"lng": -0.9221337,
+		"lat": 52.018675,
+		"name": "Unclear where style was from entry to field",
+		"description": "Not clear where the style was from the previous point."
+	},
+	{
+		"lng": -0.9026596,
+		"lat": 52.0211113,
+		"name": "Way not clear",
+		"description": null
+	},
+	{
+		"lng": -0.71003,
+		"lat": 52.10017,
+		"name": "Signage not clear",
+		"description": "May find it easier to walk along the path into Sherington"
+	},
+	{
+		"lng": -0.8751371,
+		"lat": 52.0257456,
+		"name": "Signage hidden",
+		"description": null
+	},
+	{
+		"lng": -0.9200198,
+		"lat": 52.0205571,
+		"name": "difficult style",
+		"description": "A style takes you onto the A421 at Cattleford Bridge but it's clearly not used and people use the farmer's gate in the field instead."
+	},
+	{
+		"lng": -0.8930415,
+		"lat": 52.0253018,
+		"name": "nettles and suspected giant hogweed",
+		"description": "Go to a more friendly field after crossing nettles and suspected giant hogweed"
+	},
+	{
+		"lng": -0.7178296,
+		"lat": 52.1089208,
+		"name": "Signage not clear",
+		"description": null
+	},
+	{
+		"lng": -0.9412257,
+		"lat": 52.0113088,
+		"name": "Overgrown",
+		"description": "Beautifully shaded making it ideal for nettles"
+	},
+	{
+		"lng": -0.861136,
+		"lat": 52.0360199,
+		"name": "Unclear signage",
+		"description": "As you come towards Calverton and the western expansion of Milton Keynes, the Buckinghamshire signage stops and the MK signage doesn't quite get going"
+	},
+	{
+		"lng": -0.8662606,
+		"lat": 52.0320168,
+		"name": "Misleading signage",
+		"description": "Need to stay on the road side of the hedge."
+	}
+]
