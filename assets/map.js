@@ -312,7 +312,6 @@ function loadMap(){
 function loadWaterbodies(){
   let a = loadMap();
   addLine(`/assets/data/GreatOuse.geojson`,"Great Ouse");
-  getPOI(`/assets/data/poi.geojson`);
 }
 function loadSwims(){
   let a = loadMap();
