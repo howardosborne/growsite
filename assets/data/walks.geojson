@@ -1239,10 +1239,14 @@
 				]
 			},
 			"properties": {
-				"name": "Grand Union (part)",
-				"stroke": "#f57c00",
+				"name": "Grand Union Canal (part of)",
+				"stroke": "#9c27b0",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 12,
+				"description": "Canals come with towpaths making them ideal for walks. It meets the Great Ouse at Iron Trunk Aqueduct",
+				"image": "/assets/images/points/IronTrunk.jpg",
+				"link": "https://canalrivertrust.org.uk/canals-and-rivers/places-to-visit/cosgrove-and-wolverton"
 			}
 		},
 		{
@@ -2189,9 +2193,13 @@
 			},
 			"properties": {
 				"name": "Swans Way (part)",
-				"stroke": "#f57c00",
+				"stroke": "#0288d1",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 14,
+				"description": "Walk to Salcey Forest - also suitable for cyclists and horse riders",
+				"image": "/assets/images/points/salcey.jpg",
+				"link": "https://www.nationaltrail.co.uk/en_GB/short-routes/swan-s-way/"
 			}
 		},
 		{
@@ -4582,10 +4590,14 @@
 				]
 			},
 			"properties": {
-				"name": "Rothschild Way (part)",
-				"stroke": "#f57c00",
+				"name": "Rothschild Way (part of)",
+				"stroke": "#0097a7",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 30,
+				"description": "Rothschild Way is a fenland footpath commemorating the conservation work of Charles Rothschild. The route is undertaken by a number of people annually in June through the Rothschild Way Challenge event which raises funds for work on the Great Fen.",
+				"image": "/assets/images/points/wicken_fen.jpg",
+				"link": "https://www.greatfen.org.uk/explore/walks-trails/rothschild-way"
 			}
 		},
 		{
@@ -6036,10 +6048,14 @@
 				]
 			},
 			"properties": {
-				"name": "Charles III Way (part)",
-				"stroke": "#f57c00",
+				"name": "Charles III Way (part of)",
+				"stroke": "#0f9d58",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 27,
+				"description": "If Kings Lynn is too far from the Wash for you then why not continue to walking up to Hunstanton.",
+				"image": "/assets/images/points/hunstanton_cliffs.jpg",
+				"link": "https://en.wikipedia.org/wiki/King_Charles_III_England_Coast_Path"
 			}
 		},
 		{
@@ -7416,9 +7432,13 @@
 			},
 			"properties": {
 				"name": "Grafton Way to Towcester",
-				"stroke": "#f57c00",
+				"stroke": "#7cb342",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 17,
+				"description": "Follow the Grafton way to the Roman town of Towcester",
+				"image": "/assets/images/points/towcester.jpg",
+				"link": "https://en.wikipedia.org/wiki/Grafton_Way_(footpath)"
 			}
 		},
 		{
@@ -8414,10 +8434,14 @@
 				]
 			},
 			"properties": {
-				"name": "Hereward Way (part)",
-				"stroke": "#f57c00",
+				"name": "Hereward Way (part of)",
+				"stroke": "#673ab7",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 18,
+				"description": "Path inspired by 11th-century rebel leader Herward the Wake who fought against William the Conqueror, based on the Isle of Ely",
+				"image": "/assets/images/points/march.jpg",
+				"link": "https://en.wikipedia.org/wiki/Hereward_Way"
 			}
 		},
 		{
@@ -11664,10 +11688,13 @@
 			},
 			"properties": {
 				"name": "Grand Union Canal",
-				"stroke": "#f57c00",
+				"stroke": "#4e342e",
 				"stroke-opacity": 1,
-				"strokewidth": 3
-			}
+				"strokewidth": 3,
+				"distance": 23,
+				"description": "Canals come with towpaths making them ideal for walks. It meets the Great Ouse at Iron Trunk Aqueduct",
+				"image": "/assets/images/points/IronTrunk.jpg",
+				"link": "https://canalrivertrust.org.uk/canals-and-rivers/places-to-visit/cosgrove-and-wolverton"			}
 		},
 		{
 			"type": "Feature",
@@ -13308,9 +13335,13 @@
 			},
 			"properties": {
 				"name": "Fen Rivers Way (part)",
-				"stroke": "#f57c00",
+				"stroke": "#9c27b0",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 19,
+				"description": "If it’s the Fens that fascinate, then why not follow the Fen Rivers Way from Cambridge up to Ely where this walk merges with the Ouse Valley Way and continues to King Lynn",
+				"image": "/assets/images/3/wiggenshalls_2.jpg",
+				"link": "https://maps.norfolk.gov.uk/trails/?tc=PRO/357"
 			}
 		},
 		{
@@ -14221,10 +14252,14 @@
 				]
 			},
 			"properties": {
-				"name": "Bernwood Jubilee Way┬á(part)",
+				"name": "Bernwood Jubilee Way (part)",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 11,
+				"description": "Following part of the Bernwood Jubilee Way provides an interesting alternative by following the path of the Padbury Brook (Twins) which feeds into the Great Ouse",
+				"image": "/assets/images/points/Thornborough_Bridge.jpg",
+				"link": "https://www.buckinghamshire.gov.uk/parking-roads-and-transport/walking-cycling-and-wheeling/view-walking-cycling-and-wheeling-routes-2/bernwood-jubilee-way-walking-routes/"
 			}
 		},
 		{
@@ -15795,10 +15830,14 @@
 				]
 			},
 			"properties": {
-				"name": "John Bunyan trail (part)",
-				"stroke": "#f57c00",
+				"name": "John Bunyan trail (part of)",
+				"stroke": "#097138",
 				"stroke-opacity": 1,
-				"strokewidth": 3
+				"strokewidth": 3,
+				"distance": 16,
+				"description": "Progress through the Slough of Despond in the footsteps of John Bunyan",
+				"image": "/assets/images/points/The_Road_From_the_City_of_Destruction_to_the_Celestial_City.jpg",
+				"link": "https://www.wildlifebcn.org/sites/default/files/2021-09/john_bunyan_trail_-_book.pdf"
 			}
 		},
 		{
@@ -37547,7 +37586,11 @@
 				"name": "Ouse Valley Way",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
-				"strokewidth": 5
+				"strokewidth": 5,
+				"distance": 236,
+				"description": "Perhaps the epic walk from source to sea is the 150 mile Ouse Valley Way. ",
+				"image": "/assets/images/1/pavenham_sssi.jpg",
+				"link": "/walks/ousevalleyway.html"
 			}
 		},
 		{
@@ -38204,9 +38247,13 @@
 			},
 			"properties": {
 				"name": "Ouse Washes",
-				"stroke": "#f57c00",
+				"stroke": "#097138",
 				"stroke-opacity": 1,
-				"strokewidth": 3.54
+				"strokewidth": 3.54,
+				"distance": 34,
+				"description": "The great feature of the modern fens - a twin 30 km drain running from Earith to Downham Market",
+				"image": "/assets/images/3/new_bedford_river.jpg",
+				"link": "https://en.wikipedia.org/wiki/New_Bedford_River"
 			}
 		}
 	]

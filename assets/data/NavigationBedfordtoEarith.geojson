@@ -1151,7 +1151,7 @@
             "properties": {
                 "name": "Bedford to Great Barford",
                 "distance": 11,
-                "link": "#1-bedford-to-great-barford-11-km",
+                "link": "/walks/1-bedford-to-great-barford-11-km.html",
                 "image": "/assets/images/2/great_barford.jpg",
 				"description": "Head through nature reserves, matchstick woodlands and past a medieval dovecote to reach the popular paddle spot at Great Barford. You could also paddle there.",
                 "stroke": "#0288d1",
@@ -3034,7 +3034,7 @@
             "properties": {
                 "name": "Great Barford to St Neots",
                 "distance": 15.5,
-                "link": "#2-great-barford-to-st-neots-155-km",
+                "link": "/walks/2-great-barford-to-st-neots-155-km.html",
                 "image": "/assets/images/2/roxton_church.jpg",
 				"description": "Head through bucolic fields along the Great Ouse and contrast with the great building works along the Great North Road.",
                 "stroke": "#3949ab",
@@ -4757,7 +4757,7 @@
             "properties": {
                 "name": "St Neots to Godmanchester",
                 "distance": 16.5,
-                "link": "#3-st-neots-to-godmanchester-164-km",
+                "link": "/walks/3-st-neots-to-godmanchester-164-km.html",
                 "image": "/assets/images/2/paxton_pits.jpg",
 				"description": "This is a well marked trail, however, the start can be a little confusing in negotiating the St Neots streets to get to the Way.",
                 "stroke": "#0097a7",
@@ -6065,7 +6065,7 @@
             "properties": {
                 "name": "Godmanchester to Holywell",
                 "distance": 12.5,
-                "link": "#4-godmanchester-to-holywell-125-km",
+                "link": "/walks/4-godmanchester-to-holywell-125-km.html",
                 "image": "/assets/images/2/hemmingford_meadow_2.jpg",
 				"description": "The path out of Godmanchester is a little bit confusing as it heads to and then through the Godmanchester Nature Reserve but becomes clearer as it follows the river along Hemingford Meadow.",
                 "stroke": "#0f9d58",
@@ -6653,7 +6653,7 @@
             "properties": {
                 "name": "Holywell to Earith",
                 "distance": 7.5,
-                "link": "#5-holywell-to-earith-75-km",
+                "link": "/walks/5-holywell-to-earith-75-km.html",
                 "image": "/assets/images/2/pike_and_eel_2.jpg",
 				"description": "Leaving Holywell, the path heads along a dry ridge which is clearly useful in this floodable area",
                 "stroke": "#7cb342",

@@ -872,7 +872,7 @@
 				"name": "Syresham to Buckingham",
                 "distance": 12,
 				"description": "Head across the fields towards the landscape masterpiece of Stowe to the town that that looks after its river.",
-                "link": "#1-syresham-to-buckingham-12-km",
+                "link": "/walks/1-syresham-to-buckingham-12-km.html",
                 "image": "/assets/images/1/Corinthian%20Arch%20at%20Stowe.jpg",
 				"stroke": "#a52714",
 				"stroke-opacity": 1,
@@ -940,7 +940,7 @@
 				"name": "Alternative route around Stowe",
                 "distance": 3,
 				"description": "Alternative route around Stowe to see more of the architecture and gardens",
-                "link": "#1-syresham-to-buckingham-12-km",
+                "link": "/walks/1-syresham-to-buckingham-12-km.html",
                 "image": "/assets/images/1/Corinthian%20Arch%20at%20Stowe.jpg",
 				"stroke": "#0f9d58",
 				"stroke-opacity": 1,
@@ -2013,7 +2013,7 @@
 				"name": "Buckingham to Stony Stratford",
                 "distance": 15,
 				"description": "Head across the fields towards the landscape masterpiece of Stowe to the town that that looks after its river.",
-                "link": "#2-buckingham-to-stony-stratford-15-km",
+                "link": "/walks/2-buckingham-to-stony-stratford-15-km.html",
                 "image": "/assets/images/1/Buckingham%20canal.jpg",
 				"stroke": "#e65100",
 				"stroke-opacity": 1,
@@ -2095,7 +2095,7 @@
 			"properties": {
 				"name": "Calverton alternative route",
                 "distance": 2,
-                "link": "#2-buckingham-to-stony-stratford-15-km",
+                "link": "/walks/2-buckingham-to-stony-stratford-15-km.html",
                 "image": "/assets/images/1/Buckingham%20canal.jpg",
 				"description": "This alternative takes a well-used footpath to the Lower Wield of Calverton with <a href='https://en.wikipedia.org/wiki/Calverton,_Buckinghamshire'>several things worth a closer look</a>",
 				"stroke": "#097138",
@@ -4068,7 +4068,7 @@
 			"properties": {
 				"name": "Stony Stratford to Newport Pagnell",
                 "distance": 16.5,
-                "link": "#3-stony-stratford-to-newport-pagnell-165-km",
+                "link": "/walks/3-stony-stratford-to-newport-pagnell-165-km.html",
                 "image": "/assets/images/1/Stony%20Stratford%20Great%20Ouse%20path.jpg",
 				"description": "Crossing Milton Keynes is a chance to see how tricky questions of development have been tackled and decide for yourself if they got it right.",
 				"stroke": "#f9a825",
@@ -5386,7 +5386,7 @@
 			"properties": {
 				"name": "Newport Pagnell to Olney",
                 "distance": 14,
-                "link": "#4-newport-pagnell-to-olney-14-km",
+                "link": "/walks/4-newport-pagnell-to-olney-14-km.html",
                 "image": "/assets/images/1/Great%20Ouse%20at%20Newport%20Pagnell.jpg",
 				"description": "Head from the home of Aston Martin to the town of Amazing Grace",
 				"stroke": "#817717",
@@ -7779,7 +7779,7 @@
 			"properties": {
 				"name": "Stony Newport alternative route",
                 "distance": 15.5,
-                "link": "#4-newport-pagnell-to-olney-14-km",
+                "link": "/walks/4-newport-pagnell-to-olney-14-km.html",
                 "image": "/assets/images/1/Great%20Ouse%20at%20Newport%20Pagnell.jpg",
 				"description": "Spend more time on the canals and paths through Miton Keynes",
 				"stroke": "#ffd600",
@@ -9027,7 +9027,7 @@
 			"properties": {
 				"name": "Olney to Odell",
                 "distance": 13,
-                "link": "#5-olney-to-odell-13-km",
+                "link": "/walks/5-olney-to-odell-13-km.html",
                 "image": "/assets/images/1/harrold_bridge_2.jpg",
 				"description": "Climb to the heights of Clifton Renes and then across to Bedfordshire.",
 				"stroke": "#01579b",
@@ -9055,7 +9055,7 @@
 			"properties": {
 				"name": "Tyringham detour",
                 "distance": 1,
-                "link": "#5-olney-to-odell-13-km",
+                "link": "/walks/5-olney-to-odell-13-km.html",
                 "image": "/assets/images/points/tyringham_bridge.jpg",
 				"description": "Get a better view of Tyringham hall, gatehouse and bridge",
 				"stroke": "#000000",
@@ -9893,7 +9893,7 @@
 			"properties": {
 				"name": "Odell Pavenham",
                 "distance": 10.5,
-                "link": "#6-odell-to-pavenham-105-km",
+                "link": "/walks/6-odell-to-pavenham-105-km.html",
                 "image": "/assets/images/1/shelter.jpg",
 				"description": "Loop round to see more bedfordshire villages and countryside, but not so much river.",
 				"stroke": "#0288d1",
@@ -10236,7 +10236,7 @@
 			"properties": {
 				"name": "Odell Pavenham alternative",
                 "distance": 10.5,
-                "link": "#6-odell-to-pavenham-105-km",
+                "link": "/walks/6-odell-to-pavenham-105-km.html",
                 "image": "/assets/images/1/pavenham.jpg",
 				"description": "Take a pleasant short cut to Pavenham over the high ground.",
 				"stroke": "#673ab7",
@@ -12309,7 +12309,7 @@
 			"properties": {
 				"name": "Pavenham to Bedford",
                 "distance": 15.5,
-                "link": "#7-pavenham-to-bedford-155-km",
+                "link": "/walks/7-pavenham-to-bedford-155-km.html",
                 "image": "/assets/images/1/pavenham_sssi_2.jpg",
 				"description": "Head through a site of special scientific interest and a rather special village.",
 				"stroke": "#4e342e",
@@ -13822,7 +13822,7 @@
 			"properties": {
 				"name": "Pavenham to Bedford alternative",
                 "distance": 13,
-                "link": "#7-pavenham-to-bedford-155-km",
+                "link": "/walks/7-pavenham-to-bedford-155-km.html",
                 "image": "/assets/images/1/pavenham_sssi_2.jpg",
 				"description": "Alternative shorter route",
 				"stroke": "#9c27b0",
@@ -14900,7 +14900,7 @@
 			"properties": {
 				"name": "Sherington alternative",
                 "distance": 10,
-                "link": "#4-newport-pagnell-to-olney-14-km",
+                "link": "/walks/4-newport-pagnell-to-olney-14-km.html",
                 "image": "/assets/images/1/Path%20to%20Sherington%20church.jpg",
 				"description": "Alternative shorter route giving you more time to explore Sherington",
 				"stroke": "#097138",

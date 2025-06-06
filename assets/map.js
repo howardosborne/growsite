@@ -1,8 +1,60 @@
 var map;
+var sidePanel;
 var layerControl;
 var POIs = {};
 var warnings = {};
 var polys = [];
+
+function showSidepanelTab(tabName) {
+  //open sidepanel
+  var sp = document.getElementById("mySidepanelLeft");
+  if (sp.classList.contains("closed")) {
+    sp.classList.remove("closed");
+    sp.classList.add("opened");
+  }
+  else {
+    sp.classList.add("opened")
+  }
+  //make the tab active
+  var spc = document.getElementsByClassName("sidebar-tab-link");
+  for(var i=0;i<spc.length;i++){
+    if (spc[i].classList.contains("active")) {
+      spc[i].classList.remove("active")
+    }
+  }
+  for(var i=0;i<spc.length;i++){
+    if (spc[i].attributes["data-tab-link"].value==tabName){
+      if (!spc[i].classList.contains("active")) {
+        spc[i].classList.add("active")
+      }
+    }  
+  }
+   //make the tab active
+   var spc = document.getElementsByClassName("sidepanel-tab-content");
+   for(var i=0;i<spc.length;i++){
+     if (spc[i].classList.contains("active")) {
+      //save the last scroll top
+      lastScrollTop[spc[i].attributes['data-tab-content'].value] = document.getElementsByClassName("sidepanel-content-wrapper")[0].scrollTop;
+      if (!["tab-travel-details","tab-place"].includes(spc[i].attributes['data-tab-content'].value)){
+        lastTab = spc[i].attributes['data-tab-content'].value;
+      }
+      spc[i].classList.remove("active");
+     }
+   }
+   for(var i=0;i<spc.length;i++){
+     if (spc[i].attributes["data-tab-content"].value==tabName){
+       if (!spc[i].classList.contains("active")) {
+         spc[i].classList.add("active");
+         if(tabName in lastScrollTop){
+          document.getElementsByClassName("sidepanel-content-wrapper")[0].scrollTop = lastScrollTop[tabName];
+         }
+         else{
+          document.getElementsByClassName("sidepanel-content-wrapper")[0].scrollTop = 0;
+         }
+       }
+     }  
+   } 
+}
 
 function _placeOnClick(e){
   popup_text = `
@@ -27,7 +79,7 @@ function _lineOnClick(e){
        <div class="row justify-content-evenly"><div class="col"><a href="${e.sourceTarget.feature.properties.link}" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.feature.properties.name}</a></div><div class="col-3"></div></div>
      </div>
      <ul class="list-group list-group-flush">
-      <li class="list-group-item"><b>Distance: ${decodeURIComponent(e.sourceTarget.feature.properties.distance)}</b> ${decodeURIComponent(e.sourceTarget.feature.properties.description)} <a href="${e.sourceTarget.feature.properties.link}"> more...</a></li>
+      <li class="list-group-item"><b>Distance: ${decodeURIComponent(e.sourceTarget.feature.properties.distance)} km</b> ${decodeURIComponent(e.sourceTarget.feature.properties.description)} <a href="${e.sourceTarget.feature.properties.link}"> more...</a></li>
      </ul>
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
@@ -115,16 +167,17 @@ async function addArrayOfPoints(url){
       var poiCount = 0;
       const responseJson = await response.json();
       responseJson.forEach(element => {
-              let poiColor = "rgb(200, 0, 200)";
-              let marker = L.circleMarker([element.lat,element.lng],{radius:4,color:poiColor});
-              marker.bindTooltip(decodeURI(element.name));
-              marker.properties = element;
-              marker.addEventListener('click', _poiOnClick);
-              marker.addTo(pois);
-              poiCount ++ ;
-              POIs[element.name] = element;
+        let my_icon = L.icon({iconUrl: "../assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
+        let marker = L.marker([element.lat,element.lng],{icon:my_icon});
+        marker.bindTooltip(decodeURI(element.name));
+        marker.properties = element;
+        marker.addEventListener('click', _poiOnClick);
+        marker.addTo(pois);
+        poiCount ++ ;
+        POIs[element.name] = element;
       });
       layerControl.addOverlay(pois, `points of interest: (${poiCount})`);
+      pois.addTo(map);
   }  
 
 }
@@ -137,7 +190,8 @@ async function addPlaces(url){
       Object.entries(responseJson).forEach((element) => {
         const [id, place] = element;
         let poiColor = "rgb(250, 100, 100)";
-        let marker = L.circleMarker([place.lat,place.lng],{radius:4,color:poiColor});
+        let my_icon = L.icon({iconUrl: "../assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
+        let marker = L.marker([place.lat,place.lng],{icon:my_icon});
         marker.bindTooltip(decodeURI(place.title));
         marker.properties = place;
         marker.addEventListener('click', _placeOnClick);
@@ -146,6 +200,7 @@ async function addPlaces(url){
         POIs[place.title] = place;
       });
       layerControl.addOverlay(pois, `places: (${poiCount})`);
+      pois.addTo(map);
   }  
 
 }
@@ -166,6 +221,7 @@ async function addSwimSpots(url){
         POIs[element.name] = element;
       });
       layerControl.addOverlay(pois, `swimming: (${poiCount})`);
+      pois.addTo(map);
   }  
 }
 
@@ -186,6 +242,7 @@ async function addBoatSpots(url){
         POIs[element.name] = element;
       });
       layerControl.addOverlay(pois, `boating: (${poiCount})`);
+      pois.addTo(map);
   }  
 }
 async function getPOI(url){
@@ -206,6 +263,7 @@ async function getPOI(url){
         POIs[element.label] = element;
       });
       layerControl.addOverlay(pois, `points of interest: (${poiCount})`);
+      pois.addTo(map);
   }  
 }
 function loadMap(){
@@ -252,4 +310,14 @@ function loadOVW(){
   addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
   addArrayOfPoints(`/assets/data/poi.json`);
   addPlaces(`/assets/data/places.json`);
+}
+function loadOVWLeg(lat,lng,level){
+  let a = loadMap();
+  addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
+  addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
+  addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  addArrayOfPoints(`/assets/data/poi.json`);
+  addPlaces(`/assets/data/places.json`);
+  //zoom to 
+  map.flyTo([lat,lng],level)
 }

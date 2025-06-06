@@ -20,7 +20,7 @@
 		"lat": 52.603132343708868,
 		"lng": 0.3692407003595178,
 		"image": "/assets/images/downham_market.jpg",
-		"pagelink": "/places/downham_market.html",
+		"pagelink": "/places/downham-market.html",
 		"description": "Downham Market is a town of around 10,000 people and, as the name suggests, developed as a place to buy and sell produce from the Fens and was famed for its butter market."
 	},
 	"earith": {
@@ -52,7 +52,7 @@
 		"lat": 52.15140427058968,
 		"lng": -0.3436272269134937,
 		"image": "/assets/images/2/great_barford.jpg",
-		"pagelink": "/places/great_barford.html",
+		"pagelink": "/places/great-barford.html",
 		"description": "Great Barford is a pleasant village of around 2,000 people with a pub and an old church but the star of the show is its expansive bridge, which has been keep ferrymen out of business since the 15th Century."
 	},
 	"harrold": {
@@ -76,7 +76,7 @@
 		"lat": 52.75179022460529,
 		"lng": 0.40098147553041887,
 		"image": "/assets/images/3/kings_lynn.jpg",
-		"pagelink": "/places/kings_lynn.html",
+		"pagelink": "/places/kings-lynn.html",
 		"description": "The 40,000 strong town of King's Lynn has a long history of trade and has a collection of buildings reflecting its commercial past. Nikolaus Pevsner in his building of Britain series described the Custom House as \"one of the most perfect buildings ever built\"."
 	},
 	"newport_pagnell": {
@@ -84,7 +84,7 @@
 		"lat": 52.086789581444957,
 		"lng": -0.7226481689292037,
 		"image": "/assets/images/newport.jpg",
-		"pagelink": "/places/newport_pagnell.html",
+		"pagelink": "/places/newport-pagnell.html",
 		"description": "Newport Pagnell is one of the 13 historic towns and villages that make up the city of Milton Keynes. To the north of the town is the expansive Bury Field which has a small beach on the banks of the Great Ouse and is a popular area for wild swimming, particularly dogs..."
 	},
 	"odell": {
@@ -124,7 +124,7 @@
 		"lat": 52.32334013148187,
 		"lng": -0.07443862003660841,
 		"image": "/assets/images/st_ives_bridge.jpg",
-		"pagelink": "/places/st_ives.html",
+		"pagelink": "/places/st-ives.html",
 		"description": "St Ives is a historic market town in Huntingdonshire that grew in prosperity thanks to water-based trade links despite its vulnerability to flooding."
 	},
 	"st_neots": {
@@ -132,7 +132,7 @@
 		"lat": 52.22967123346944,
 		"lng": -0.2686299059948712,
 		"image": "/assets/images/2/eaton_socon_weir.jpg",
-		"pagelink": "/places/st_neots.html",
+		"pagelink": "/places/st-neots.html",
 		"description": "St Neots is a town of around 30,000 inhabitants. It includes Eaton Socon and Eaton Ford on the west bank of the river. The river is a well used highlight of the town(s) with pleasant parkland setting the scene."
 	},
 	"stevington": {
