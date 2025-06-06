@@ -91,7 +91,7 @@ function _boatOnClick(e){
     <div class="card mb-3">
      <img src="${e.sourceTarget.properties.image}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.name}" title = "${e.sourceTarget.properties.name}">
      <div class="card-img-overlay">
-       <div class="row justify-content-evenly"><div class="col"><a href="#" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
+       <div class="row justify-content-evenly"><div class="col"><a target="_blank" href="${e.sourceTarget.properties.link}" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
      </div>
      <ul class="list-group list-group-flush">
       <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.description)}</li>
@@ -105,7 +105,7 @@ function _swimOnClick(e){
     <div class="card mb-3">
      <img src="${e.sourceTarget.properties.image}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.name}" title = "${e.sourceTarget.properties.name}">
      <div class="card-img-overlay">
-       <div class="row justify-content-evenly"><div class="col"><a href="#" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
+       <div class="row justify-content-evenly"><div class="col"><a target="_blank" href="${e.sourceTarget.properties.link}" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
      </div>
      <ul class="list-group list-group-flush">
       <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.description)}</li>
@@ -119,7 +119,7 @@ function _poiOnClick(e){
     <div class="card mb-3">
      <img src="${e.sourceTarget.properties.image}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.name}" title = "${e.sourceTarget.properties.name}">
      <div class="card-img-overlay">
-       <div class="row justify-content-evenly"><div class="col"><a href="#" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
+       <div class="row justify-content-evenly"><div class="col"><a target="_blank" href="${e.sourceTarget.properties.link}" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
      </div>
      <ul class="list-group list-group-flush">
       <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.description)}</li>
@@ -160,14 +160,14 @@ async function addLine(sourceData,name){
   routeLayer.addTo(map);
 }
 
-async function addArrayOfPoints(url){
+async function addArrayOfPoints(url,show=false){
   const response = await fetch(url);
   if(response.status == 200){
       var pois = new L.LayerGroup();
       var poiCount = 0;
       const responseJson = await response.json();
       responseJson.forEach(element => {
-        let my_icon = L.icon({iconUrl: "../assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
+        let my_icon = L.icon({iconUrl: "../assets/images/poi.png",iconSize: [24, 24], iconAnchor: [12,24]});
         let marker = L.marker([element.lat,element.lng],{icon:my_icon});
         marker.bindTooltip(decodeURI(element.name));
         marker.properties = element;
@@ -177,11 +177,14 @@ async function addArrayOfPoints(url){
         POIs[element.name] = element;
       });
       layerControl.addOverlay(pois, `points of interest: (${poiCount})`);
-      pois.addTo(map);
+      if(show){      
+        pois.addTo(map);
+      }
+
   }  
 
 }
-async function addPlaces(url){
+async function addPlaces(url,show=false){
   const response = await fetch(url);
   if(response.status == 200){
       var pois = new L.LayerGroup();
@@ -200,9 +203,33 @@ async function addPlaces(url){
         POIs[place.title] = place;
       });
       layerControl.addOverlay(pois, `places: (${poiCount})`);
-      pois.addTo(map);
+      if(show){
+        pois.addTo(map);
+      }
   }  
 
+}
+async function addWarningSpots(url,show=false){
+  let my_icon = L.icon({iconUrl: `/assets/images/warning.png`,iconSize: [18, 18], iconAnchor: [9,18]});
+  const response = await fetch(url);
+  const data = await response.json();
+
+  let routeLayer = L.geoJSON(data, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon:my_icon});
+      },
+      filter: function(feature){
+        if (feature.geometry.type != "Polygon" && feature.geometry.type != "MultiPolygon") return true;
+      }
+  })
+  routeLayer.bindTooltip(function (layer) {
+      let pop = `${layer.feature.properties.name}`;
+      return pop;
+  })
+  routeLayer.addEventListener('click', _warnOnClick);
+  routeLayer.eachLayer(lay=> {polys.push(lay)});
+  layerControl.addOverlay(routeLayer, "warnings");
+  routeLayer.addTo(map);
 }
 async function addSwimSpots(url){
   const response = await fetch(url);
@@ -300,7 +327,7 @@ function loadBoats(){
 function loadWalks(){
   let a = loadMap();
   addLine(`/assets/data/walks.geojson`,"Walks");
-  addArrayOfPoints(`/assets/data/poi.json`);
+  addArrayOfPoints(`/assets/data/poi.json`,false);
 }
 
 function loadOVW(){
@@ -308,16 +335,17 @@ function loadOVW(){
   addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
   addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
   addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
-  addArrayOfPoints(`/assets/data/poi.json`);
-  addPlaces(`/assets/data/places.json`);
+  addArrayOfPoints(`/assets/data/poi.json`,false);
+  addPlaces(`/assets/data/places.json`,false);
 }
 function loadOVWLeg(lat,lng,level){
   let a = loadMap();
   addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
   addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
   addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
-  addArrayOfPoints(`/assets/data/poi.json`);
-  addPlaces(`/assets/data/places.json`);
+  addArrayOfPoints(`/assets/data/poi.json`,true);
+  addPlaces(`/assets/data/places.json`,true);
+  addWarningSpots('/assets/data/warning.geojson');
   //zoom to 
   map.flyTo([lat,lng],level)
 }
