@@ -210,7 +210,7 @@ async function addPlaces(url,show=false){
 
 }
 async function addWarningSpots(url,show=false){
-  let my_icon = L.icon({iconUrl: `/assets/images/warning.png`,iconSize: [18, 18], iconAnchor: [9,18]});
+  let my_icon = L.icon({iconUrl: `/assets/images/warning.png`,iconSize: [24, 24], iconAnchor: [12,24]});
   const response = await fetch(url);
   const data = await response.json();
 
@@ -238,7 +238,7 @@ async function addSwimSpots(url){
       var poiCount = 0;
       const responseJson = await response.json();
       responseJson.forEach(element => {
-        let my_icon = L.icon({iconUrl: `/assets/images/swimming.png`,iconSize: [18, 18], iconAnchor: [9,18]});
+        let my_icon = L.icon({iconUrl: `/assets/images/swimming.png`,iconSize: [24, 24], iconAnchor: [12,24]});
         let marker = L.marker([element.lat,element.lng],{icon:my_icon});
         marker.bindTooltip(decodeURI(element.name));
         marker.properties = element;
@@ -259,7 +259,7 @@ async function addBoatSpots(url){
       var poiCount = 0;
       const responseJson = await response.json();
       responseJson.forEach(element => {
-        let my_icon = L.icon({iconUrl: `/assets/images/boating.png`,iconSize: [18, 18], iconAnchor: [9,18]});
+        let my_icon = L.icon({iconUrl: `/assets/images/boating.png`,iconSize: [24, 24], iconAnchor: [12,24]});
         let marker = L.marker([element.lat,element.lng],{icon:my_icon});
         marker.bindTooltip(decodeURI(element.name));
         marker.properties = element;
@@ -280,7 +280,7 @@ async function getPOI(url){
       const responseJson = await response.json();
       let result = responseJson["features"];
       result.forEach(element => {
-        let my_icon = L.icon({iconUrl: `/assets/images/poi.png`,iconSize: [18, 18], iconAnchor: [9,18]});
+        let my_icon = L.icon({iconUrl: `/assets/images/poi.png`,iconSize: [24, 24], iconAnchor: [12,24]});
         let marker = L.marker([element.geometry.coordinates[1],element.geometry.coordinates[0]],{icon:my_icon});
         marker.bindTooltip(decodeURI(element.properties.name));
         marker.properties = element;
