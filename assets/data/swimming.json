@@ -1,5 +1,12 @@
 [
 	{
+		"lng": 0.1170563434655344,
+		"lat": 52.19629772476544, 
+		"name": "Sheeps Green",
+		"image": "/assets/images/sheeps_green.jpg",
+		"description": "The only place in the entire catchment to be officialy recognised as a bathing spot. However, this does not mean it is safe to swim. Details of the latest rsults are here: <a href='https://environment.data.gov.uk/bwq/profiles/profile.html?site=ukh1201-09801' target='_blank'>Environment Agency details</a>"
+	},
+	{
 		"lng": -0.8528386,
 		"lat": 52.0498417,
 		"name": "Mortimer Park",
@@ -67,7 +74,7 @@
 		"lat": 52.3238693,
 		"name": "Chain Road",
 		"image": "/assets/images/swim.png",
-		"description": ".<a href='https://www.imogensriverswims.co.uk/blog/places/locations-for-friday-cambs-swims/'>more...</a>"
+		"description": "Place used by Imogen of 'River swims' fame.<a href='https://www.imogensriverswims.co.uk/blog/places/locations-for-friday-cambs-swims/'>more...</a>"
 	},
 	{
 		"lng": -0.1197273,
