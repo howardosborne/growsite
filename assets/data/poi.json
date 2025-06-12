@@ -371,5 +371,21 @@
 		"description": "Cafe and shop run by charity offering active support to people who have experienced homelessness",
 		"image": "/assets/images/points/emmaus.jpg",
 		"link": "https://emmaus.org.uk/village-carlton/"
+	},
+	{
+		"lng": 0.16239034057775517,
+		"lat": 52.451827921217046, 
+		"name": "RSBP Ouse Washes",
+		"description": "Centre located on Old Bedford River where you can learn about the birdlife of the Ouse Washes",
+		"image": "/assets/images/2/rspb.jpg",
+		"link": "https://www.rspb.org.uk/days-out/reserves/ouse-washes"
+	},
+	{
+		"lng": 0.2790854486576616,
+		"lat": 52.527424270137395, 
+		"name": "WWT Welney",
+		"description": "Centre located on New Bedford River where you can discover the wildlife that has inhabited the reclaimed land",
+		"image": "/assets/images/2/wwtwelney.jpg",
+		"link": "https://www.wwt.org.uk/wetland-centres/welney"
 	}
 ]
