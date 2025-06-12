@@ -1,0 +1,74 @@
+[
+	{
+		"lng": -0.9866796537192936,
+		"lat": 52.00067143163392,
+		"name": "Buckingham & District Angling Association",
+		"image": "/assets/images/BDAA-logo-180.jpg",
+		"details": "Local fishing group founded in 1910 that fishes on the Great Ouse and Woodfields lake.",
+		"link": "https://bdaafishing.org.uk/"
+	},
+	{
+		"lng": -0.8599974743431564,
+		"lat": 52.05595142061715,
+		"name": "Milton Keynes Anglian Association",
+		"image": "/assets/images/mkaa.png",
+		"details": "Group fishing along the Great Ouse, Grand Union Canal and lakes in MK.",
+		"link": "https://mkaa.co.uk/"
+	},
+	{
+		"lng": -0.4382775828578251,
+		"lat": 52.12942316550863,
+		"name": "Bedford Angling Club",
+		"image": "/assets/images/bac.jpg",
+		"details": "Group fishing at Bromham, Oakley, Biddenham and Fen Lake in Bedford.",
+		"link": "https://www.bedfordac01.com/"
+	},
+	{
+		"lng": -0.20247053964262957,
+		"lat": 52.32049736893674,
+		"name": "Brampton Anglian Society",
+		"image": "/assets/images/bas.jpg",
+		"details": "Group fishing at Hinchingbrooke Country Park, Sewells Lake, Alconbury Brook and Bromholme brook.",
+		"link": "https://www.bramptonanglingsociety.co.uk/"
+	},
+	{
+		"lng": -0.2189506171518977,
+		"lat": 52.28873712433641,
+		"name": "Offord & Buckden Angling Society",
+		"image": "/assets/images/OBAS.jpg",
+		"details": "Group fishing along seven kilometres of the Great Ouse.",
+		"link": "https://www.ousefishing.com/"
+	},
+	{
+		"lng": 0.26623610501753625,
+		"lat": 52.40581105963509,
+		"name": "Ely Beet Sports & Social Club",
+		"image": "/assets/images/elybeet.jpg",
+		"details": "Group with two sites for fishing - see their facebook group for details.",
+		"link": "https://www.facebook.com/p/Ely-Beet-Sports-Social-Club-Angling-Section-100071362576182/"
+	},
+	{
+		"lng": -0.9973089538644768,
+		"lat": 51.99990548228845,
+		"name": "Tingewick (Verulum Angling Club)",
+		"image": "/assets/images/vac-logo-80.jpg",
+		"details": "Large fishing group with many sites including one on the Great Ouse at the back of the Tingewick Industrial Park",
+		"link": "https://www.verulam-angling.co.uk/tingewick/"
+	},
+	{
+		"lng": 0.17542655713105842,
+		"lat": 52.265918366232185,
+		"name": "Waterbeach Anglian Club",
+		"image": "/assets/images/waterbeach.jpg",
+		"details": "Group with access to four lakes.",
+		"link": "https://www.waterbeachac.com/"
+	},
+	{
+		"lng": 0.10785432829422843,
+		"lat": 52.24286497473064, 
+		"name": "Cambridge Fish Preservation and Angling Society",
+		"image": "/assets/images/cfpas.png",
+		"details": "Formerly known as the Jolly Anglers, this group fishes along over 30 miles of river bank, five lakes, four pits and one pond.",
+		"link": "https://cambridge-fpas.co.uk/"
+	}
+]

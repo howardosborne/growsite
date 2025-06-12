@@ -99,7 +99,19 @@ function _boatOnClick(e){
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
-
+function _fishOnClick(e){
+  popup_text = `
+    <div class="card mb-3">
+     <img src="${e.sourceTarget.properties.image}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.name}" title = "${e.sourceTarget.properties.name}">
+     <div class="card-img-overlay">
+       <div class="row justify-content-evenly"><div class="col"><a target="_blank" href="${e.sourceTarget.properties.link}" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
+     </div>
+     <ul class="list-group list-group-flush">
+      <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.details)}</li>
+     </ul>
+    </div>`
+  popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
+}
 function _swimOnClick(e){
   popup_text = `
     <div class="card mb-3">
@@ -272,6 +284,28 @@ async function addBoatSpots(url){
       pois.addTo(map);
   }  
 }
+
+async function addAnglingSpots(url){
+  const response = await fetch(url);
+  if(response.status == 200){
+      var pois = new L.LayerGroup();
+      var poiCount = 0;
+      const responseJson = await response.json();
+      responseJson.forEach(element => {
+        let my_icon = L.icon({iconUrl: `/assets/images/angling.png`,iconSize: [24, 24], iconAnchor: [12,24]});
+        let marker = L.marker([element.lat,element.lng],{icon:my_icon});
+        marker.bindTooltip(decodeURI(element.name));
+        marker.properties = element;
+        marker.addEventListener('click', _fishOnClick);
+        marker.addTo(pois);
+        poiCount ++ ;
+        POIs[element.name] = element;
+      });
+      layerControl.addOverlay(pois, `angling: (${poiCount})`);
+      pois.addTo(map);
+  }  
+}
+
 async function getPOI(url){
   const response = await fetch(url);
   if(response.status == 200){
@@ -347,4 +381,10 @@ function loadOVWLeg(lat,lng,level){
   addWarningSpots('/assets/data/warning.geojson');
   //zoom to 
   map.flyTo([lat,lng],level)
+}
+
+function loadAngling(){
+  let a = loadMap();
+  addLine(`/assets/data/GreatOuse.geojson`,"Great Ouse");
+  addAnglingSpots(`/assets/data/angling.json`);
 }
