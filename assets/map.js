@@ -85,7 +85,9 @@ function _lineOnClick(e){
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
   }
 }
-
+function _obstacleOnClick(e){
+  console.log(e.sourceTarget.properties)
+}
 function _boatOnClick(e){
   popup_text = `
     <div class="card mb-3">
@@ -139,7 +141,6 @@ function _poiOnClick(e){
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
-
 function _warnOnClick(e){
   popup_text = `
     <div class="card mb-3">
@@ -149,7 +150,6 @@ function _warnOnClick(e){
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
-
 async function addLine(sourceData,name){
   const response = await fetch(sourceData);
   const data = await response.json();
@@ -171,7 +171,6 @@ async function addLine(sourceData,name){
   layerControl.addOverlay(routeLayer, name);
   routeLayer.addTo(map);
 }
-
 async function addArrayOfPoints(url,show=false){
   const response = await fetch(url);
   if(response.status == 200){
@@ -263,7 +262,6 @@ async function addSwimSpots(url){
       pois.addTo(map);
   }  
 }
-
 async function addBoatSpots(url){
   const response = await fetch(url);
   if(response.status == 200){
@@ -284,7 +282,30 @@ async function addBoatSpots(url){
       pois.addTo(map);
   }  
 }
-
+async function addObstacles(url,obstacle_type,icon=`/assets/images/warning.png`){
+  const response = await fetch(url);
+  if(response.status == 200){
+      var pois = new L.LayerGroup();
+      var poiCount = 0;
+      const responseJson = await response.json();
+      responseJson.forEach(element => {
+        let my_icon = L.icon({iconUrl: icon,iconSize: [24, 24], iconAnchor: [12,24]});
+        if(element.id){
+          if(element.properties.obstacle_type == obstacle_type){
+            let marker = L.marker([element.geometry.coordinates[1],element.geometry.coordinates[0]],{icon:my_icon});
+            marker.bindTooltip(decodeURI(element.properties.obstacle_type));
+            marker.properties = element.properties;
+            marker.addEventListener('click', _obstacleOnClick);
+            marker.addTo(pois);
+            poiCount ++ ;
+            POIs[element.name] = element;
+          }
+        }
+      });
+      layerControl.addOverlay(pois, `${obstacle_type}: (${poiCount})`);
+      pois.addTo(map);
+  }  
+}
 async function addAnglingSpots(url){
   const response = await fetch(url);
   if(response.status == 200){
@@ -305,7 +326,6 @@ async function addAnglingSpots(url){
       pois.addTo(map);
   }  
 }
-
 async function getPOI(url){
   const response = await fetch(url);
   if(response.status == 200){
@@ -356,6 +376,18 @@ function loadBoats(){
   let a = loadMap();
   addLine(`/assets/data/GreatOuse.geojson`,"Great Ouse");
   addBoatSpots(`/assets/data/boating.json`);
+}
+function loadPaddles(){
+  let a = loadMap();
+  addLine(`/assets/data/GreatOuse.geojson`,"Great Ouse");
+  addObstacles(`/assets/data/obstacles.geojson`,"weir",'/assets/images/weir.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"ford",'/assets/images/water.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"lock",'/assets/images/weir.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"waterfall",'/assets/images/water.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"dam",'/assets/images/weir.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"complex_barrier",'/assets/images/weir.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"mill",'/assets/images/sluice.png');
+  addObstacles(`/assets/data/obstacles.geojson`,"sluice",'/assets/images/sluice.png');
 }
 function loadWalks(){
   let a = loadMap();
