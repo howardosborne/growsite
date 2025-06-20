@@ -55,7 +55,6 @@ function showSidepanelTab(tabName) {
      }  
    } 
 }
-
 function _placeOnClick(e){
   popup_text = `
     <div class="card mb-3">
@@ -69,7 +68,6 @@ function _placeOnClick(e){
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
-
 function _lineOnClick(e){
   if(e.sourceTarget.feature.properties.image){
   popup_text = `
@@ -394,7 +392,6 @@ function loadWalks(){
   addLine(`/assets/data/walks.geojson`,"Walks");
   addArrayOfPoints(`/assets/data/poi.json`,false);
 }
-
 function loadOVW(){
   let a = loadMap();
   addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
@@ -402,6 +399,8 @@ function loadOVW(){
   addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
   addArrayOfPoints(`/assets/data/poi.json`,false);
   addPlaces(`/assets/data/places.json`,false);
+  const myRePlace = RegExp('.+place=(\\w+)', 'g');
+  if(myArray = myRePlace.exec(window.location.href)){showPic(myArray[1]);}
 }
 function loadOVWLeg(lat,lng,level){
   let a = loadMap();
@@ -414,9 +413,90 @@ function loadOVWLeg(lat,lng,level){
   //zoom to 
   map.flyTo([lat,lng],level)
 }
-
 function loadAngling(){
   let a = loadMap();
   addLine(`/assets/data/GreatOuse.geojson`,"Great Ouse");
   addAnglingSpots(`/assets/data/angling.json`);
+}
+async function addPics(url,show=true){
+  const response = await fetch(url);
+  if(response.status == 200){
+      var pois = new L.LayerGroup();
+      var poiCount = 0;
+      const responseJson = await response.json();
+      let sparseList = [];
+      Object.entries(responseJson).forEach((element) => {
+        const [id, place] = element;
+        if(place.lat){
+        let poiColor = "rgb(250, 100, 100)";
+        let my_icon = L.icon({iconUrl: "/assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
+        //if(place.GPSLongitudeRef == "W"){place.lng = - place.lng}
+        let marker = L.marker([place.lat,place.lng],{icon:my_icon});
+        let name = decodeURIComponent(id.substring(id.lastIndexOf("/")+1,id.length-4));
+        sparseList.push({"id":poiCount,"name":name,"url":id,"lat":place.lat,"lng":place.lng})
+        marker.bindTooltip(decodeURI(place.name));
+        marker.properties = place;
+        marker.addEventListener('click', _picOnClick);
+        marker.addTo(pois);
+        poiCount ++ ;
+        }
+      });
+      console.log(sparseList);
+      layerControl.addOverlay(pois, `places: (${poiCount})`);
+      if(show){
+        pois.addTo(map);
+      }
+  }  
+}
+async function showPic(placeId,show=true){
+  const response = await fetch(`/assets/data/picture_data_lean.json`);
+  if(response.status == 200){
+      const responseJson = await response.json();
+      Object.entries(responseJson).forEach((element) => {
+        const [id, place] = element;
+        if(placeId==place.id){
+          popup_text = `
+          <div class="card mb-3">
+          <img src="${place.url}" class="img-fluid rounded-start" style="max-height:250px" alt="${place.name}" title = "${place.name}">
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">${decodeURIComponent(place.name)}</li>
+          </ul>
+          </div>`
+          popup = L.popup().setLatLng([place.lat,place.lng]).setContent(popup_text).openOn(map); 
+          document.getElementById("map").focus();
+        }
+      });
+
+  }  
+}
+function _picOnClick(e){
+  popup_text = `
+    <div class="card mb-3">
+     <img src="${e.sourceTarget.properties.url}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.title}" title = "${e.sourceTarget.properties.title}">
+     <ul class="list-group list-group-flush">
+      <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.name)}</li>
+     </ul>
+    </div>`
+  popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
+}
+function loadPics(){
+  let a = loadMap();
+  addLine(`/assets/data/GreatOuse.geojson`,"Great Ouse");
+  addPics(`/assets/data/picture_data_lean.json`);
+}
+async function findMissingPics(){
+ const response = await fetch(`/assets/data/picture_data_lean.json`);
+  if(response.status == 200){
+      const responseJson = await response.json();
+      Object.entries(responseJson).forEach((element) => {
+        const [id, place] = element;
+        getPic(place.url) 
+      })
+    } 
+}
+async function getPic(pic){
+  let response = await fetch(pic);
+  if(response.status !=200){
+  console.log(`${response.status}: ${pic}`)
+  }
 }
