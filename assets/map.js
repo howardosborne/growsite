@@ -434,7 +434,7 @@ async function addPics(url,show=true){
         let marker = L.marker([place.lat,place.lng],{icon:my_icon});
         let name = decodeURIComponent(id.substring(id.lastIndexOf("/")+1,id.length-4));
         sparseList.push({"id":poiCount,"name":name,"url":id,"lat":place.lat,"lng":place.lng})
-        marker.bindTooltip(decodeURI(place.name));
+        marker.bindTooltip(decodeURI(`${place.id} ${place.name}`));
         marker.properties = place;
         marker.addEventListener('click', _picOnClick);
         marker.addTo(pois);
@@ -474,7 +474,7 @@ function _picOnClick(e){
     <div class="card mb-3">
      <img src="${e.sourceTarget.properties.url}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.title}" title = "${e.sourceTarget.properties.title}">
      <ul class="list-group list-group-flush">
-      <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.name)}</li>
+      <li class="list-group-item">${decodeURIComponent(`${e.sourceTarget.properties.id}: ${e.sourceTarget.properties.name}`)}</li>
      </ul>
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
