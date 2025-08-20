@@ -125,7 +125,6 @@ function _swimOnClick(e){
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
-
 function _poiOnClick(e){
   popup_text = `
     <div class="card mb-3">
@@ -499,4 +498,28 @@ async function getPic(pic){
   if(response.status !=200){
   console.log(`${response.status}: ${pic}`)
   }
+}
+async function getLatestCSOInfo() {
+    let url = "https://services3.arcgis.com/VCOY1atHWVcDlvlJ/arcgis/rest/services/stream_service_outfall_locations_view/FeatureServer/0/query?outFields=*&where=Status%3D1&f=geojson"
+    const response = await fetch(url);
+    if(response.status == 200){
+        var CSOs = new L.LayerGroup();
+        var dischargingCSOs = new L.LayerGroup();
+        var offlineCSOs = new L.LayerGroup();
+        var inMaintenanceCSOs = new L.LayerGroup();
+        var CSOsCount = 0, dischargingCSOsCount = 0, offlineCSOsCount = 0, inMaintenanceCSOsCount = 0;
+        const responseJson = await response.json();
+        let result = responseJson["features"];
+        CSOsCount = result.length;
+        result.forEach(element => {
+            let csoColor = "rgb(50, 100, 0)";
+            if(element.properties.status == 1){csoColor =  "rgb(100, 50, 0)";}
+            let marker = L.circleMarker([element.properties.Latitude, element.properties.Longitude],{radius:4,color:csoColor});
+            marker.bindTooltip(decodeURI(element.properties.Id));
+            marker.properties = element;
+            marker.addEventListener('click', _CsoMarkerOnClick);
+            marker.addTo(CSOs);
+        });
+        layerControl.addOverlay(CSOs, `Discharging CSOs (${CSOsCount})`);
+    }
 }

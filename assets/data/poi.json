@@ -387,5 +387,13 @@
 		"description": "Centre located on New Bedford River where you can discover the wildlife that has inhabited the reclaimed land",
 		"image": "/assets/images/2/wwtwelney.jpg",
 		"link": "https://www.wwt.org.uk/wetland-centres/welney"
+	},
+	{
+		"lng": -0.553430941520709,
+		"lat": 52.170284515121025, 
+		"name": "Kathy Brown's Garden",
+		"description": "Home of popular garden designer and author Kathy Brown, open to the public Tuesdays from April to September. Book in advance...",
+		"image": "/assets/images/kathy_browns_garden.jpg",
+		"link": "http://www.kathybrownsgarden.com/"
 	}
 ]
