@@ -1,0 +1,95 @@
+{
+	"stowegardens": [{
+			"filepath": "/assets/audio/recordings/stowe_gardens.mp3",
+			"heading": "Stowe Gardens",
+			"about": "Stowe Gardens is a, if not *the*, quintessential English Landscape Garden and were designed and nutured by gardening gurus William Kent and Capability Brown back in the 18th Century and are now owned and run by the National Trust. I met with Head Ranger Barry Smith to find out more.",
+			"image": "/assets/images/1/Corinthian%20Arch%20at%20Stowe.jpg.jpg",
+			"image_attribution": ""
+	}],
+	"watermills": [
+		{
+			"filepath": "/assets/audio/watermills/01_introduction.mp3",
+			"heading": "1 Introduction",
+			"about": "<i>We're not slow workers really, it was just a huge subject</i> - how Keith and Bridget got started",
+			"image": "/assets/images/watermills/keith_and_bridget.jpg",
+			"image_attribution": ""
+		},
+		{
+			"filepath": "/assets/audio/watermills/02_why_is_this_place_special.mp3",
+			"heading": "2 Why is this place special?",
+			"about": "What did the glaciers ever do for us? Keith explains how events long ago made watermills here the highest value at Domesday.",
+			"image": "/assets/images/watermills/shaded_relief.jpg",
+			"image_attribution": ""
+		},
+		{
+			"filepath": "/assets/audio/watermills/03_first_mill.mp3",
+			"heading": "3 Who built the first local watermill?",
+			"about": "Was it the Romans, Anglo-Saxons or even the Danes that build the first watermills here? ",
+			"image": "/assets/images/watermills/A-roman-farm.png",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/04_original_location.mp3",
+			"heading": "4 The location of the original Houghton Mill",
+			"about": "Keith and Bridget make the case for where the original Houghton Mill was located.",
+			"image": "/assets/images/watermills/old_mill_leat.jpg",
+			"image_attribution": ""
+		},
+		{
+			"filepath": "/assets/audio/watermills/05_how_to_find_a_missing_mill.mp3",
+			"heading": "5 How to find a missing watermill",
+			"about": "Making things fom bio-degradable materials is seen as a good thing today, but it's something of a headache in archeology. Keith and Bridget explain how they found missing mills using some ingeneous ideas.",
+			"image": "/assets/images/watermills/lidar_image.jpg",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/06_innovation.mp3",
+			"heading": "6 Innovation, expansion and aggrevation",
+			"about": "The 1200s was a time of population expansion and an indreasing need for milling with new innovations in wind power but also tensions on the river.",
+			"image": "/assets/images/2/houghton_mill_3.jpg",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/07_moving_heaven_and_earth.mp3",
+			"heading": "7 Moving Heaven and earth",
+			"about": "The Abbey carries out major engineering works to create new channels and new mills for grain and fulling.",
+			"image": "/assets/images/watermills/Medieval_mill_with_overshot_wheel.png",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/08_drawing_places.mp3",
+			"heading": "8 Drawing places - compromise at a cost",
+			"about": "The Abbey finds a way to keep the mills running and allow river traffic to pass through.",
+			"image": "/assets/images/watermills/portage.jpg",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/09_the_arrival_of_locks.mp3",
+			"heading": "9 The arrival of locks",
+			"about": "James I needed money and had a plan to expand trade.",
+			"image": "/assets/images/watermills/houghton_lock.jpg",
+			"image_attribution": ""
+		},
+		{
+			"filepath": "/assets/audio/watermills/10_full_steam_ahead.mp3",
+			"heading": "10 Full steam ahead",
+			"about": "Steam replaces water as the new energy source and one beneficiary uses new wealth to power new religious crusade",
+			"image": "/assets/images/watermills/250px-PottoBrownstatue.jpg",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/11_speculation.mp3",
+			"heading": "11 The rise of speculation and the decline of navigation",
+			"about": "New owners try to renew river use and a means of transport, but meets with resistance.",
+			"image": "/assets/images/2/hemmingford_meadow.jpg",
+			"image_attribution": "Wikimedia Commons"
+		},
+		{
+			"filepath": "/assets/audio/watermills/12_a_powerhouse_of_watermilling.mp3",
+			"heading": "12 A powerhouse of watermilling",
+			"about": "Today's serene landscape belies how it would appear to our ancestors. Keith and Bridget have shown what it would have looked like and make the case for reevaluating what we should preserve.",
+			"image": "/assets/images/2/houghton_mill_2.jpg",
+			"image_attribution": ""
+		}
+	]
+}
