@@ -63,6 +63,14 @@
 		"pagelink": "/places/harrold.html",
 		"description": "Harrold is an attractive limestone village of around 1,500 people, but it's best features are out of town. Harrold bridge is a popular put-in point for kayak and paddleboarders while the adjoining Country Park offers walks around the former gravel pit turned nature reserve."
 	},
+	"houghton": {
+		"title": "Houghton",
+		"lat": 52.33098398325377,
+		"lng": -0.12063160290674026,
+		"image": "/assets/images/2/houghton_mill_2.jpg",
+		"pagelink": "/places/houghton.html",
+		"description": "The village of Houghton has been around since at least Domesday and would be a pretty place even without its waterfront which is dominated by Houghton Mill."
+	},
 	"holywell": {
 		"title": "Holywell",
 		"lat": 52.31900004449097,

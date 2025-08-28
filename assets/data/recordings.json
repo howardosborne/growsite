@@ -1,4 +1,11 @@
 {
+	"buckingham": [{
+			"filepath": "/assets/audio/recordings/buckingham_canal_society.m4a",
+			"heading": "Buckingham Canal Society",
+			"about": "I met with Athena Beckett to find out more about the work of the Buckingham Canal Society.",
+			"image": "/assets/images/1/athena_bcs.jpg",
+			"image_attribution": ""
+	}],
 	"stowegardens": [{
 			"filepath": "/assets/audio/recordings/stowe_gardens.mp3",
 			"heading": "Stowe Gardens",
