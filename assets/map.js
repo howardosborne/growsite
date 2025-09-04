@@ -128,13 +128,15 @@ function _swimOnClick(e){
 function _chatOnClick(e){
   popup_text = `
     <div class="card mb-3">
-     <img src="${e.sourceTarget.properties.image}" class="img-fluid rounded-start" style="max-height:250px" alt="${e.sourceTarget.properties.name}" title = "${e.sourceTarget.properties.name}">
-     <div class="card-img-overlay">
-       <div class="row justify-content-evenly"><div class="col"><a target="_blank" href="${e.sourceTarget.properties.link}" class="h3" style="font-family: 'Cantora One', Arial; font-weight: 700; vertical-align: baseline; color:white; text-shadow:-1px 1px 0 #000, 1px 1px 0 #000; ">${e.sourceTarget.properties.name}</a></div><div class="col-3"></div></div>
-     </div>
-     <ul class="list-group list-group-flush">
-      <li class="list-group-item">${decodeURIComponent(e.sourceTarget.properties.description)}</li>
-     </ul>
+      <img src="${e.sourceTarget.properties.image}" class="card-img-top" alt="${e.sourceTarget.properties.heading}">
+      <div class="card-body">
+        <h5 class="card-title">${e.sourceTarget.properties.heading}</h5>
+        <p class="card-text">${e.sourceTarget.properties.about}</p>
+        <audio controls>
+          <source src="${e.sourceTarget.properties.filepath}" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
@@ -347,17 +349,20 @@ async function addChats(url){
       var pois = L.markerClusterGroup({maxClusterRadius:20});
       var poiCount = 0;
       const responseJson = await response.json();
-      responseJson.forEach(element => {
-        let my_icon = L.icon({iconUrl: `/assets/images/chat.png`,iconSize: [24, 24], iconAnchor: [12,24]});
-        let marker = L.marker([element.lat,element.lng],{icon:my_icon});
-        marker.bindTooltip(decodeURI(element.name));
-        marker.properties = element;
-        marker.addEventListener('click', _chatOnClick);
-        marker.addTo(pois);
-        poiCount ++ ;
-        POIs[element.name] = element;
+      Object.entries(responseJson).forEach((element) => {
+        const [id, chats] = element;
+        chats.forEach(chat=>{
+          let my_icon = L.icon({iconUrl: `/assets/images/audio.png`,iconSize: [24, 24], iconAnchor: [12,24]});
+          let marker = L.marker([chat.latitude,chat.longitude],{icon:my_icon});
+          marker.bindTooltip(decodeURI(chat.heading));
+          marker.properties = chat;
+          marker.addEventListener('click', _chatOnClick);
+          marker.addTo(pois);
+          poiCount ++ ;
+          POIs[chat.heading] = chat;
+        });
       });
-      layerControl.addOverlay(pois, `swimming: (${poiCount})`);
+      layerControl.addOverlay(pois, `audio: (${poiCount})`);
       pois.addTo(map);
   }  
 }
@@ -436,6 +441,7 @@ function loadOVW(){
   addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
   addArrayOfPoints(`/assets/data/poi.json`,false);
   addPlaces(`/assets/data/places.json`,false);
+  addChats(`/assets/data/recordings.json`,false);
   const myRePlace = RegExp('.+place=(\\w+)', 'g');
   if(myArray = myRePlace.exec(window.location.href)){showPic(myArray[1]);}
 }
@@ -447,6 +453,7 @@ function loadOVWLeg(lat,lng,level){
   addArrayOfPoints(`/assets/data/poi.json`,true);
   addPlaces(`/assets/data/places.json`,true);
   addWarningSpots('/assets/data/warning.geojson');
+  addChats('/assets/data/recordings.json',true);
   //zoom to 
   map.flyTo([lat,lng],level)
 }
