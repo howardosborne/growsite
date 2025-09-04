@@ -127,7 +127,7 @@ function _swimOnClick(e){
 }
 function _chatOnClick(e){
   popup_text = `
-    <div class="card mb-3">
+    <div class="card mb-4">
       <img src="${e.sourceTarget.properties.image}" class="card-img-top" alt="${e.sourceTarget.properties.heading}">
       <div class="card-body">
         <h5 class="card-title">${e.sourceTarget.properties.heading}</h5>
