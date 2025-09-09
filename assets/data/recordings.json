@@ -32,7 +32,7 @@
 		"filepath": "/assets/audio/guru_nanak_gurdwara_temple.mp3",
 		"heading": "Guru Nanak Gurdwara Temple",
 		"about": "There's an impressive temple visible from the Ouse Valley Way, Let's go and visit it.",
-		"image": "/assets/images/points/bedford_gurdwara.jpg",
+		"image": "/assets/images/points/guru_nanak_temple.jpg",
 		"image_attribution": ""
 	}],
 	"panacea": [{
@@ -40,7 +40,7 @@
 		"longitude": -0.4625929588750736,
 		"filepath": "/assets/audio/panacea.mp3",
 		"heading": "An ordinary house?",
-		"about": "Ever fancied visiting the <i>actual</i> Gerden of Eden? Come for a pot of tea and learn about a society that spend the 20th Century preparing for the Apocalypse.",
+		"about": "Ever fancied visiting the <i>actual</i> Garden of Eden? Come for a pot of tea and learn about a society that spend the 20th Century preparing for the Apocalypse.",
 		"image": "/assets/images/points/panacea.jpg",
 		"image_attribution": ""
 	}],
