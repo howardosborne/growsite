@@ -395,5 +395,13 @@
 		"description": "Home of popular garden designer and author Kathy Brown, open to the public Tuesdays from April to September. Book in advance...",
 		"image": "/assets/images/kathy_browns_garden.jpg",
 		"link": "http://www.kathybrownsgarden.com/"
+	},
+	{
+		"lng": 0.045118123929343716,
+		"lat": 52.360541024004974, 
+		"name": "Former Hovertrain Hanger",
+		"description": "Back in the 1960's the future of travel was the hovertrain. This was the hanger for the protoype which ran along a track paralleling the Old Bedford River.",
+		"image": "/assets/images/points/rtv_31.jpg",
+		"link": "https://en.wikipedia.org/wiki/Tracked_Hovercraft"
 	}
 ]

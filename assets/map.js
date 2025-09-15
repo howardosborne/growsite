@@ -210,28 +210,27 @@ async function addArrayOfPoints(url,show=false){
 async function addPlaces(url,show=false){
   const response = await fetch(url);
   if(response.status == 200){
-      //var pois = new L.LayerGroup();
-      var pois = L.markerClusterGroup({maxClusterRadius:20});
-      var poiCount = 0;
-      const responseJson = await response.json();
-      Object.entries(responseJson).forEach((element) => {
-        const [id, place] = element;
-        let poiColor = "rgb(250, 100, 100)";
-        let my_icon = L.icon({iconUrl: "../assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
-        let marker = L.marker([place.lat,place.lng],{icon:my_icon});
-        marker.bindTooltip(decodeURI(place.title));
-        marker.properties = place;
-        marker.addEventListener('click', _placeOnClick);
-        marker.addTo(pois);
-        poiCount ++ ;
-        POIs[place.title] = place;
-      });
-      layerControl.addOverlay(pois, `places: (${poiCount})`);
-      if(show){
-        pois.addTo(map);
-      }
-  }  
-
+    //var pois = new L.LayerGroup();
+    var pois = L.markerClusterGroup({maxClusterRadius:20});
+    var poiCount = 0;
+    const responseJson = await response.json();
+    Object.entries(responseJson).forEach((element) => {
+      const [id, place] = element;
+      let poiColor = "rgb(250, 100, 100)";
+      let my_icon = L.icon({iconUrl: "../assets/images/place.png",iconSize: [24, 24], iconAnchor: [12,24]});
+      let marker = L.marker([place.lat,place.lng],{icon:my_icon});
+      marker.bindTooltip(decodeURI(place.title));
+      marker.properties = place;
+      marker.addEventListener('click', _placeOnClick);
+      marker.addTo(pois);
+      poiCount ++ ;
+      POIs[place.title] = place;
+    });
+    layerControl.addOverlay(pois, `places: (${poiCount})`);
+    if(show){
+      pois.addTo(map);
+    }
+  }
 }
 async function addWarningSpots(url,show=false){
   let my_icon = L.icon({iconUrl: `/assets/images/warning.png`,iconSize: [24, 24], iconAnchor: [12,24]});
@@ -345,25 +344,25 @@ async function addAnglingSpots(url){
 async function addChats(url){
   const response = await fetch(url);
   if(response.status == 200){
-      //var pois = new L.LayerGroup();
-      var pois = L.markerClusterGroup({maxClusterRadius:20});
-      var poiCount = 0;
-      const responseJson = await response.json();
-      Object.entries(responseJson).forEach((element) => {
-        const [id, chats] = element;
-        chats.forEach(chat=>{
-          let my_icon = L.icon({iconUrl: `/assets/images/audio.png`,iconSize: [24, 24], iconAnchor: [12,24]});
-          let marker = L.marker([chat.latitude,chat.longitude],{icon:my_icon});
-          marker.bindTooltip(decodeURI(chat.heading));
-          marker.properties = chat;
-          marker.addEventListener('click', _chatOnClick);
-          marker.addTo(pois);
-          poiCount ++ ;
-          POIs[chat.heading] = chat;
-        });
+    //var pois = new L.LayerGroup();
+    var pois = L.markerClusterGroup({maxClusterRadius:20});
+    var poiCount = 0;
+    const responseJson = await response.json();
+    Object.entries(responseJson).forEach((element) => {
+      const [id, chats] = element;
+      chats.forEach(chat=>{
+        let my_icon = L.icon({iconUrl: `/assets/images/audio.png`,iconSize: [24, 24], iconAnchor: [12,24]});
+        let marker = L.marker([chat.latitude,chat.longitude],{icon:my_icon});
+        marker.bindTooltip(decodeURI(chat.heading));
+        marker.properties = chat;
+        marker.addEventListener('click', _chatOnClick);
+        marker.addTo(pois);
+        poiCount ++ ;
+        POIs[chat.heading] = chat;
       });
-      layerControl.addOverlay(pois, `audio: (${poiCount})`);
-      pois.addTo(map);
+    });
+    layerControl.addOverlay(pois, `audio: (${poiCount})`);
+    pois.addTo(map);
   }  
 }
 async function getPOI(url){
@@ -444,6 +443,8 @@ function loadOVW(){
   addChats(`/assets/data/recordings.json`,false);
   const myRePlace = RegExp('.+place=(\\w+)', 'g');
   if(myArray = myRePlace.exec(window.location.href)){showPic(myArray[1]);}
+  const myReChat = RegExp('.+chat=(\\w+)', 'g');
+  if(myArray = myReChat.exec(window.location.href)){showChat(myArray[1]);}
 }
 function loadOVWLeg(lat,lng,level){
   let a = loadMap();
@@ -508,6 +509,32 @@ async function showPic(placeId,show=true){
           </ul>
           </div>`
           popup = L.popup().setLatLng([place.lat,place.lng]).setContent(popup_text).openOn(map); 
+          document.getElementById("map").focus();
+        }
+      });
+
+  }  
+}
+async function showChat(chatId,show=true){
+  const response = await fetch(`/assets/data/recordings.json`);
+  if(response.status == 200){
+      const responseJson = await response.json();
+      Object.entries(responseJson).forEach((element) => {
+        const [id, chat] = element;
+        if(chatId==id){
+          popup_text = `
+            <div class="card mb-4">
+              <img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
+              <div class="card-body">
+                <h5 class="card-title">${chat.heading}</h5>
+                <p class="card-text">${chat.about}</p>
+                <audio controls>
+                  <source src="${chat.filepath}" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>`
+          popup = L.popup().setLatLng([chat.latitude,chat.longitude]).setContent(popup_text).openOn(map); 
           document.getElementById("map").focus();
         }
       });

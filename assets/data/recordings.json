@@ -44,6 +44,33 @@
 		"image": "/assets/images/points/panacea.jpg",
 		"image_attribution": ""
 	}],
+	"paxton_pits": [{
+		"latitude": 52.25168746044935, 
+		"longitude": -0.25040033434113923,
+		"filepath": "/assets/audio/paxton_pits.mp3",
+		"heading": "Paxton Pits",
+		"about": "I met with Paxton Pits ranger, Robyn Staddon to find out more about the nature reserve.",
+		"image": "/assets/images/2/paxton_pits.jpg",
+		"image_attribution": ""
+	}],
+	"stretham_old_engine": [{
+		"latitude": 52.334386550276776, 
+		"longitude": 0.22431970628922623,
+		"filepath": "/assets/audio/stretham_old_engine.mp3",
+		"heading": "Stretham Old Engine",
+		"about": "The Fens are the Britain's bread-basket thanks in large part to the work of pumping stations keeping the land drained. Stetham Old Engline was built 200 years ago and we can see in action thanks to the dedicated volunteers who keep it in order.",
+		"image": "/assets/images/3/stretham.jpg",
+		"image_attribution": ""
+	}],
+	"stained_glass_museum": [{
+		"latitude": 52.398804991410444, 
+		"longitude": 0.26238424762642176,
+		"filepath": "/assets/audio/stained_glass_museum.mp3",
+		"heading": "Stained Glass Museum",
+		"about": "Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through.",
+		"image": "/assets/images/points/stained_glass_museum.jpg",
+		"image_attribution": ""
+	}],	
 	"watermills": [
 		{
 			"latitude": 52.33121806404071, 
