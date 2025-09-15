@@ -524,17 +524,17 @@ async function showChat(chatId,show=true){
         if(chatId==id){
           popup_text = `
             <div class="card mb-4">
-              <img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
+              <img src="${chat[0].image}" class="card-img-top" alt="${chat[0].heading}">
               <div class="card-body">
-                <h5 class="card-title">${chat.heading}</h5>
-                <p class="card-text">${chat.about}</p>
+                <h5 class="card-title">${chat[0].heading}</h5>
+                <p class="card-text">${chat[0].about}</p>
                 <audio controls>
-                  <source src="${chat.filepath}" type="audio/mpeg">
+                  <source src="${chat[0].filepath}" type="audio/mpeg">
                   Your browser does not support the audio element.
                 </audio>
               </div>
             </div>`
-          popup = L.popup().setLatLng([chat.latitude,chat.longitude]).setContent(popup_text).openOn(map); 
+          popup = L.popup().setLatLng([chat[0].latitude,chat[0].longitude]).setContent(popup_text).openOn(map); 
           document.getElementById("map").focus();
         }
       });
