@@ -67,7 +67,7 @@
 		"longitude": 0.26238424762642176,
 		"filepath": "/assets/audio/stained_glass_museum.mp3",
 		"heading": "Stained Glass Museum",
-		"about": "Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through.",
+		"about": "Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through. <a href='https://stainedglassmuseum.com/' target='_blank'>Museum website</a>",
 		"image": "/assets/images/points/stained_glass_museum.jpg",
 		"image_attribution": ""
 	}],	
