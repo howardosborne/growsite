@@ -528,11 +528,11 @@ async function showChat(chatId,show=true){
               <div class="card-body">
                 <h5 class="card-title">${chat[0].heading}</h5>
                 <p class="card-text">${chat[0].about}</p>
-                <audio controls>
-                  <source src="${chat[0].filepath}" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio>
               </div>
+              <audio controls>
+                <source src="${chat[0].filepath}" type="audio/mpeg">
+                Your browser does not support the audio element.
+               </audio>
             </div>`
           popup = L.popup().setLatLng([chat[0].latitude,chat[0].longitude]).setContent(popup_text).openOn(map); 
           document.getElementById("map").focus();
