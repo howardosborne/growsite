@@ -132,11 +132,11 @@ function _chatOnClick(e){
       <div class="card-body">
         <h5 class="card-title">${e.sourceTarget.properties.heading}</h5>
         <p class="card-text">${e.sourceTarget.properties.about}</p>
-        <audio controls>
-          <source src="${e.sourceTarget.properties.filepath}" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
       </div>
+      <audio controls>
+        <source src="${e.sourceTarget.properties.filepath}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
     </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }

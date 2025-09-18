@@ -80,6 +80,15 @@
 		"image": "/assets/images/points/cowper_newton_museum.jpg",
 		"image_attribution": ""
 	}],	
+	"bradwell_abbey": [{
+		"latitude": 52.04853914710455, 
+		"longitude": -0.7951623470860639,
+		"filepath": "/assets/audio/bradwell_abbey.mp3",
+		"heading": "Bradwell Abbey",
+		"about": "The new city of Milton Keynes contains some ancient gems including this wonderful pilgrimage site. <a href='https://www.mkcdc.org.uk/discover-bradwell-abbey' target='_blank'>Museum website</a>",
+		"image": "/assets/images/points/bradwell_abbey.jpg",
+		"image_attribution": ""
+	}],	
 	"watermills": [
 		{
 			"latitude": 52.33121806404071, 
