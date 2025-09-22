@@ -8,6 +8,15 @@
 		"image": "/assets/images/1/athena_bcs.jpg",
 		"image_attribution": ""
 	}],
+	"river_rinse": [{	
+		"latitude": 51.999272483651126, 
+		"longitude": -0.9848744619251759,
+		"filepath": "/assets/audio/river_rinse.mp3",
+		"heading": "Buckingham River Rinse",
+		"about": "September in Buckingham means it's time to get the river back in shape. <a href='https://www.buckingham-tc.gov.uk/town-council-services/events/' target='_blank'>What's on in Buckingham</a>",
+		"image": "/assets/images/points/river_rinse.jpg",
+		"image_attribution": ""
+	}],
 	"stowegardens": [{
 		"latitude": 52.02200128179081,
 		"longitude": -1.0089761004196522,
@@ -79,7 +88,7 @@
 		"about": "Find out more about a friendship that inspired Amazing Grace. <a href='https://cowperandnewtonmuseum.org.uk/' target='_blank'>Museum website</a>",
 		"image": "/assets/images/points/cowper_newton_museum.jpg",
 		"image_attribution": ""
-	}],	
+	}],		
 	"bradwell_abbey": [{
 		"latitude": 52.04853914710455, 
 		"longitude": -0.7951623470860639,
