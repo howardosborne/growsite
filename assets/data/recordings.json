@@ -67,7 +67,7 @@
 		"longitude": 0.22431970628922623,
 		"filepath": "/assets/audio/stretham_old_engine.mp3",
 		"heading": "Stretham Old Engine",
-		"about": "The Fens are the Britain's bread-basket thanks in large part to the work of pumping stations keeping the land drained. Stetham Old Engline was built 200 years ago and we can see in action thanks to the dedicated volunteers who keep it in order.",
+		"about": "The Fens are the Britain's bread-basket thanks in large part to the work of pumping stations keeping the land drained. Stretham Old Engline was built 200 years ago and we can see in action thanks to the dedicated volunteers who keep it in order.",
 		"image": "/assets/images/3/stretham.jpg",
 		"image_attribution": ""
 	}],
@@ -88,7 +88,7 @@
 		"about": "Find out more about a friendship that inspired Amazing Grace. <a href='https://cowperandnewtonmuseum.org.uk/' target='_blank'>Museum website</a>",
 		"image": "/assets/images/points/cowper_newton_museum.jpg",
 		"image_attribution": ""
-	}],		
+	}],
 	"bradwell_abbey": [{
 		"latitude": 52.04853914710455, 
 		"longitude": -0.7951623470860639,
@@ -97,7 +97,7 @@
 		"about": "The new city of Milton Keynes contains some ancient gems including this wonderful pilgrimage site. <a href='https://www.mkcdc.org.uk/discover-bradwell-abbey' target='_blank'>Museum website</a>",
 		"image": "/assets/images/points/bradwell_abbey.jpg",
 		"image_attribution": ""
-	}],	
+	}],
 	"watermills": [
 		{
 			"latitude": 52.33121806404071, 
