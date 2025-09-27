@@ -1,4 +1,22 @@
 {
+	"harrold_odell_country_park": [{
+		"latitude": 52.20039939526646, 
+		"longitude": -0.6019443924696745,
+		"filepath": "/assets/audio/harrold_odell_country_park.mp3",
+		"heading": "Harrold Odell Country Park",
+		"about": "It's been called the jewell of North Bedfordshire and the Ouse Valley Way passes right through it. I meet Ed Green who shares with us how he keeps this local gem in good order. <a href='https://hocp.co.uk/' target='_blank'>Park website</a>",
+		"image": "/assets/images/points/hocp.jpg",
+		"image_attribution": ""
+	}],
+	"cromwell_museum": [{
+		"latitude": 52.33087834739903, 
+		"longitude": -0.18452474005418837,
+		"filepath": "/assets/audio/cromwell_museum.mp3",
+		"heading": "Cromwell Museum",
+		"about": "What better place to learn about one of England's most consequential and controversial figures in history.<a href='https://www.cromwellmuseum.org/' target='_blank'>Museum website</a>",
+		"image": "/assets/images/points/cromwell_museum.jpg",
+		"image_attribution": ""
+	}],
 	"buckingham": [{
 		"latitude": 51.997540477224234,
 		"longitude": -0.9694939854738847,
@@ -67,7 +85,7 @@
 		"longitude": 0.22431970628922623,
 		"filepath": "/assets/audio/stretham_old_engine.mp3",
 		"heading": "Stretham Old Engine",
-		"about": "The Fens are the Britain's bread-basket thanks in large part to the work of pumping stations keeping the land drained. Stretham Old Engline was built 200 years ago and we can see in action thanks to the dedicated volunteers who keep it in order.",
+		"about": "The Fens are Britain's bread-basket thanks to the work of pumping stations keeping the land drained. But it's thanks to the work of dedicated volunteers at the 200 year-old Stretham Old Engline that we can learn what it has taken to keep Britain fed. <a href='https://strethamoldengine.com/' target='_blank'>Museum site</a>",
 		"image": "/assets/images/3/stretham.jpg",
 		"image_attribution": ""
 	}],
@@ -78,6 +96,15 @@
 		"heading": "Stained Glass Museum",
 		"about": "Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through. <a href='https://stainedglassmuseum.com/' target='_blank'>Museum website</a>",
 		"image": "/assets/images/points/stained_glass_museum.jpg",
+		"image_attribution": ""
+	}],	
+	"cromwells_house": [{
+		"latitude": 52.39887426434768, 
+		"longitude": 0.25926072600688643,
+		"filepath": "/assets/audio/cromwells_house.mp3",
+		"heading": "Cromwell's House",
+		"about": "An obvious place to start any visit to Ely is at the tourist information office and it comes with an added bonus - it was also Oliver Cromwell’s family home <a href='https://www.olivercromwellshouse.co.uk/' target='_blank'>Website</a>",
+		"image": "/assets/images/points/cromwells_house.jpg",
 		"image_attribution": ""
 	}],	
 	"cowper_newton_museum": [{
@@ -98,114 +125,13 @@
 		"image": "/assets/images/points/bradwell_abbey.jpg",
 		"image_attribution": ""
 	}],
-	"watermills": [
-		{
+	"watermills": [{
 			"latitude": 52.33121806404071, 
 			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/01_introduction.mp3",
-			"heading": "1 Introduction",
-			"about": "<i>We're not slow workers really, it was just a huge subject</i> - how Keith and Bridget got started",
+			"filepath": "/assets/audio/watermills.mp3",
+			"heading": "Watermilling",
+			"about": "It’s a pleasant stroll across the meadows between Godmanchester and St Ives with Houghton Mill being the perfect place to stop for a nice stop for a cup of tea. And it’s here that I met Keith Grimwade and Bridget Flannagan who have done a deep dive into the history and geography of the area and written a book on watermilling along the Great Ouse in Cambridgeshire.<a href='https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/' target='_blank'>Book details</a>",
 			"image": "/assets/images/watermills/keith_and_bridget.jpg",
 			"image_attribution": ""
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/02_why_is_this_place_special.mp3",
-			"heading": "2 Why is this place special?",
-			"about": "What did the glaciers ever do for us? Keith explains how events long ago made watermills here the highest value at Domesday.",
-			"image": "/assets/images/watermills/shaded_relief.jpg",
-			"image_attribution": ""
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/03_first_mill.mp3",
-			"heading": "3 Who built the first local watermill?",
-			"about": "Was it the Romans, Anglo-Saxons or even the Danes that build the first watermills here? ",
-			"image": "/assets/images/watermills/A-roman-farm.png",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/04_original_location.mp3",
-			"heading": "4 The location of the original Houghton Mill",
-			"about": "Keith and Bridget make the case for where the original Houghton Mill was located.",
-			"image": "/assets/images/watermills/old_mill_leat.jpg",
-			"image_attribution": ""
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/05_how_to_find_a_missing_mill.mp3",
-			"heading": "5 How to find a missing watermill",
-			"about": "Making things fom bio-degradable materials is seen as a good thing today, but it's something of a headache in archeology. Keith and Bridget explain how they found missing mills using some ingeneous ideas.",
-			"image": "/assets/images/watermills/lidar_image.jpg",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/06_innovation.mp3",
-			"heading": "6 Innovation, expansion and aggrevation",
-			"about": "The 1200s was a time of population expansion and an indreasing need for milling with new innovations in wind power but also tensions on the river.",
-			"image": "/assets/images/2/houghton_mill_3.jpg",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/07_moving_heaven_and_earth.mp3",
-			"heading": "7 Moving Heaven and earth",
-			"about": "The Abbey carries out major engineering works to create new channels and new mills for grain and fulling.",
-			"image": "/assets/images/watermills/Medieval_mill_with_overshot_wheel.png",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/08_drawing_places.mp3",
-			"heading": "8 Drawing places - compromise at a cost",
-			"about": "The Abbey finds a way to keep the mills running and allow river traffic to pass through.",
-			"image": "/assets/images/watermills/portage.jpg",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/09_the_arrival_of_locks.mp3",
-			"heading": "9 The arrival of locks",
-			"about": "James I needed money and had a plan to expand trade.",
-			"image": "/assets/images/watermills/houghton_lock.jpg",
-			"image_attribution": ""
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/10_full_steam_ahead.mp3",
-			"heading": "10 Full steam ahead",
-			"about": "Steam replaces water as the new energy source and one beneficiary uses new wealth to power new religious crusade",
-			"image": "/assets/images/watermills/250px-PottoBrownstatue.jpg",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/11_speculation.mp3",
-			"heading": "11 The rise of speculation and the decline of navigation",
-			"about": "New owners try to renew river use and a means of transport, but meets with resistance.",
-			"image": "/assets/images/2/hemmingford_meadow.jpg",
-			"image_attribution": "Wikimedia Commons"
-		},
-		{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills/12_a_powerhouse_of_watermilling.mp3",
-			"heading": "12 A powerhouse of watermilling",
-			"about": "Today's serene landscape belies how it would appear to our ancestors. Keith and Bridget have shown what it would have looked like and make the case for reevaluating what we should preserve.",
-			"image": "/assets/images/2/houghton_mill_2.jpg",
-			"image_attribution": ""
-		}
-	]
+		}]
 }
