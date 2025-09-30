@@ -125,6 +125,24 @@
 		"image": "/assets/images/points/bradwell_abbey.jpg",
 		"image_attribution": ""
 	}],
+	"passivhaus": [{
+		"latitude": 52.07209081016423, 
+		"longitude": -0.7594727833806684,
+		"filepath": "/assets/audio/passivhaus.mp3",
+		"heading": "Passivhaus",
+		"about": "A wander through Manor Park might take you back in time to the Georgian Era, but it's a place where housing of the future is being designed. <a href='https://www.ecodesignconsultants.co.uk/' target='_blank'>Eco Design Consultants</a>",
+		"image": "/assets/images/points/passivhaus.jpg",
+		"image_attribution": ""
+	}],
+	"john_bunyan": [{
+		"latitude": 52.144980228358975, 
+		"longitude": -0.5247141174207195,
+		"filepath": "/assets/audio/john_bunyan.mp3",
+		"heading": "John Bunyan and the Pilgrim's Progress",
+		"about": "Between Pavenham and Bromham Mill, the Ouse Valley Way joins another walking route - The John Bunyan Trail. It's an 86 mile loop that seeks to follow in the footsteps of John Bunyan who used to walk these parts as a tinker and preacher. That was before being put in prison and then using his time doing stir to write The Pilgrim's Progress. I met with John Pestell from the Bunyan Museum to find out more about man and his greatest work. <a href='https://www.bunyanmeeting.co.uk/museum' target='_blank'>Bunyan Museum</a>",
+		"image": "/assets/images/points/john_bunyan.jpg",
+		"image_attribution": ""
+	}],
 	"watermills": [{
 			"latitude": 52.33121806404071, 
 			"longitude": -0.1207870343583046,
