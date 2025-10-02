@@ -143,6 +143,33 @@
 		"image": "/assets/images/points/john_bunyan.jpg",
 		"image_attribution": ""
 	}],
+	"downham": [{
+		"latitude": 52.60291782010745, 
+		"longitude": 0.37439037261061625,
+		"filepath": "/assets/audio/downham.mp3",
+		"heading": "On the Gingerbread Trail",
+		"about": "Discover Downham was created by a dedicated group of volunteers who were determined to save the artifacts and stories that tell the history of their town. I met with Kathleen Wiseman who took me on a wander to find out why it's known as the Gingetbread Town. <br><a href='https://www.discoverdownham.org.uk/' target='_blank'>Discover Downham Website</a>",
+		"image": "/assets/images/points/downham.jpg",
+		"image_attribution": ""
+	}],
+	"higgins": [{
+		"latitude": 52.13599853655618, 
+		"longitude": -0.46422609899683775,
+		"filepath": "/assets/audio/higgins.mp3",
+		"heading": "Remembering the R101",
+		"about": "Why did the R101's maiden flight end in tragedy? Lydia McDonald helps us find out. <br><a href='https://www.thehigginsbedford.org.uk/Home.aspx' target='_blank'>Website</a>",
+		"image": "/assets/images/points/higgins.jpg",
+		"image_attribution": ""
+	}],
+	"rspb_ouse_fen": [{
+		"latitude": 52.33489515288912, 
+		"longitude": 0.01115931883512373,
+		"filepath": "/assets/audio/rspb_ouse_fen.mp3",
+		"heading": "RSBP Ouse Fen",
+		"about": "A project is underway turning quarried land into a unique reserve, based on reedbeds. let's talk to the wardens to find out more. <br><a href='https://www.rspb.org.uk/days-out/reserves/ouse-fen' target='_blank'>Website</a>",
+		"image": "/assets/images/points/rspb_ouse_fen.jpg",
+		"image_attribution": ""
+	}],
 	"watermills": [{
 			"latitude": 52.33121806404071, 
 			"longitude": -0.1207870343583046,
