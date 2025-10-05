@@ -1,23 +1,14 @@
 {
-	"harrold_odell_country_park": [{
-		"latitude": 52.20039939526646, 
-		"longitude": -0.6019443924696745,
-		"filepath": "/assets/audio/harrold_odell_country_park.mp3",
-		"heading": "Harrold Odell Country Park",
-		"about": "It's been called the jewell of North Bedfordshire and the Ouse Valley Way passes right through it. I meet Ed Green who shares with us how he keeps this local gem in good order. <a href='https://hocp.co.uk/' target='_blank'>Park website</a>",
-		"image": "/assets/images/points/hocp.jpg",
+	"stowegardens": [{
+		"latitude": 52.02200128179081,
+		"longitude": -1.0089761004196522,
+		"filepath": "/assets/audio/stowe_gardens.mp3",
+		"heading": "The Stowe Ranger",
+		"about": "I met with Head Ranger Barry Smith to find out more about the challenge of managing the flora and fauna and preparing it for the future.",
+		"image": "/assets/images/1/queens_drive_stowe.jpg",
 		"image_attribution": ""
 	}],
-	"cromwell_museum": [{
-		"latitude": 52.33087834739903, 
-		"longitude": -0.18452474005418837,
-		"filepath": "/assets/audio/cromwell_museum.mp3",
-		"heading": "Cromwell Museum",
-		"about": "What better place to learn about one of England's most consequential and controversial figures in history.<a href='https://www.cromwellmuseum.org/' target='_blank'>Museum website</a>",
-		"image": "/assets/images/points/cromwell_museum.jpg",
-		"image_attribution": ""
-	}],
-	"buckingham": [{
+	"buckingham_canal_society": [{
 		"latitude": 51.997540477224234,
 		"longitude": -0.9694939854738847,
 		"filepath": "/assets/audio/buckingham_canal_society.mp3",
@@ -35,13 +26,40 @@
 		"image": "/assets/images/points/river_rinse.jpg",
 		"image_attribution": ""
 	}],
-	"stowegardens": [{
-		"latitude": 52.02200128179081,
-		"longitude": -1.0089761004196522,
-		"filepath": "/assets/audio/stowe_gardens.mp3",
-		"heading": "The Stowe Ranger",
-		"about": "I met with Head Ranger Barry Smith to find out more about the challenge of managing the flora and fauna and preparing it for the future.",
-		"image": "/assets/images/1/queens_drive_stowe.jpg",
+	"bradwell_abbey": [{
+		"latitude": 52.04853914710455, 
+		"longitude": -0.7951623470860639,
+		"filepath": "/assets/audio/bradwell_abbey.mp3",
+		"heading": "Bradwell Abbey",
+		"about": "The new city of Milton Keynes contains some ancient gems including this wonderful pilgrimage site. <a href='https://www.mkcdc.org.uk/discover-bradwell-abbey' target='_blank'>Museum website</a>",
+		"image": "/assets/images/points/bradwell_abbey.jpg",
+		"image_attribution": ""
+	}],
+	"bradwell_windmill": [{
+		"latitude": 52.062281247249246, 
+		"longitude": -0.7890743406055499,
+		"filepath": "/assets/audio/bradwell_windmill.mp3",
+		"heading": "Bradwell Windmill",
+		"about": "With a booming population in London needing flour, an entrepreneur had an idea to build a canal-side windmill. <a href='https://miltonkeynesmuseum.org.uk/about-us/contact/bradwell-windmill/' target='_blank'>Website</a>",
+		"image": "/assets/images/points/bradwell_windmill.jpg",
+		"image_attribution": ""
+	}],
+	"passivhaus": [{
+		"latitude": 52.07209081016423, 
+		"longitude": -0.7594727833806684,
+		"filepath": "/assets/audio/passivhaus.mp3",
+		"heading": "Passivhaus",
+		"about": "A wander through Manor Park might take you back in time to the Georgian Era, but it's a place where housing of the future is being designed. <a href='https://www.ecodesignconsultants.co.uk/' target='_blank'>Eco Design Consultants</a>",
+		"image": "/assets/images/points/passivhaus.jpg",
+		"image_attribution": ""
+	}],
+	"cowper_newton_museum": [{
+		"latitude": 52.15262064720291, 
+		"longitude": -0.7007609370940522,
+		"filepath": "/assets/audio/cowper_newton_museum.mp3",
+		"heading": "Cowper & Newton Museum",
+		"about": "Find out more about a friendship that inspired Amazing Grace. <a href='https://cowperandnewtonmuseum.org.uk/' target='_blank'>Museum website</a>",
+		"image": "/assets/images/points/cowper_newton_museum.jpg",
 		"image_attribution": ""
 	}],
 	"emmaus": [{
@@ -51,6 +69,24 @@
 		"heading": "Emmaus",
 		"about": "It's a charity, a community and a great place to have a break on the Ouse Valley Way. I speak to Lynn Reeves to Operations Manager to find out more.",
 		"image": "/assets/images/points/emmaus.jpg",
+		"image_attribution": ""
+	}],
+	"harrold_odell_country_park": [{
+		"latitude": 52.20039939526646, 
+		"longitude": -0.6019443924696745,
+		"filepath": "/assets/audio/harrold_odell_country_park.mp3",
+		"heading": "Harrold Odell Country Park",
+		"about": "It's been called the jewell of North Bedfordshire and the Ouse Valley Way passes right through it. I meet Ed Green who shares with us how he keeps this local gem in good order. <a href='https://hocp.co.uk/' target='_blank'>Park website</a>",
+		"image": "/assets/images/points/hocp.jpg",
+		"image_attribution": ""
+	}],
+	"john_bunyan": [{
+		"latitude": 52.144980228358975, 
+		"longitude": -0.5247141174207195,
+		"filepath": "/assets/audio/john_bunyan.mp3",
+		"heading": "John Bunyan and the Pilgrim's Progress",
+		"about": "Between Pavenham and Bromham Mill, the Ouse Valley Way joins another walking route - The John Bunyan Trail. It's an 86 mile loop that seeks to follow in the footsteps of John Bunyan who used to walk these parts as a tinker and preacher. That was before being put in prison and then using his time doing stir to write The Pilgrim's Progress. I met with John Pestell from the Bunyan Museum to find out more about man and his greatest work. <a href='https://www.bunyanmeeting.co.uk/museum' target='_blank'>Bunyan Museum</a>",
+		"image": "/assets/images/points/john_bunyan.jpg",
 		"image_attribution": ""
 	}],
 	"guru_nanak_temple": [{
@@ -80,6 +116,15 @@
 		"image": "/assets/images/2/paxton_pits.jpg",
 		"image_attribution": ""
 	}],
+	"cromwell_museum": [{
+		"latitude": 52.33087834739903, 
+		"longitude": -0.18452474005418837,
+		"filepath": "/assets/audio/cromwell_museum.mp3",
+		"heading": "Cromwell Museum",
+		"about": "What better place to learn about one of England's most consequential and controversial figures in history.<a href='https://www.cromwellmuseum.org/' target='_blank'>Museum website</a>",
+		"image": "/assets/images/points/cromwell_museum.jpg",
+		"image_attribution": ""
+	}],
 	"stretham_old_engine": [{
 		"latitude": 52.334386550276776, 
 		"longitude": 0.22431970628922623,
@@ -107,42 +152,6 @@
 		"image": "/assets/images/points/cromwells_house.jpg",
 		"image_attribution": ""
 	}],	
-	"cowper_newton_museum": [{
-		"latitude": 52.15262064720291, 
-		"longitude": -0.7007609370940522,
-		"filepath": "/assets/audio/cowper_newton_museum.mp3",
-		"heading": "Cowper & Newton Museum",
-		"about": "Find out more about a friendship that inspired Amazing Grace. <a href='https://cowperandnewtonmuseum.org.uk/' target='_blank'>Museum website</a>",
-		"image": "/assets/images/points/cowper_newton_museum.jpg",
-		"image_attribution": ""
-	}],
-	"bradwell_abbey": [{
-		"latitude": 52.04853914710455, 
-		"longitude": -0.7951623470860639,
-		"filepath": "/assets/audio/bradwell_abbey.mp3",
-		"heading": "Bradwell Abbey",
-		"about": "The new city of Milton Keynes contains some ancient gems including this wonderful pilgrimage site. <a href='https://www.mkcdc.org.uk/discover-bradwell-abbey' target='_blank'>Museum website</a>",
-		"image": "/assets/images/points/bradwell_abbey.jpg",
-		"image_attribution": ""
-	}],
-	"passivhaus": [{
-		"latitude": 52.07209081016423, 
-		"longitude": -0.7594727833806684,
-		"filepath": "/assets/audio/passivhaus.mp3",
-		"heading": "Passivhaus",
-		"about": "A wander through Manor Park might take you back in time to the Georgian Era, but it's a place where housing of the future is being designed. <a href='https://www.ecodesignconsultants.co.uk/' target='_blank'>Eco Design Consultants</a>",
-		"image": "/assets/images/points/passivhaus.jpg",
-		"image_attribution": ""
-	}],
-	"john_bunyan": [{
-		"latitude": 52.144980228358975, 
-		"longitude": -0.5247141174207195,
-		"filepath": "/assets/audio/john_bunyan.mp3",
-		"heading": "John Bunyan and the Pilgrim's Progress",
-		"about": "Between Pavenham and Bromham Mill, the Ouse Valley Way joins another walking route - The John Bunyan Trail. It's an 86 mile loop that seeks to follow in the footsteps of John Bunyan who used to walk these parts as a tinker and preacher. That was before being put in prison and then using his time doing stir to write The Pilgrim's Progress. I met with John Pestell from the Bunyan Museum to find out more about man and his greatest work. <a href='https://www.bunyanmeeting.co.uk/museum' target='_blank'>Bunyan Museum</a>",
-		"image": "/assets/images/points/john_bunyan.jpg",
-		"image_attribution": ""
-	}],
 	"downham": [{
 		"latitude": 52.60291782010745, 
 		"longitude": 0.37439037261061625,
@@ -171,12 +180,12 @@
 		"image_attribution": ""
 	}],
 	"watermills": [{
-			"latitude": 52.33121806404071, 
-			"longitude": -0.1207870343583046,
-			"filepath": "/assets/audio/watermills.mp3",
-			"heading": "Watermilling",
-			"about": "It’s a pleasant stroll across the meadows between Godmanchester and St Ives with Houghton Mill being the perfect place to stop for a nice stop for a cup of tea. And it’s here that I met Keith Grimwade and Bridget Flannagan who have done a deep dive into the history and geography of the area and written a book on watermilling along the Great Ouse in Cambridgeshire.<a href='https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/' target='_blank'>Book details</a>",
-			"image": "/assets/images/watermills/keith_and_bridget.jpg",
-			"image_attribution": ""
-		}]
+		"latitude": 52.33121806404071, 
+		"longitude": -0.1207870343583046,
+		"filepath": "/assets/audio/watermills.mp3",
+		"heading": "Watermilling",
+		"about": "It’s a pleasant stroll across the meadows between Godmanchester and St Ives with Houghton Mill being the perfect place to stop for a nice stop for a cup of tea. And it’s here that I met Keith Grimwade and Bridget Flannagan who have done a deep dive into the history and geography of the area and written a book on watermilling along the Great Ouse in Cambridgeshire.<a href='https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/' target='_blank'>Book details</a>",
+		"image": "/assets/images/watermills/keith_and_bridget.jpg",
+		"image_attribution": ""
+	}]
 }
