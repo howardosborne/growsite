@@ -26,6 +26,15 @@
 		"image": "/assets/images/points/river_rinse.jpg",
 		"image_attribution": ""
 	}],
+	"bard_of_stony": [{
+		"latitude": 52.05663188948619, 
+		"longitude": -0.8524516875866952,
+		"filepath": "/assets/audio/bard_of_stony.mp3",
+		"heading": "Bard of Stony Stratford",
+		"about": "Nova Carmen, Bard of Stony Stratford, shares some tips with us on how to get creative. <a href='https://bardofstony.weebly.com/' target='_blank'>Bard of Stony Stratford</a>",
+		"image": "/assets/images/points/bard_of_stony.jpg",
+		"image_attribution": "Courtesy of bardofstony.weebly.com"
+	}],
 	"bradwell_abbey": [{
 		"latitude": 52.04853914710455, 
 		"longitude": -0.7951623470860639,
