@@ -341,7 +341,7 @@ async function addAnglingSpots(url){
       pois.addTo(map);
   }  
 }
-async function addChats(url){
+async function addChats(url,show=false){
   const response = await fetch(url);
   if(response.status == 200){
     //var pois = new L.LayerGroup();
@@ -362,7 +362,9 @@ async function addChats(url){
       });
     });
     layerControl.addOverlay(pois, `audio: (${poiCount})`);
-    pois.addTo(map);
+    if(show){
+      pois.addTo(map);
+    }
   }  
 }
 async function getPOI(url){
