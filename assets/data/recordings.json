@@ -1,5 +1,5 @@
 {
-	"stowegardens": [{
+	"stowegardens": {
 		"latitude": 52.02200128179081,
 		"longitude": -1.0089761004196522,
 		"filepath": "/assets/audio/stowe_gardens.mp3",
@@ -9,8 +9,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 1
-	}],
-	"buckingham_canal_society": [{
+	},
+	"buckingham_canal_society": {
 		"latitude": 51.997540477224234,
 		"longitude": -0.9694939854738847,
 		"filepath": "/assets/audio/buckingham_canal_society.mp3",
@@ -20,8 +20,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 2
-	}],
-	"river_rinse": [{	
+	},
+	"river_rinse": {	
 		"latitude": 51.999272483651126, 
 		"longitude": -0.9848744619251759,
 		"filepath": "/assets/audio/river_rinse.mp3",
@@ -31,8 +31,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 2
-	}],
-	"bard_of_stony": [{
+	},
+	"bard_of_stony": {
 		"latitude": 52.05663188948619, 
 		"longitude": -0.8524516875866952,
 		"filepath": "/assets/audio/bard_of_stony.mp3",
@@ -42,8 +42,8 @@
 		"image_attribution": "Courtesy of bardofstony.weebly.com",
 		"draft": "true",
 		"stage": 2
-	}],
-	"bradwell_abbey": [{
+	},
+	"bradwell_abbey": {
 		"latitude": 52.04853914710455, 
 		"longitude": -0.7951623470860639,
 		"filepath": "/assets/audio/bradwell_abbey.mp3",
@@ -53,8 +53,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 3
-	}],
-	"bradwell_windmill": [{
+	},
+	"bradwell_windmill": {
 		"latitude": 52.062281247249246, 
 		"longitude": -0.7890743406055499,
 		"filepath": "/assets/audio/bradwell_windmill.mp3",
@@ -64,8 +64,8 @@
 		"image_attribution": "",
 		"draft": "true",
 		"stage": 3
-	}],
-	"passivhaus": [{
+	},
+	"passivhaus": {
 		"latitude": 52.07209081016423, 
 		"longitude": -0.7594727833806684,
 		"filepath": "/assets/audio/passivhaus.mp3",
@@ -75,8 +75,8 @@
 		"image_attribution": "",
 		"draft": "true",
 		"stage": 3
-	}],
-	"cowper_newton_museum": [{
+	},
+	"cowper_newton_museum": {
 		"latitude": 52.15262064720291, 
 		"longitude": -0.7007609370940522,
 		"filepath": "/assets/audio/cowper_newton_museum.mp3",
@@ -86,8 +86,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 4
-	}],
-	"emmaus": [{
+	},
+	"emmaus": {
 		"latitude": 52.179715662979504,
 		"longitude": -0.6042404195283734,
 		"filepath": "/assets/audio/emmaus.mp3",
@@ -97,8 +97,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 5
-	}],
-	"harrold_odell_country_park": [{
+	},
+	"harrold_odell_country_park": {
 		"latitude": 52.20039939526646, 
 		"longitude": -0.6019443924696745,
 		"filepath": "/assets/audio/harrold_odell_country_park.mp3",
@@ -108,8 +108,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 5
-	}],
-	"john_bunyan": [{
+	},
+	"john_bunyan": {
 		"latitude": 52.144980228358975, 
 		"longitude": -0.5247141174207195,
 		"filepath": "/assets/audio/john_bunyan.mp3",
@@ -119,8 +119,8 @@
 		"image_attribution": "",
 		"draft": "true",
 		"stage": 7
-	}],
-	"guru_nanak_temple": [{
+	},
+	"guru_nanak_temple": {
 		"latitude": 52.13243188467992, 
 		"longitude": -0.48609447233755343,
 		"filepath": "/assets/audio/guru_nanak_gurdwara_temple.mp3",
@@ -130,8 +130,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 7
-	}],
-	"panacea": [{
+	},
+	"panacea": {
 		"latitude": 52.136465487329076,  
 		"longitude": -0.4625929588750736,
 		"filepath": "/assets/audio/panacea.mp3",
@@ -141,8 +141,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 7
-	}],
-	"paxton_pits": [{
+	},
+	"paxton_pits": {
 		"latitude": 52.25168746044935, 
 		"longitude": -0.25040033434113923,
 		"filepath": "/assets/audio/paxton_pits.mp3",
@@ -152,8 +152,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 9
-	}],
-	"cromwell_museum": [{
+	},
+	"cromwell_museum": {
 		"latitude": 52.33087834739903, 
 		"longitude": -0.18452474005418837,
 		"filepath": "/assets/audio/cromwell_museum.mp3",
@@ -163,8 +163,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 10
-	}],
-	"stretham_old_engine": [{
+	},
+	"stretham_old_engine": {
 		"latitude": 52.334386550276776, 
 		"longitude": 0.22431970628922623,
 		"filepath": "/assets/audio/stretham_old_engine.mp3",
@@ -174,8 +174,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 13
-	}],
-	"stained_glass_museum": [{
+	},
+	"stained_glass_museum": {
 		"latitude": 52.398804991410444, 
 		"longitude": 0.26238424762642176,
 		"filepath": "/assets/audio/stained_glass_museum.mp3",
@@ -185,8 +185,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 13
-	}],	
-	"cromwells_house": [{
+	},	
+	"cromwells_house": {
 		"latitude": 52.39887426434768, 
 		"longitude": 0.25926072600688643,
 		"filepath": "/assets/audio/cromwells_house.mp3",
@@ -196,8 +196,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 13
-	}],	
-	"downham": [{
+	},	
+	"downham": {
 		"latitude": 52.60291782010745, 
 		"longitude": 0.37439037261061625,
 		"filepath": "/assets/audio/downham.mp3",
@@ -207,8 +207,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 14
-	}],
-	"higgins": [{
+	},
+	"higgins": {
 		"latitude": 52.13599853655618, 
 		"longitude": -0.46422609899683775,
 		"filepath": "/assets/audio/higgins.mp3",
@@ -218,8 +218,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 7
-	}],
-	"rspb_ouse_fen": [{
+	},
+	"rspb_ouse_fen": {
 		"latitude": 52.33489515288912, 
 		"longitude": 0.01115931883512373,
 		"filepath": "/assets/audio/rspb_ouse_fen.mp3",
@@ -229,8 +229,8 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 12
-	}],
-	"watermills": [{
+	},
+	"watermills": {
 		"latitude": 52.33121806404071, 
 		"longitude": -0.1207870343583046,
 		"filepath": "/assets/audio/watermills.mp3",
@@ -240,5 +240,5 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 12
-	}]
+	}
 }

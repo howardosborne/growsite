@@ -349,8 +349,7 @@ async function addChats(url,show=false){
     var poiCount = 0;
     const responseJson = await response.json();
     Object.entries(responseJson).forEach((element) => {
-      const [id, chats] = element;
-      chats.forEach(chat=>{
+      const [id, chat] = element;
         let my_icon = L.icon({iconUrl: `/assets/images/audio.png`,iconSize: [24, 24], iconAnchor: [12,24]});
         let marker = L.marker([chat.latitude,chat.longitude],{icon:my_icon});
         marker.bindTooltip(decodeURI(chat.heading));
@@ -359,7 +358,6 @@ async function addChats(url,show=false){
         marker.addTo(pois);
         poiCount ++ ;
         POIs[chat.heading] = chat;
-      });
     });
     layerControl.addOverlay(pois, `audio: (${poiCount})`);
     if(show){
@@ -388,8 +386,8 @@ async function getPOI(url){
       pois.addTo(map);
   }  
 }
-function loadMap(){
-  map = L.map('map').setView([52.3322, -0.2773], 9);
+function loadMap(lat=52.3322,lng=-0.2773,zoom=9){
+  map = L.map('map').setView([lat, lng], zoom);
   var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
   var img = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'});
   var top = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'});
@@ -448,6 +446,20 @@ function loadOVW(){
   const myReChat = RegExp('.+chat=(\\w+)', 'g');
   if(myArray = myReChat.exec(window.location.href)){showChat(myArray[1]);}
 }
+function loadChatMap(){
+  let a = loadMap(52.3322,-0.2773,8);
+  addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
+  addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
+  addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  addArrayOfPoints(`/assets/data/poi.json`,false);
+  addPlaces(`/assets/data/places.json`,false);
+  addChats(`/assets/data/recordings.json`,true);
+  const myRePlace = RegExp('.+place=(\\w+)', 'g');
+  if(myArray = myRePlace.exec(window.location.href)){showPic(myArray[1]);}
+  const myReChat = RegExp('.+chat=(\\w+)', 'g');
+  if(myArray = myReChat.exec(window.location.href)){showChat(myArray[1]);}
+}
+
 function loadOVWLeg(lat,lng,level){
   let a = loadMap();
   addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
@@ -526,17 +538,17 @@ async function showChat(chatId,show=true){
         if(chatId==id){
           popup_text = `
             <div class="card mb-4">
-              <img src="${chat[0].image}" class="card-img-top" alt="${chat[0].heading}">
+              <img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
               <div class="card-body">
-                <h5 class="card-title">${chat[0].heading}</h5>
-                <p class="card-text">${chat[0].about}</p>
+                <h5 class="card-title">${chat.heading}</h5>
+                <p class="card-text">${chat.about}</p>
               </div>
               <audio controls>
-                <source src="${chat[0].filepath}" type="audio/mpeg">
+                <source src="${chat.filepath}" type="audio/mpeg">
                 Your browser does not support the audio element.
                </audio>
             </div>`
-          popup = L.popup().setLatLng([chat[0].latitude,chat[0].longitude]).setContent(popup_text).openOn(map); 
+          popup = L.popup().setLatLng([chat.latitude,chat.longitude]).setContent(popup_text).openOn(map); 
           document.getElementById("map").focus();
         }
       });

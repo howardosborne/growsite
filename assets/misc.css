@@ -22,3 +22,10 @@
 path.leaflet-interactive{
   outline: none;
 }
+
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.05);
+}
