@@ -1869,7 +1869,7 @@
                 "description": "The route heads around Upper Delphs, Ewell Fen, Holme Fen, Upper Cuts, Middle Cuts and Chear Fen - all names for stretches of reclaimed land.",
                 "link": "/walks/1-earith-to-ely-25-km.html",
                 "image": "/assets/images/3/ely_3.jpg",
-                "stroke": "#0288d1",
+                "stroke": "#b300b3",
                 "stroke-opacity": 1,
                 "strokewidth": 5
             }
@@ -5320,7 +5320,7 @@
                 "description": "At Ely, the Ouse Valley Way combines with the Fen Rivers Way and heads through the fens to Denver Sluice.",
                 "link": "/walks/2-ely-to-downham-market-28-km.html",
                 "image": "/assets/images/downham_market.jpg",
-                "stroke": "#f9a825",
+                "stroke": "#a3297a",
                 "stroke-opacity": 1,
                 "strokewidth": 5
             }
@@ -6453,7 +6453,7 @@
                 "description": "From Downham Market the way continues between the two ‘rivers’ through the Wiggenhalls.",
                 "link": "/walks/3-downham-market-to-kings-lynn-185-km.html",
                 "image": "/assets/images/3/wiggenshalls.jpg",
-                "stroke": "#0f9d58",
+                "stroke": "#d279a6",
                 "stroke-opacity": 1,
                 "strokewidth": 5
             }

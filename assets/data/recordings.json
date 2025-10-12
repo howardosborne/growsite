@@ -142,6 +142,17 @@
 		"draft": "false",
 		"stage": 7
 	},
+	"higgins": {
+		"latitude": 52.13599853655618, 
+		"longitude": -0.46422609899683775,
+		"filepath": "/assets/audio/higgins.mp3",
+		"heading": "Remembering the R101",
+		"about": "Why did the R101's maiden flight end in tragedy? Lydia McDonald helps us find out. <br><a href='https://www.thehigginsbedford.org.uk/Home.aspx' target='_blank'>Website</a>",
+		"image": "/assets/images/points/higgins.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 7
+	},
 	"paxton_pits": {
 		"latitude": 52.25168746044935, 
 		"longitude": -0.25040033434113923,
@@ -163,6 +174,28 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 10
+	},
+	"watermills": {
+		"latitude": 52.33121806404071, 
+		"longitude": -0.1207870343583046,
+		"filepath": "/assets/audio/watermills.mp3",
+		"heading": "Watermilling",
+		"about": "It’s a pleasant stroll across the meadows between Godmanchester and St Ives with Houghton Mill being the perfect place to stop for a nice stop for a cup of tea. And it’s here that I met Keith Grimwade and Bridget Flannagan who have done a deep dive into the history and geography of the area and written a book on watermilling along the Great Ouse in Cambridgeshire.<a href='https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/' target='_blank'>Book details</a>",
+		"image": "/assets/images/watermills/keith_and_bridget.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 12
+	},
+	"rspb_ouse_fen": {
+		"latitude": 52.33489515288912, 
+		"longitude": 0.01115931883512373,
+		"filepath": "/assets/audio/rspb_ouse_fen.mp3",
+		"heading": "RSBP Ouse Fen",
+		"about": "A project is underway turning quarried land into a unique reserve, based on reedbeds. let's talk to the wardens to find out more. <br><a href='https://www.rspb.org.uk/days-out/reserves/ouse-fen' target='_blank'>Website</a>",
+		"image": "/assets/images/points/rspb_ouse_fen.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 12
 	},
 	"stretham_old_engine": {
 		"latitude": 52.334386550276776, 
@@ -207,38 +240,5 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 14
-	},
-	"higgins": {
-		"latitude": 52.13599853655618, 
-		"longitude": -0.46422609899683775,
-		"filepath": "/assets/audio/higgins.mp3",
-		"heading": "Remembering the R101",
-		"about": "Why did the R101's maiden flight end in tragedy? Lydia McDonald helps us find out. <br><a href='https://www.thehigginsbedford.org.uk/Home.aspx' target='_blank'>Website</a>",
-		"image": "/assets/images/points/higgins.jpg",
-		"image_attribution": "",
-		"draft": "false",
-		"stage": 7
-	},
-	"rspb_ouse_fen": {
-		"latitude": 52.33489515288912, 
-		"longitude": 0.01115931883512373,
-		"filepath": "/assets/audio/rspb_ouse_fen.mp3",
-		"heading": "RSBP Ouse Fen",
-		"about": "A project is underway turning quarried land into a unique reserve, based on reedbeds. let's talk to the wardens to find out more. <br><a href='https://www.rspb.org.uk/days-out/reserves/ouse-fen' target='_blank'>Website</a>",
-		"image": "/assets/images/points/rspb_ouse_fen.jpg",
-		"image_attribution": "",
-		"draft": "false",
-		"stage": 12
-	},
-	"watermills": {
-		"latitude": 52.33121806404071, 
-		"longitude": -0.1207870343583046,
-		"filepath": "/assets/audio/watermills.mp3",
-		"heading": "Watermilling",
-		"about": "It’s a pleasant stroll across the meadows between Godmanchester and St Ives with Houghton Mill being the perfect place to stop for a nice stop for a cup of tea. And it’s here that I met Keith Grimwade and Bridget Flannagan who have done a deep dive into the history and geography of the area and written a book on watermilling along the Great Ouse in Cambridgeshire.<a href='https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/' target='_blank'>Book details</a>",
-		"image": "/assets/images/watermills/keith_and_bridget.jpg",
-		"image_attribution": "",
-		"draft": "false",
-		"stage": 12
 	}
 }
