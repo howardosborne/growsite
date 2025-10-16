@@ -5,7 +5,29 @@
 		"filepath": "/assets/audio/stowe_gardens.mp3",
 		"heading": "The Stowe Ranger",
 		"about": "Head Ranger Barry Smith tells us about the delights and challenges of managing Stowe Gardens.<br><a href='https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens' target='blank'>Stowe Gardens website</a>",
-		"image": "/assets/images/1/queens_drive_stowe.jpg",
+		"image": "/assets/images/points/barry.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 1
+	},
+	"stowe": {
+		"latitude": 52.02200128179081,
+		"longitude": -1.0089761004196522,
+		"filepath": "/assets/audio/stowe.mp3",
+		"heading": "Stowe",
+		"about": "Back in the 1700s Lord Cobham had strong views and ambitious plans which Barry helps us fnd out with a wander around the garden.<br><a href='https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens' target='blank'>Stowe Gardens website</a>",
+		"image": "/assets/images/points/stowe.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 1
+	},
+	"river_rinse": {	
+		"latitude": 51.999272483651126, 
+		"longitude": -0.9848744619251759,
+		"filepath": "/assets/audio/river_rinse.mp3",
+		"heading": "Buckingham River Rinse",
+		"about": "It's September in Buckingham which means it's time to get the river back in shape and Mayor Fran Davies tells us how they do it. <br><a href='https://www.buckingham-tc.gov.uk/town-council-services/events/' target='_blank'>Buckingham Events</a>",
+		"image": "/assets/images/points/river_rinse.jpg",
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 1
@@ -17,17 +39,6 @@
 		"heading": "Buckingham Canal Society",
 		"about": "Athena Beckett takes time out from managing a volunteer work party to tell us about the work of the <a href='https://www.buckinghamcanal.org.uk/' target='blank'>Buckingham Canal Society</a>.",
 		"image": "/assets/images/1/athena_bcs.jpg",
-		"image_attribution": "",
-		"draft": "false",
-		"stage": 2
-	},
-	"river_rinse": {	
-		"latitude": 51.999272483651126, 
-		"longitude": -0.9848744619251759,
-		"filepath": "/assets/audio/river_rinse.mp3",
-		"heading": "Buckingham River Rinse",
-		"about": "It's September in Buckingham which means it's time to get the river back in shape and Mayor Fran Davies tells us how they do it. <br><a href='https://www.buckingham-tc.gov.uk/town-council-services/events/' target='_blank'>Buckingham Events</a>",
-		"image": "/assets/images/points/river_rinse.jpg",
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 2
@@ -249,7 +260,7 @@
 		"about": "We're in a couryard where in medieval times people would have been talking German. Let's talk to Dr Paul Richards to find out why. <br><a href='https://www.hansehouse.co.uk/' target='_blank'>Hanse House</a>",
 		"image": "/assets/images/points/hanse.jpg",
 		"image_attribution": "",
-		"draft": "true",
+		"draft": "false",
 		"stage": 14
 	}
 }
