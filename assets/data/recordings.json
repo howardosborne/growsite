@@ -240,5 +240,16 @@
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 14
+	},	
+	"hansa": {
+		"latitude": 52.75121620643988, 
+		"longitude": 0.3942519945274159,
+		"filepath": "/assets/audio/hansa.mp3",
+		"heading": "Hansa House",
+		"about": "We're in a couryard where in medieval times people would have been talking German. Let's talk to Dr Paul Richards to find out why. <br><a href='https://www.hansehouse.co.uk/' target='_blank'>Hansa House</a>",
+		"image": "/assets/images/points/hansa.jpg",
+		"image_attribution": "",
+		"draft": "true",
+		"stage": 14
 	}
 }
