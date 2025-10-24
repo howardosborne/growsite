@@ -1,4 +1,15 @@
 {
+	"intro": {
+		"latitude": 52.095699877778955, 
+		"longitude": -1.0746904093711784,
+		"filepath": "/assets/audio/intro.mp3",
+		"heading": "Intro",
+		"about": "About this series",
+		"image": "/assets/images/points/ouse_source_2.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 1
+	},
 	"stowegardens": {
 		"latitude": 52.02200128179081,
 		"longitude": -1.0089761004196522,
@@ -50,7 +61,18 @@
 		"heading": "Bard of Stony",
 		"about": "Nova Carmen, Bard of Stony Stratford, shares some tips, and a poem, to help us get creative on the long walk to Kings Lynn. <a href='https://bardofstony.weebly.com/' target='_blank'>Bard of Stony Stratford</a>",
 		"image": "/assets/images/points/bard_of_stony.jpg",
-		"image_attribution": "Courtesy of bardofstony.weebly.com",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 2
+	},
+	"parks_trust": {
+		"latitude": 52.06279418012291, 
+		"longitude": -0.8539492912838452,
+		"filepath": "/assets/audio/parks_trust.mp3",
+		"heading": "Parks Trust",
+		"about": "Ellie Durrant tells us about the Parks Trust's new plans for developing their Wetland Arc. <a href='https://www.theparkstrust.com/' target='_blank'>Parks Trust</a>",
+		"image": "/assets/images/points/parks_trust.jpg",
+		"image_attribution": "",
 		"draft": "false",
 		"stage": 2
 	},
