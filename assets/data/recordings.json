@@ -54,13 +54,24 @@
 		"draft": "false",
 		"stage": 2
 	},
+	"bluetits": {
+		"latitude": 52.04992860952078, 
+		"longitude": -0.8528784673881601,
+		"filepath": "/assets/audio/bluetits.mp3",
+		"heading": "Bluetits",
+		"about": "It's a nippy Sunday morning in Stony Straford which means it's time to join the local Bluetits group for a swim. <br><a href='https://www.facebook.com/groups/miltonkeynesbluetits/' target='_blank'>Milton Keynes Bluetits</a>",
+		"image": "/assets/images/points/bluetits.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 2
+	},
 	"bard_of_stony": {
 		"latitude": 52.05663188948619, 
 		"longitude": -0.8524516875866952,
 		"filepath": "/assets/audio/bard_of_stony.mp3",
 		"heading": "Bard of Stony",
-		"about": "Nova Carmen, Bard of Stony Stratford, shares some tips, and a poem, to help us get creative on the long walk to Kings Lynn. <a href='https://bardofstony.weebly.com/' target='_blank'>Bard of Stony Stratford</a>",
-		"image": "/assets/images/points/bard_of_stony.jpg",
+		"about": "Nova Carmen, Bard of Stony Stratford, shares some tips, and a poem, to help us get creative on the long walk to Kings Lynn. <br><a href='https://bardofstony.weebly.com/' target='_blank'>Bard of Stony Stratford</a>",
+		"image": "/assets/images/points/bard.jpg",
 		"image_attribution": "",
 		"draft": "false",
 		"stage": 2
@@ -70,7 +81,7 @@
 		"longitude": -0.8539492912838452,
 		"filepath": "/assets/audio/parks_trust.mp3",
 		"heading": "Parks Trust",
-		"about": "Ellie Durrant tells us about the Parks Trust's new plans for developing their Wetland Arc. <a href='https://www.theparkstrust.com/' target='_blank'>Parks Trust</a>",
+		"about": "Ellie Durrant tells us about the Parks Trust's new plans for developing their Wetland Arc. <br><a href='https://www.theparkstrust.com/' target='_blank'>Parks Trust</a>",
 		"image": "/assets/images/points/parks_trust.jpg",
 		"image_attribution": "",
 		"draft": "false",
