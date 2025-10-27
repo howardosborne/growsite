@@ -208,6 +208,17 @@
 		"draft": "false",
 		"stage": 9
 	},
+	"roxtonchapel": {
+		"latitude": 52.176304607653016, 
+		"longitude": -0.31671641880452844,
+		"filepath": "/assets/audio/roxtonchapel.mp3",
+		"heading": "Roxton Congregational Chapel",
+		"about": "Richard Hooker tells us about the chapel that used to be a barn.<br><a href='https://roxtonchapel.wixsite.com/about' target='_blank'>Chapel Website</a>",
+		"image": "/assets/images/2/roxton_church.jpg",
+		"image_attribution": "",
+		"draft": "false",
+		"stage": 9
+	},
 	"cromwell_museum": {
 		"latitude": 52.33087834739903, 
 		"longitude": -0.18452474005418837,
