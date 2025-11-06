@@ -12,8 +12,8 @@
     <link>https://greatouseways.info/</link>
     <itunes:category text="Games &amp; Hobbies"/>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Nov 2025 21:37:46 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Nov 2025 21:37:46 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Nov 2025 17:03:27 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Nov 2025 17:03:27 +0000</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -201,6 +201,15 @@
         <itunes:image url='https://greatouseways.info/assets/images/thumbnails/cromwell_museum.jpg' />
         <enclosure url='https://greatouseways.info/assets/audio/cromwell_museum.mp3' type='audio/mpeg' length='36424896'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/cromwell_museum.mp3</guid>
+      </item>
+    
+      <item>
+        <title>This is the Way</title>
+        <description>What does it take to get the Ouse Valley Way in good shape? Graham Campbell tells us about the fantastic work of the &lt;a href=&apos;https://greatousevalleytrust.org.uk/&apos; target=&apos;_blank&apos;&gt;Great Ouse Valley Trust&lt;/a&gt; in improving the Huntingdonshire stretch and their ambitious plans for the future.</description>
+        <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+        <itunes:image url='https://greatouseways.info/assets/images/thumbnails/govt.jpg' />
+        <enclosure url='https://greatouseways.info/assets/audio/govt.mp3' type='audio/mpeg' length='11291672'/>
+        <guid isPermaLink="true">https://greatouseways.info/assets/audio/govt.mp3</guid>
       </item>
     
       <item>

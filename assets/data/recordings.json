@@ -272,6 +272,19 @@
 		"draft":  "false",
 		"stage": 10
 	},
+	"govt": {
+		"latitude": 52.319018186073464, 
+		"longitude": -0.1753930654896922,
+		"filepath": "/assets/audio/govt.mp3",
+		"heading": "This is the Way",
+		"about": "What does it take to get the Ouse Valley Way in good shape? Graham Campbell tells us about the fantastic work of the <a href='https://greatousevalleytrust.org.uk/' target='_blank'>Great Ouse Valley Trust</a> in improving the Huntingdonshire stretch and their ambitious plans for the future.",
+		"image": "/assets/images/thumbnails/govt.jpg",
+		"image_attribution": "",
+		"date": "2025/11/01 00:00:00 +0000",
+		"size" : 11291672,
+		"draft":  "false",
+		"stage": 12
+	},
 	"citizenscience": {
 		"latitude": 52.33121806404071, 
 		"longitude": -0.1207870343583046,
