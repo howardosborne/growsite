@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Great Ouse Ways</title>
     <itunes:owner>
@@ -14,8 +13,8 @@
     <itunes:category text="Leisure"/>
     <itunes:explicit>false</itunes:explicit>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Nov 2025 12:01:54 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Nov 2025 12:01:54 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Nov 2025 12:06:23 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Nov 2025 12:06:23 +0000</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
