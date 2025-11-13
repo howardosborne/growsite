@@ -13,8 +13,8 @@
     <itunes:category text="Leisure"/>
     <itunes:explicit>false</itunes:explicit>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Nov 2025 10:02:21 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Nov 2025 10:02:21 +0000</lastBuildDate>
+    <pubDate>Thu, 13 Nov 2025 10:16:33 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Nov 2025 10:16:33 +0000</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -352,15 +352,15 @@
       </item>
     
       <item>
-        <title>Watermills</title>
-        <description>Keith Grimwade and Bridget Flannagan have done a deep dive into the history and geography of watermilling in the area and found some surprising things that will change how we see the landscape.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;</description>
+        <title>The missing mill detectives</title>
+        <description>On a stretch of river that was a powerhouse of watermilling, Keith Grimwade and Bridget Flannagan have done a deep dive into the history and landscape to find the missing mills.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;</description>
         <pubDate>Sat, 25 Oct 2025 01:00:00 +0100</pubDate>
         <itunes:image href='https://greatouseways.info/assets/images/podthumbs/keith_and_bridget.jpg' />
         <link>https://greatouseways.info/audio.html?chat=watermills</link>
         <itunes:explicit>false</itunes:explicit>
-        <itunes:summary>Keith Grimwade and Bridget Flannagan have done a deep dive into the history and geography of watermilling in the area and found some surprising things that will change how we see the landscape.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=watermills&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
+        <itunes:summary>On a stretch of river that was a powerhouse of watermilling, Keith Grimwade and Bridget Flannagan have done a deep dive into the history and landscape to find the missing mills.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=watermills&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard</itunes:author>
-        <content:encoded>Keith Grimwade and Bridget Flannagan have done a deep dive into the history and geography of watermilling in the area and found some surprising things that will change how we see the landscape.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=watermills&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
+        <content:encoded>On a stretch of river that was a powerhouse of watermilling, Keith Grimwade and Bridget Flannagan have done a deep dive into the history and landscape to find the missing mills.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=watermills&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/watermills.mp3' type='audio/mpeg' length='28998648'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/watermills.mp3</guid>
       </item>

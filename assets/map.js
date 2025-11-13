@@ -549,7 +549,8 @@ async function showChat(chatId,show=true){
         if(chatId==id){
           popup_text = `
             <div class="card mb-4">
-              <img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
+              <p class="card-title">${chat.heading}</p>
+              <!--<img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
               <div class="card-body">
                 <h5 class="card-title">${chat.heading}</h5>
                 <p class="card-text">${chat.about}</p>
@@ -557,7 +558,7 @@ async function showChat(chatId,show=true){
               <audio controls>
                 <source src="${chat.filepath}" type="audio/mpeg">
                 Your browser does not support the audio element.
-               </audio>
+               </audio>-->
             </div>`
           popup = L.popup().setLatLng([chat.latitude,chat.longitude]).setContent(popup_text).openOn(map); 
           document.getElementById("map").focus();
