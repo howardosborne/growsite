@@ -127,7 +127,8 @@ function _swimOnClick(e){
 }
 function _chatOnClick(e){
   popup_text = `
-    <div class="card mb-4">
+          <a href="#${e.sourceTarget.properties.id}">${e.sourceTarget.properties.heading}</a>  
+    <!--<div class="card mb-4">
       <img src="${e.sourceTarget.properties.image}" class="card-img-top" alt="${e.sourceTarget.properties.heading}">
       <div class="card-body">
         <h5 class="card-title">${e.sourceTarget.properties.heading}</h5>
@@ -137,7 +138,7 @@ function _chatOnClick(e){
         <source src="${e.sourceTarget.properties.filepath}" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-    </div>`
+    </div>-->`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
 function _poiOnClick(e){
@@ -354,6 +355,7 @@ async function addChats(url,show=false){
         let marker = L.marker([chat.latitude,chat.longitude],{icon:my_icon});
         marker.bindTooltip(decodeURI(chat.heading));
         marker.properties = chat;
+        marker.properties.id = id;
         marker.addEventListener('click', _chatOnClick);
         marker.addTo(pois);
         poiCount ++ ;
@@ -548,9 +550,10 @@ async function showChat(chatId,show=true){
         const [id, chat] = element;
         if(chatId==id){
           popup_text = `
-            <div class="card mb-4">
+          <a href="#${id}">${chat.heading}</a>
+            <!--<div class="card mb-4">
               <p class="card-title">${chat.heading}</p>
-              <!--<img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
+              <img src="${chat.image}" class="card-img-top" alt="${chat.heading}">
               <div class="card-body">
                 <h5 class="card-title">${chat.heading}</h5>
                 <p class="card-text">${chat.about}</p>
@@ -558,8 +561,8 @@ async function showChat(chatId,show=true){
               <audio controls>
                 <source src="${chat.filepath}" type="audio/mpeg">
                 Your browser does not support the audio element.
-               </audio>-->
-            </div>`
+               </audio>
+            </div>-->`
           popup = L.popup().setLatLng([chat.latitude,chat.longitude]).setContent(popup_text).openOn(map); 
           document.getElementById("map").focus();
         }
