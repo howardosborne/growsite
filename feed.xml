@@ -13,8 +13,8 @@
     <itunes:category text="Leisure"/>
     <itunes:explicit>false</itunes:explicit>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Nov 2025 11:17:30 +0000</pubDate>
-    <lastBuildDate>Sun, 16 Nov 2025 11:17:30 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Nov 2025 14:32:25 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Nov 2025 14:32:25 +0000</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -30,30 +30,16 @@
       </item>
     
       <item>
-        <title>The Stowe Ranger</title>
-        <description>Head Ranger Barry Smith tells us about the delights and challenges of managing Stowe Gardens.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;</description>
-        <pubDate>Thu, 02 Oct 2025 01:00:00 +0100</pubDate>
-        <itunes:image href='https://greatouseways.info/assets/images/podthumbs/barry.jpg' />
-        <link>https://greatouseways.info/audio.html?chat=stowegardens</link>
-        <itunes:explicit>false</itunes:explicit>
-        <itunes:summary>Head Ranger Barry Smith tells us about the delights and challenges of managing Stowe Gardens.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stowegardens&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
-        <itunes:author>Howard</itunes:author>
-        <content:encoded>Head Ranger Barry Smith tells us about the delights and challenges of managing Stowe Gardens.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stowegardens&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
-        <enclosure url='https://greatouseways.info/assets/audio/stowe_gardens.mp3' type='audio/mpeg' length='6164028'/>
-        <guid isPermaLink="true">https://greatouseways.info/assets/audio/stowe_gardens.mp3</guid>
-      </item>
-    
-      <item>
         <title>Political gardening</title>
-        <description>Back in the 1700s Lord Cobham had strong views and ambitious plans which Barry helps us find out with a wander around the garden.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;</description>
+        <description>Back in the 1700s Lord Cobham had strong views and ambitious plans which head gardener Barry Smith helps us find out with a wander around the garden.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;</description>
         <pubDate>Fri, 03 Oct 2025 01:00:00 +0100</pubDate>
         <itunes:image href='https://greatouseways.info/assets/images/podthumbs/stowe.jpg' />
         <link>https://greatouseways.info/audio.html?chat=cobham</link>
         <itunes:explicit>false</itunes:explicit>
-        <itunes:summary>Back in the 1700s Lord Cobham had strong views and ambitious plans which Barry helps us find out with a wander around the garden.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cobham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
+        <itunes:summary>Back in the 1700s Lord Cobham had strong views and ambitious plans which head gardener Barry Smith helps us find out with a wander around the garden.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cobham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard</itunes:author>
-        <content:encoded>Back in the 1700s Lord Cobham had strong views and ambitious plans which Barry helps us find out with a wander around the garden.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cobham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
-        <enclosure url='https://greatouseways.info/assets/audio/stowe.mp3' type='audio/mpeg' length='13647714'/>
+        <content:encoded>Back in the 1700s Lord Cobham had strong views and ambitious plans which head gardener Barry Smith helps us find out with a wander around the garden.&lt;br&gt;&lt;a href=&apos;https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens&apos; target=&apos;blank&apos;&gt;Stowe Gardens website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cobham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
+        <enclosure url='https://greatouseways.info/assets/audio/stowe.mp3' type='audio/mpeg' length='12896346'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/stowe.mp3</guid>
       </item>
     
@@ -67,7 +53,7 @@
         <itunes:summary>It&apos;s September in Buckingham which means it&apos;s time to get the river back in shape and Mayor Fran Davies tells us how they do it. &lt;br&gt;&lt;a href=&apos;https://www.buckingham-tc.gov.uk/town-council-services/events/&apos; target=&apos;_blank&apos;&gt;Buckingham Events&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=river_rinse&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard</itunes:author>
         <content:encoded>It&apos;s September in Buckingham which means it&apos;s time to get the river back in shape and Mayor Fran Davies tells us how they do it. &lt;br&gt;&lt;a href=&apos;https://www.buckingham-tc.gov.uk/town-council-services/events/&apos; target=&apos;_blank&apos;&gt;Buckingham Events&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=river_rinse&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
-        <enclosure url='https://greatouseways.info/assets/audio/river_rinse.mp3' type='audio/mpeg' length='3361834'/>
+        <enclosure url='https://greatouseways.info/assets/audio/river_rinse.mp3' type='audio/mpeg' length='2835454'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/river_rinse.mp3</guid>
       </item>
     

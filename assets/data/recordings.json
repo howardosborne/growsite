@@ -13,31 +13,17 @@
 		"draft":  "false",
 		"stage": 1
 	},
-	"stowegardens": {
-		"latitude": 52.02200128179081,
-		"longitude": -1.0089761004196522,
-		"filepath": "/assets/audio/stowe_gardens.mp3",
-		"heading": "The Stowe Ranger",
-		"about": "Head Ranger Barry Smith tells us about the delights and challenges of managing Stowe Gardens.<br><a href='https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens' target='blank'>Stowe Gardens website</a>",
-		"image": "/assets/images/thumbnails/barry.jpg",
-		"pod_image": "/assets/images/podthumbs/barry.jpg",
-		"image_attribution": "",
-		"date": "2025/10/02 00:00:00 +0000",
-		"size" : 6164028,
-		"draft":  "false",
-		"stage": 1
-	},
 	"cobham": {
 		"latitude": 52.02684869471353,
 		"longitude": -1.0152691179251672,
 		"filepath": "/assets/audio/stowe.mp3",
 		"heading": "Political gardening",
-		"about": "Back in the 1700s Lord Cobham had strong views and ambitious plans which Barry helps us find out with a wander around the garden.<br><a href='https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens' target='blank'>Stowe Gardens website</a>",
+		"about": "Back in the 1700s Lord Cobham had strong views and ambitious plans which head gardener Barry Smith helps us find out with a wander around the garden.<br><a href='https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/stowe-gardens' target='blank'>Stowe Gardens website</a>",
 		"image": "/assets/images/thumbnails/stowe.jpg",
 		"pod_image": "/assets/images/podthumbs/stowe.jpg",
 		"image_attribution": "",
 		"date": "2025/10/03 00:00:00 +0000",
-		"size" : 13647714,
+		"size" : 12896346,
 		"draft":  "false",
 		"stage": 1
 	},
@@ -51,7 +37,7 @@
 		"pod_image": "/assets/images/podthumbs/river_rinse.jpg",
 		"image_attribution": "",
 		"date": "2025/10/04 00:00:00 +0000",
-		"size" : 3361834,
+		"size" : 2835454,
 		"draft":  "false",
 		"stage": 1
 	},
