@@ -184,6 +184,35 @@ async function addLine(sourceData,name){
   layerControl.addOverlay(routeLayer, name);
   routeLayer.addTo(map);
 }
+async function addSpecificLines(sourceData,names){
+  const response = await fetch(sourceData);
+  const data = await response.json();
+
+  let routeLayer = L.geoJSON(data, {
+      style: function (feature) {
+        let line_color = "#6d69699a";
+        names.forEach(name => {
+          if(feature.properties.name == name){
+            line_color = feature.properties.stroke;
+          }
+        });
+        return {color:line_color, weight:feature.properties.strokewidth};
+      },
+      filter: function(feature){
+        if (feature.geometry.type != "Polygon" && feature.geometry.type != "MultiPolygon"){
+         return true;
+        } 
+      }
+  })
+  routeLayer.bindTooltip(function (layer) {
+      let pop = `${layer.feature.properties.name}`;
+      return pop;
+  })
+  routeLayer.addEventListener('click', _lineOnClick);
+  routeLayer.eachLayer(lay=> {polys.push(lay)});
+  layerControl.addOverlay(routeLayer, name);
+  routeLayer.addTo(map);
+}
 async function addArrayOfPoints(url,show=false){
   const response = await fetch(url);
   if(response.status == 200){
@@ -448,9 +477,10 @@ function loadWalks(){
 }
 function loadOVW(){
   let a = loadMap();
-  addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
-  addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
-  addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  //addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
+  //addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
+  //addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  addLine(`/assets/data/Legs.geojson`,"Ouse Valley Way");
   addArrayOfPoints(`/assets/data/poi.json`,false);
   addPlaces(`/assets/data/places.json`,false);
   addChats(`/assets/data/recordings.json`,false);
@@ -461,9 +491,10 @@ function loadOVW(){
 }
 function loadChatMap(){
   let a = loadMap(52.3322,-0.2773,8);
-  addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
-  addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
-  addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  //addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
+  //addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
+  //addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  addLine(`/assets/data/Legs.geojson`,"Ouse Valley Way");
   addArrayOfPoints(`/assets/data/poi.json`,false);
   addPlaces(`/assets/data/places.json`,false);
   addChats(`/assets/data/recordings.json`,true);
@@ -473,11 +504,9 @@ function loadChatMap(){
   if(myArray = myReChat.exec(window.location.href)){showChat(myArray[1]);}
 }
 
-function loadOVWLeg(lat,lng,level){
+function loadOVWLeg(lat,lng,level,names){
   let a = loadMap();
-  addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
-  addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
-  addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
+  addSpecificLines(`/assets/data/Legs.geojson`,names);
   addArrayOfPoints(`/assets/data/poi.json`,true);
   addPlaces(`/assets/data/places.json`,true);
   addWarningSpots('/assets/data/warning.geojson');
