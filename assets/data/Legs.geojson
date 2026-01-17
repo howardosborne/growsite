@@ -6738,6 +6738,32 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "LineString",
+				"coordinates":           [[
+					          -0.5439,52.21943,0],[
+          -0.5440949,52.2182764,0],[
+          -0.5469182,52.2161894,0],[
+          -0.5462967,52.2148534,0],[
+          -0.5469676,52.2142379,0],[
+          -0.5470348,52.2138447,0],[
+          -0.5468231,52.2135173,0],[
+          -0.5520273,52.210518,0],[
+          -0.5516737,52.2101352,0]]
+			},
+			"properties": {
+				"name": "Felmersham detour",
+                "distance": 10.5,
+                "link": "/walks/6-odell-to-pavenham-105-km.html",
+                "image": "/assets/images/1/StMarysFelmersham.jpg",
+				"description": "Detour for swimmers and the architecturally curious.",
+				"stroke": "#6d69699a",
+				"stroke-opacity": 1,
+				"strokewidth": 3
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
 				"coordinates": [
 					[
 						-0.55416,
