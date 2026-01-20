@@ -463,5 +463,20 @@
 		"draft":  "false",
 		"order": 31,
 		"stage": 15
+	},
+	"buckingham_gaol": {	
+		"latitude": 52.00095127859175,
+		"longitude": -0.9865348019415539,
+		"filepath": "/assets/audio/buckingham_gaol.mp3",
+		"heading": "Buckingham Old Gaol",
+		"about": "Jo Thompson, Chair of Buckingham Old Gaol Trust takes us for a wander around the town's museum. <br><a href='https://www.buckinghamoldgaol.org.uk/' target='_blank'>Buckingham Old Gaol</a>",
+		"image": "/assets/images/thumbnails/buckingham_gaol.jpg",
+		"pod_image": "/assets/images/podthumbs/buckingham_gaol.jpg",
+		"image_attribution": "",
+		"date": "2026/01/14 00:00:00 +0000",
+		"size" : 2835454,
+		"draft":  "true",
+		"order": 32,
+		"stage": 1
 	}
 }
