@@ -477,9 +477,6 @@ function loadWalks(){
 }
 function loadOVW(){
   let a = loadMap();
-  //addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
-  //addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
-  //addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
   addLine(`/assets/data/Legs.geojson`,"Ouse Valley Way");
   addArrayOfPoints(`/assets/data/poi.json`,false);
   addPlaces(`/assets/data/places.json`,false);
@@ -491,9 +488,6 @@ function loadOVW(){
 }
 function loadChatMap(){
   let a = loadMap(52.3322,-0.2773,8);
-  //addLine(`/assets/data/HeadwatersSyreshamtoBedford.geojson`,"Headwaters: Syresham to Bedford");
-  //addLine(`/assets/data/NavigationBedfordtoEarith.geojson`,"Navigation: Bedford to Earith");
-  //addLine(`/assets/data/FensEarithtoEly.geojson`,"Fens: Earith to Ely");
   addLine(`/assets/data/Legs.geojson`,"Ouse Valley Way");
   addArrayOfPoints(`/assets/data/poi.json`,false);
   addPlaces(`/assets/data/places.json`,false);

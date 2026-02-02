@@ -872,7 +872,7 @@
 				"name": "Syresham to Buckingham",
                 "distance": 12,
 				"description": "Head across the fields towards the landscape masterpiece of Stowe to the town that that looks after its river.",
-                "link": "/walks/1-syresham-to-buckingham.html",
+                "link": "/walks/1-syresham-to-buckingham-12-km.html",
                 "image": "/assets/images/1/Corinthian%20Arch%20at%20Stowe.jpg",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
@@ -940,7 +940,7 @@
 				"name": "Alternative route around Stowe",
                 "distance": 3,
 				"description": "Alternative route around Stowe to see more of the architecture and gardens",
-                "link": "/walks/1-syresham-to-buckingham.html",
+                "link": "/walks/1-syresham-to-buckingham-12-km.html",
                 "image": "/assets/images/1/Corinthian%20Arch%20at%20Stowe.jpg",
 				"stroke": "#6d69699a",
 				"stroke-opacity": 1,
@@ -1154,7 +1154,7 @@
 				"name": "Buckingham to Stony Stratford",
                 "distance": 15,
 				"description": "Trace the path of the long gone Buckingham Canal and pass through villages well off the beaten track.",
-                "link": "/walks/2-buckingham-to-stony-stratford.html",
+                "link": "/walks/2-buckingham-to-stony-stratford-15-km.html",
                 "image": "/assets/images/1/Buckingham%20canal.jpg",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
@@ -1236,7 +1236,7 @@
 			"properties": {
 				"name": "Calverton alternative route",
                 "distance": 2,
-                "link": "/walks/2-buckingham-to-stony-stratford.html",
+                "link": "/walks/2-buckingham-to-stony-stratford-15-km.html",
                 "image": "/assets/images/1/Buckingham%20canal.jpg",
 				"description": "This alternative takes a well-used footpath to the Lower Wield of Calverton with <a href='https://en.wikipedia.org/wiki/Calverton,_Buckinghamshire'>several things worth a closer look</a>",
 				"stroke": "#6d69699a",
@@ -3209,7 +3209,7 @@
 			"properties": {
 				"name": "Stony Stratford to Newport Pagnell",
                 "distance": 16.5,
-                "link": "/walks/3-stony-stratford-to-newport-pagnell.html",
+                "link": "/walks/3-stony-stratford-to-newport-pagnell-165-km.html",
                 "image": "/assets/images/1/Stony%20Stratford%20Great%20Ouse%20path.jpg",
 				"description": "Crossing Milton Keynes is a chance to see how tricky questions of development have been tackled and decide for yourself if they got it right.",
 				"stroke": "#f57c00",
@@ -4527,7 +4527,7 @@
 			"properties": {
 				"name": "Newport Pagnell to Olney",
                 "distance": 14,
-                "link": "/walks/4-newport-pagnell-to-olney.html",
+                "link": "/walks/4-newport-pagnell-to-olney-14-km.html",
                 "image": "/assets/images/1/Great%20Ouse%20at%20Newport%20Pagnell.jpg",
 				"description": "Head from the home of Aston Martin to the town of Amazing Grace",
 				"stroke": "#f57c00",
@@ -4585,7 +4585,7 @@
 			"properties": {
 				"name": "Stony Newport alternative route",
                 "distance": 15.5,
-                "link": "/walks/4-newport-pagnell-to-olney.html",
+                "link": "/walks/4-newport-pagnell-to-olney-14-km.html",
                 "image": "/assets/images/1/Great%20Ouse%20at%20Newport%20Pagnell.jpg",
 				"description": "Spend more time on the canals and paths through Milton Keynes",
 				"stroke": "#6d69699a",
@@ -5697,54 +5697,8 @@
 						-0.60243,
 						52.20005,
 						0
-					]
-				]
-			},
-			"properties": {
-				"name": "Olney to Harrold",
-                "distance": 12,
-                "link": "/walks/5-olney-to-harrold.html",
-                "image": "/assets/images/1/harrold_bridge_2.jpg",
-				"description": "Climb to the heights of Clifton Renes and then across to Bedfordshire.",
-				"stroke": "#f57c00",
-				"stroke-opacity": 1,
-				"strokewidth": 4
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						-0.7462992,
-						52.1133161,
-						0
 					],
 					[
-						-0.7485308,
-						52.1108915,
-						0
-					]
-				]
-			},
-			"properties": {
-				"name": "Tyringham detour",
-                "distance": 1,
-                "link": "/walks/5-olney-to-harrold.html",
-                "image": "/assets/images/points/tyringham_bridge.jpg",
-				"description": "Get a better view of Tyringham hall, gatehouse and bridge",
-				"stroke": "#6d69699a",
-				"stroke-opacity": 1,
-				"strokewidth": 3
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-										[
 						-0.60209,
 						52.20012,
 						0
@@ -5873,7 +5827,53 @@
 						-0.58885,
 						52.20955,
 						0
+					]
+				]
+			},
+			"properties": {
+				"name": "Olney to Odell",
+                "distance": 13,
+                "link": "/walks/5-olney-to-odell-13-km.html",
+                "image": "/assets/images/1/harrold_bridge_2.jpg",
+				"description": "Climb to the heights of Clifton Renes and then across to Bedfordshire.",
+				"stroke": "#f57c00",
+				"stroke-opacity": 1,
+				"strokewidth": 4
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						-0.7462992,
+						52.1133161,
+						0
 					],
+					[
+						-0.7485308,
+						52.1108915,
+						0
+					]
+				]
+			},
+			"properties": {
+				"name": "Tyringham detour",
+                "distance": 1,
+                "link": "/walks/5-olney-to-odell-13-km.html",
+                "image": "/assets/images/points/tyringham_bridge.jpg",
+				"description": "Get a better view of Tyringham hall, gatehouse and bridge",
+				"stroke": "#6d69699a",
+				"stroke-opacity": 1,
+				"strokewidth": 3
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
 					[
 						-0.58876,
 						52.20948,
@@ -6697,9 +6697,9 @@
 				]
 			},
 			"properties": {
-				"name": "Harrold Pavenham",
-                "distance": 12,
-                "link": "/walks/6-harrold-to-pavenham.html",
+				"name": "Odell Pavenham",
+                "distance": 10.5,
+                "link": "/walks/6-odell-to-pavenham-105-km.html",
                 "image": "/assets/images/1/shelter.jpg",
 				"description": "Loop round to see more bedfordshire villages and countryside, but not so much river.",
 				"stroke": "#f57c00",
@@ -6726,7 +6726,7 @@
 			"properties": {
 				"name": "Odell Pavenham alternative",
                 "distance": 10.5,
-                "link": "/walks/6-harrold-to-pavenham.html",
+                "link": "/walks/6-odell-to-pavenham-105-km.html",
                 "image": "/assets/images/1/pavenham.jpg",
 				"description": "Take a pleasant short cut to Pavenham over the high ground.",
 				"stroke": "#6d69699a",
@@ -6752,7 +6752,7 @@
 			"properties": {
 				"name": "Felmersham detour",
                 "distance": 10.5,
-                "link": "/walks/6-harrold-to-pavenham-105.html",
+                "link": "/walks/6-odell-to-pavenham-105-km.html",
                 "image": "/assets/images/1/StMarysFelmersham.jpg",
 				"description": "Detour for swimmers and the architecturally curious.",
 				"stroke": "#6d69699a",
@@ -8825,7 +8825,7 @@
 			"properties": {
 				"name": "Pavenham to Bedford",
                 "distance": 15.5,
-                "link": "/walks/7-pavenham-to-bedford.html",
+                "link": "/walks/7-pavenham-to-bedford-155-km.html",
                 "image": "/assets/images/1/pavenham_sssi_2.jpg",
 				"description": "Head through a site of special scientific interest and a rather special village.",
 				"stroke": "#f57c00",
@@ -8853,7 +8853,7 @@
 			"properties": {
 				"name": "Pavenham to Bedford alternative",
                 "distance": 13,
-                "link": "/walks/7-pavenham-to-bedford.html",
+                "link": "/walks/7-pavenham-to-bedford-155-km.html",
                 "image": "/assets/images/1/pavenham_sssi_2.jpg",
 				"description": "Alternative shorter route",
 				"stroke": "#6d69699a",
@@ -8879,7 +8879,7 @@
 			"properties": {
 				"name": "Sherington alternative",
                 "distance": 10,
-                "link": "/walks/4-newport-pagnell-to-olney.html",
+                "link": "/walks/4-newport-pagnell-to-olney-14-km.html",
                 "image": "/assets/images/1/Path%20to%20Sherington%20church.jpg",
 				"description": "Alternative shorter route giving you more time to explore Sherington",
 				"stroke": "#6d69699a",
@@ -10037,7 +10037,7 @@
             "properties": {
                 "name": "Bedford to Great Barford",
                 "distance": 11,
-                "link": "/walks/8-bedford-to-great-barford.html",
+                "link": "/walks/1-bedford-to-great-barford-11-km.html",
                 "image": "/assets/images/2/great_barford.jpg",
 				"description": "Head through nature reserves, matchstick woodlands and past a medieval dovecote to reach the popular paddle spot at Great Barford. You could also paddle there.",
 				"stroke": "#f57c00",
@@ -11920,7 +11920,7 @@
             "properties": {
                 "name": "Great Barford to St Neots",
                 "distance": 15.5,
-                "link": "/walks/9-great-barford-to-st-neots.html",
+                "link": "/walks/2-great-barford-to-st-neots-155-km.html",
                 "image": "/assets/images/2/roxton_church.jpg",
 				"description": "Head through bucolic fields along the Great Ouse and contrast with the great building works along the Great North Road.",
 				"stroke": "#f57c00",
@@ -13643,7 +13643,7 @@
             "properties": {
                 "name": "St Neots to Godmanchester",
                 "distance": 16.5,
-                "link": "/walks/10-st-neots-to-godmanchester.html",
+                "link": "/walks/3-st-neots-to-godmanchester-164-km.html",
                 "image": "/assets/images/2/paxton_pits.jpg",
 				"description": "This is a well marked trail, however, the start can be a little confusing in negotiating the St Neots streets to get to the Way.",
 				"stroke": "#f57c00",
@@ -14535,25 +14535,7 @@
                         -0.07477,
                         52.32421,
                         0
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Godmanchester to St Ives",
-                "distance": 10,
-                "link": "/walks/11-godmanchester-to-st-ives.html",
-                "image": "/assets/images/2/hemmingford_meadow_2.jpg",
-				"description": "The path out of Godmanchester is a little bit confusing as it heads to and then through the Godmanchester Nature Reserve but becomes clearer as it follows the river along Hemingford Meadow.",
-				"stroke": "#f57c00",
-				"stroke-opacity": 1,
-				"strokewidth": 4
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+                    ],
                     [
                         -0.07424,
                         52.32394,
@@ -14814,7 +14796,7 @@
                         52.315,
                         0
                     ],
-					[
+                    [
                         -0.04371,
                         52.31508,
                         0
@@ -14963,7 +14945,25 @@
                         -0.03172,
                         52.31716,
                         0
-                    ],
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Godmanchester to Holywell",
+                "distance": 12.5,
+                "link": "/walks/4-godmanchester-to-holywell-125-km.html",
+                "image": "/assets/images/2/hemmingford_meadow_2.jpg",
+				"description": "The path out of Godmanchester is a little bit confusing as it heads to and then through the Godmanchester Nature Reserve but becomes clearer as it follows the river along Hemingford Meadow.",
+				"stroke": "#f57c00",
+				"stroke-opacity": 1,
+				"strokewidth": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -0.0309,
                         52.31745,
@@ -15537,11 +15537,11 @@
                 ]
             },
             "properties": {
-                "name": "St Ives to Earith",
-                "distance": 10,
-                "link": "/walks/12-st-ives-to-earith.html",
+                "name": "Holywell to Earith",
+                "distance": 7.5,
+                "link": "/walks/5-holywell-to-earith-75-km.html",
                 "image": "/assets/images/2/pike_and_eel_2.jpg",
-				"description": "Leaving St Ives, takes a more direct route than the river to Holywell were there is, unsurprisingly, a holy well.",
+				"description": "Leaving Holywell, the path heads along a dry ridge which is clearly useful in this floodable area",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
 				"strokewidth": 4
@@ -17413,7 +17413,7 @@
                 "name": "Earith to Ely",
                 "distance": 25,
                 "description": "The route heads around Upper Delphs, Ewell Fen, Holme Fen, Upper Cuts, Middle Cuts and Chear Fen - all names for stretches of reclaimed land.",
-                "link": "/walks/13-earith-to-ely.html",
+                "link": "/walks/1-earith-to-ely-25-km.html",
                 "image": "/assets/images/3/ely_3.jpg",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
@@ -18616,7 +18616,7 @@
                 "name": "Earith to Ely alternative",
                 "distance": 21,
                 "description": "This alternative route to Ely lets you get a feel for the effort undertaken to drain the Fens. It also is a shorter...",
-                "link": "/walks/13-earith-to-ely.html",
+                "link": "/walks/1-earith-to-ely-25-km.html",
                 "image": "/assets/images/3/new_bedford_river.jpg",
                 "stroke": "#6d69699a",
                 "stroke-opacity": 1,
@@ -20864,7 +20864,7 @@
                 "name": "Ely to Downham Market",
                 "distance": 28,
                 "description": "At Ely, the Ouse Valley Way combines with the Fen Rivers Way and heads through the fens to Denver Sluice.",
-                "link": "/walks/14-ely-to-downham-market.html",
+                "link": "/walks/2-ely-to-downham-market-28-km.html",
                 "image": "/assets/images/downham_market.jpg",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
@@ -21997,7 +21997,7 @@
                 "name": "Downham Market to Kings Lynn",
                 "distance": 18.5,
                 "description": "From Downham Market the way continues between the two ‘rivers’ through the Wiggenhalls.",
-                "link": "/walks/15-downham-market-to-kings-lynn.html",
+                "link": "/walks/3-downham-market-to-kings-lynn-185-km.html",
                 "image": "/assets/images/3/wiggenshalls.jpg",
 				"stroke": "#f57c00",
 				"stroke-opacity": 1,
