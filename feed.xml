@@ -17,8 +17,8 @@
     <itunes:type>serial</itunes:type>
     <spotify:countryOfOrigin>uk</spotify:countryOfOrigin>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Feb 2026 13:48:11 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Feb 2026 13:48:11 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Feb 2026 17:01:28 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Feb 2026 17:01:28 +0000</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -290,30 +290,15 @@
       </item>
     
       <item>
-        <title>Paxton Pits</title>
-        <description>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to descover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;</description>
-        <pubDate>Sun, 19 Oct 2025 01:01:00 +0100</pubDate>
-        <itunes:image href='https://greatouseways.info/assets/images/podthumbs/paxton_pits.jpg' />
-        <link>https://greatouseways.info/audio.html?chat=paxton_pits</link>
-        <itunes:explicit>false</itunes:explicit>
-        <itunes:summary>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to descover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=paxton_pits&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
-        <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>19</itunes:order>
-        <content:encoded>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to descover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=paxton_pits&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
-        <enclosure url='https://greatouseways.info/assets/audio/paxton_pits.mp3' type='audio/mpeg' length='6209861'/>
-        <guid isPermaLink="true">https://greatouseways.info/assets/audio/paxton_pits.mp3</guid>
-      </item>
-    
-      <item>
         <title>Roxton Chapel</title>
         <description>Richard Hooker shows us around a chapel that used to have a very different purpose.&lt;br&gt;&lt;a href=&apos;https://roxtonchapel.wixsite.com/about&apos; target=&apos;_blank&apos;&gt;Chapel Website&lt;/a&gt;</description>
-        <pubDate>Mon, 20 Oct 2025 01:01:00 +0100</pubDate>
+        <pubDate>Sun, 19 Oct 2025 01:01:00 +0100</pubDate>
         <itunes:image href='https://greatouseways.info/assets/images/podthumbs/roxton_church.jpg' />
         <link>https://greatouseways.info/audio.html?chat=roxtonchapel</link>
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Richard Hooker shows us around a chapel that used to have a very different purpose.&lt;br&gt;&lt;a href=&apos;https://roxtonchapel.wixsite.com/about&apos; target=&apos;_blank&apos;&gt;Chapel Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapel&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>20</itunes:order>
+        <itunes:order>19</itunes:order>
         <content:encoded>Richard Hooker shows us around a chapel that used to have a very different purpose.&lt;br&gt;&lt;a href=&apos;https://roxtonchapel.wixsite.com/about&apos; target=&apos;_blank&apos;&gt;Chapel Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapel&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/roxtonchapel.mp3' type='audio/mpeg' length='9253405'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/roxtonchapel.mp3</guid>
@@ -322,16 +307,31 @@
       <item>
         <title>Roxton Chapel bonus</title>
         <description>If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selction of hymns with us.</description>
-        <pubDate>Tue, 21 Oct 2025 01:01:00 +0100</pubDate>
+        <pubDate>Mon, 20 Oct 2025 01:01:00 +0100</pubDate>
         <itunes:image href='https://greatouseways.info/assets/images/podthumbs/roxton_chapel_bonus.jpg' />
         <link>https://greatouseways.info/audio.html?chat=roxtonchapelbonus</link>
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selction of hymns with us.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapelbonus&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>21</itunes:order>
+        <itunes:order>20</itunes:order>
         <content:encoded>If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selction of hymns with us.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapelbonus&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/roxton_chapel_bonus.mp3' type='audio/mpeg' length='3785203'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/roxton_chapel_bonus.mp3</guid>
+      </item>
+    
+      <item>
+        <title>Paxton Pits</title>
+        <description>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to descover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;</description>
+        <pubDate>Tue, 21 Oct 2025 01:01:00 +0100</pubDate>
+        <itunes:image href='https://greatouseways.info/assets/images/podthumbs/paxton_pits.jpg' />
+        <link>https://greatouseways.info/audio.html?chat=paxton_pits</link>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:summary>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to descover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=paxton_pits&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
+        <itunes:author>Howard Osborne</itunes:author>
+        <itunes:order>21</itunes:order>
+        <content:encoded>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to descover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=paxton_pits&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
+        <enclosure url='https://greatouseways.info/assets/audio/paxton_pits.mp3' type='audio/mpeg' length='6209861'/>
+        <guid isPermaLink="true">https://greatouseways.info/assets/audio/paxton_pits.mp3</guid>
       </item>
     
       <item>
@@ -485,7 +485,7 @@
       </item>
     
       <item>
-        <title>A league of merchants</title>
+        <title>A league of gentlemensch</title>
         <description>We&apos;re in a couryard where in medieval times people would have been talking German. Let&apos;s talk to Dr Paul Richards to find out why. &lt;br&gt;&lt;a href=&apos;https://www.hansehouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Hanse House&lt;/a&gt;</description>
         <pubDate>Sat, 01 Nov 2025 00:01:00 +0000</pubDate>
         <itunes:image href='https://greatouseways.info/assets/images/podthumbs/hanse.jpg' />
