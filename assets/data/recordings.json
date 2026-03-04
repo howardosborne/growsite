@@ -44,6 +44,21 @@
 		"order": 3,
 		"stage": 1
 	},
+	"buckingham_chantry_chapel": {	
+		"latitude": 52.00095127859175,
+		"longitude": -0.9865348019415539,
+		"filepath": "/assets/audio/buckingham_chantry_chapel.mp3",
+		"heading": "Chanted to heaven",
+		"about": "How did a medieval fast-track to heaven act as a springboard to education for the poor? <br><a href='https://www.nationaltrust.org.uk/visit/oxfordshire-buckinghamshire-berkshire/buckingham-chantry-chapel' target='_blank'>Buckingham Chantry Chapel</a>",
+		"image": "/assets/images/thumbnails/buckingham_chantry_chapel.jpg",
+		"pod_image": "/assets/images/podthumbs/buckingham_chantry_chapel_square.jpg",
+		"image_attribution": "",
+		"date": "2026/03/02 00:00:00 +0000",
+		"size" : 13546392,
+		"draft":  "false",
+		"order": 4,
+		"stage": 1
+	},
 	"buckingham_gaol": {	
 		"latitude": 52.00095127859175,
 		"longitude": -0.9865348019415539,
@@ -56,7 +71,7 @@
 		"date": "2026/01/14 00:00:00 +0000",
 		"size" : 2835454,
 		"draft":  "false",
-		"order": 4,
+		"order": 5,
 		"stage": 1
 	},
 	"buckingham_canal_society": {
@@ -71,7 +86,7 @@
 		"date": "2025/10/05 00:01:00 +0000",
 		"size" : 7092791,
 		"draft":  "false",
-		"order": 5,
+		"order": 6,
 		"stage": 2
 	},
 	"bluetits": {
@@ -86,7 +101,7 @@
 		"date": "2025/10/06 00:01:00 +0000",
 		"size" : 3197863,
 		"draft":  "false",
-		"order": 6,
+		"order": 7,
 		"stage": 2
 	},
 	"bard_of_stony": {
@@ -101,7 +116,7 @@
 		"date": "2025/10/07 00:01:00 +0000",
 		"size" : 7682676,
 		"draft":  "false",
-		"order": 7,
+		"order": 8,
 		"stage": 2
 	},
 	"parks_trust": {
@@ -116,7 +131,7 @@
 		"date": "2025/10/08 00:01:00 +0000",
 		"size" : 5559106,
 		"draft":  "false",
-		"order": 8,
+		"order": 9,
 		"stage": 2
 	},
 	"bradwell_abbey": {
@@ -131,7 +146,7 @@
 		"date": "2025/10/09 00:01:00 +0000",
 		"size" : 7654364,
 		"draft":  "false",
-		"order": 9,
+		"order": 10,
 		"stage": 3
 	},
 	"bradwell_windmill": {
@@ -146,7 +161,7 @@
 		"date": "2025/10/10 00:01:00 +0000",
 		"size" : 10757201,
 		"draft":  "false",
-		"order": 10,
+		"order": 11,
 		"stage": 3
 	},
 	"passivhaus": {
@@ -161,7 +176,7 @@
 		"date": "2025/10/11 00:01:00 +0000",
 		"size" : 12320002,
 		"draft":  "false",
-		"order": 11,
+		"order": 12,
 		"stage": 3
 	},
 	"cowper_newton_museum": {
@@ -176,7 +191,7 @@
 		"date": "2025/10/12 00:01:00 +0000",
 		"size" : 30100093,
 		"draft":  "false",
-		"order": 12,
+		"order": 13,
 		"stage": 4
 	},
 	"emmaus": {
@@ -191,7 +206,7 @@
 		"date": "2025/10/13 00:01:00 +0000",
 		"size" : 2751252,
 		"draft":  "false",
-		"order": 13,
+		"order": 14,
 		"stage": 5
 	},
 	"harrold_odell_country_park": {
@@ -206,7 +221,7 @@
 		"date": "2025/10/14 00:01:00 +0000",
 		"size" : 8137201,
 		"draft":  "false",
-		"order": 14,
+		"order": 15,
 		"stage": 5
 	},
 	"john_bunyan": {
@@ -221,7 +236,7 @@
 		"date": "2025/10/15 00:01:00 +0000",
 		"size" : 18108274,
 		"draft":  "false",
-		"order": 15,
+		"order": 16,
 		"stage": 7
 	},
 	"guru_nanak_temple": {
@@ -236,7 +251,7 @@
 		"date": "2025/10/16 00:01:00 +0000",
 		"size" : 7139659,
 		"draft":  "false",
-		"order": 16,
+		"order": 17,
 		"stage": 7
 	},
 	"panacea": {
@@ -251,7 +266,7 @@
 		"date": "2025/10/17 00:01:00 +0000",
 		"size" : 36944902,
 		"draft":  "false",
-		"order": 17,
+		"order": 18,
 		"stage": 7
 	},
 	"higgins": {
@@ -266,7 +281,7 @@
 		"date": "2025/10/18 00:01:00 +0000",
 		"size" : 14432132,
 		"draft":  "false",
-		"order": 18,
+		"order": 19,
 		"stage": 7
 	},
 	"roxtonchapel": {
@@ -281,7 +296,7 @@
 		"date": "2025/10/19 00:01:00 +0000",
 		"size" : 9253405,
 		"draft":  "false",
-		"order": 19,
+		"order": 20,
 		"stage": 9
 	},
 	"roxtonchapelbonus": {
@@ -296,7 +311,7 @@
 		"date": "2025/10/20 00:01:00 +0000",
 		"size" : 3785203,
 		"draft":  "false",
-		"order": 20,
+		"order": 21,
 		"stage": 9
 	},
 	"paxton_pits": {
@@ -311,7 +326,7 @@
 		"date": "2025/10/21 00:01:00 +0000",
 		"size" : 6209861,
 		"draft":  "false",
-		"order": 21,
+		"order": 22,
 		"stage": 10
 	},
 		"cromwell_museum": {
@@ -326,7 +341,7 @@
 		"date": "2025/10/22 00:01:00 +0000",
 		"size" : 36554175,
 		"draft":  "false",
-		"order": 22,
+		"order": 23,
 		"stage": 10
 	},
 	"govt": {
@@ -341,7 +356,7 @@
 		"date": "2025/10/23 00:01:00 +0000",
 		"size" : 13427247,
 		"draft":  "false",
-		"order": 23,
+		"order": 24,
 		"stage": 11
 	},
 	"citizenscience": {
@@ -356,7 +371,7 @@
 		"date": "2025/10/24 00:01:00 +0000",
 		"size" : 3674799,
 		"draft":  "false",
-		"order": 24,
+		"order": 25,
 		"stage": 11
 	},
 	"watermills": {
@@ -371,7 +386,7 @@
 		"date": "2025/10/25 00:01:00 +0000",
 		"size" : 28998648,
 		"draft":  "false",
-		"order": 25,
+		"order": 26,
 		"stage": 11
 	},
 	"norris": {
@@ -386,7 +401,7 @@
 		"date": "2025/10/26 00:01:00 +0000",
 		"size" : 17634013,
 		"draft":  "false",
-		"order": 26,
+		"order": 27,
 		"stage": 11
 	},
 	"rspb_ouse_fen": {
@@ -401,7 +416,7 @@
 		"date": "2025/10/27 00:01:00 +0000",
 		"size" : 21864973,
 		"draft":  "false",
-		"order": 27,
+		"order": 28,
 		"stage": 12
 	},
 	"stretham_old_engine": {
@@ -416,7 +431,7 @@
 		"date": "2025/10/28 00:01:00 +0000",
 		"size" : 13380889,
 		"draft":  "false",
-		"order": 28,
+		"order": 29,
 		"stage": 13
 	},
 	"stained_glass_museum": {
@@ -431,7 +446,7 @@
 		"date": "2025/10/29 00:01:00 +0000",
 		"size" : 14359218,
 		"draft":  "false",
-		"order": 29,
+		"order": 30,
 		"stage": 13
 	},	
 	"cromwells_house": {
@@ -446,7 +461,7 @@
 		"date": "2025/10/30 00:01:00 +0000",
 		"size" : 6229240,
 		"draft":  "false",
-		"order": 30,
+		"order": 31,
 		"stage": 13
 	},	
 	"downham": {
@@ -461,7 +476,7 @@
 		"date": "2025/10/31 00:01:00 +0000",
 		"size" : 22891200,
 		"draft":  "false",
-		"order": 31,
+		"order": 32,
 		"stage": 14
 	},	
 	"hanse": {
@@ -476,7 +491,7 @@
 		"date": "2025/11/01 00:01:00 +0000",
 		"size" : 9722890,
 		"draft":  "false",
-		"order": 32,
+		"order": 33,
 		"stage": 15
 	}
 }
