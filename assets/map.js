@@ -127,8 +127,7 @@ function _swimOnClick(e){
 }
 function _chatOnClick(e){
   popup_text = `
-          <a href="#${e.sourceTarget.properties.id}">${e.sourceTarget.properties.heading}</a>  
-    <!--<div class="card mb-4">
+    <div class="card mb-4">
       <img src="${e.sourceTarget.properties.image}" class="card-img-top" alt="${e.sourceTarget.properties.heading}">
       <div class="card-body">
         <h5 class="card-title">${e.sourceTarget.properties.heading}</h5>
@@ -138,7 +137,7 @@ function _chatOnClick(e){
         <source src="${e.sourceTarget.properties.filepath}" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-    </div>-->`
+    </div>`
   popup = L.popup().setLatLng([e.latlng.lat,e.latlng.lng]).setContent(popup_text).openOn(map); 
 }
 function _poiOnClick(e){
