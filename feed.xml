@@ -17,8 +17,8 @@
     <itunes:type>serial</itunes:type>
     <spotify:countryOfOrigin>uk</spotify:countryOfOrigin>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Mar 2026 21:45:01 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Mar 2026 21:45:01 +0000</lastBuildDate>
+    <pubDate>Wed, 11 Mar 2026 13:27:08 +0000</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2026 13:27:08 +0000</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -410,6 +410,21 @@
       </item>
     
       <item>
+        <title>Hartford Marina</title>
+        <description>The Ouse Valley Way passes Hartford Marina. Let&apos;s go talk to Max and find out moare about boating.&lt;br&gt;&lt;a href=&apos;https://tingdeneboating.com/inland-marinas-uk/hartford/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;</description>
+        <pubDate>Sat, 25 Oct 2025 01:01:00 +0100</pubDate>
+        <itunes:image href='https://greatouseways.info/assets/images/podthumbs/hartford_marina_square.jpg' />
+        <link>https://greatouseways.info/audio.html?chat=hartford_marina</link>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:summary>The Ouse Valley Way passes Hartford Marina. Let&apos;s go talk to Max and find out moare about boating.&lt;br&gt;&lt;a href=&apos;https://tingdeneboating.com/inland-marinas-uk/hartford/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hartford_marina&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
+        <itunes:author>Howard Osborne</itunes:author>
+        <itunes:order>27</itunes:order>
+        <content:encoded>The Ouse Valley Way passes Hartford Marina. Let&apos;s go talk to Max and find out moare about boating.&lt;br&gt;&lt;a href=&apos;https://tingdeneboating.com/inland-marinas-uk/hartford/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hartford_marina&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
+        <enclosure url='https://greatouseways.info/assets/audio/hartford_marina.mp3' type='audio/mpeg' length='28998648'/>
+        <guid isPermaLink="true">https://greatouseways.info/assets/audio/hartford_marina.mp3</guid>
+      </item>
+    
+      <item>
         <title>A lasting legacy</title>
         <description>When avid collector Herbert Norris died in 1931, he left his collection of Huntingdonshire artifacts to St Ives. Richard Carter takes us on a guided tour and shows us how people today are learning about Huntingdonshire.&lt;br&gt;&lt;a href=&apos;https://www.norrismuseum.org.uk/&apos; target=&apos;_blank&apos;&gt;Norris Museum&lt;/a&gt;</description>
         <pubDate>Sun, 26 Oct 2025 01:01:00 +0100</pubDate>
@@ -418,7 +433,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>When avid collector Herbert Norris died in 1931, he left his collection of Huntingdonshire artifacts to St Ives. Richard Carter takes us on a guided tour and shows us how people today are learning about Huntingdonshire.&lt;br&gt;&lt;a href=&apos;https://www.norrismuseum.org.uk/&apos; target=&apos;_blank&apos;&gt;Norris Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=norris&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>27</itunes:order>
+        <itunes:order>28</itunes:order>
         <content:encoded>When avid collector Herbert Norris died in 1931, he left his collection of Huntingdonshire artifacts to St Ives. Richard Carter takes us on a guided tour and shows us how people today are learning about Huntingdonshire.&lt;br&gt;&lt;a href=&apos;https://www.norrismuseum.org.uk/&apos; target=&apos;_blank&apos;&gt;Norris Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=norris&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/norris.mp3' type='audio/mpeg' length='17634013'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/norris.mp3</guid>
@@ -433,7 +448,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>A project is underway turning quarried land into a unique reserve, based on reedbeds. Let&apos;s talk to the wardens Richard Taylor and Ian Weller to find out more. &lt;br&gt;&lt;a href=&apos;https://www.rspb.org.uk/days-out/reserves/ouse-fen&apos; target=&apos;_blank&apos;&gt;RSPB Ouse Fen&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=rspb_ouse_fen&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>28</itunes:order>
+        <itunes:order>29</itunes:order>
         <content:encoded>A project is underway turning quarried land into a unique reserve, based on reedbeds. Let&apos;s talk to the wardens Richard Taylor and Ian Weller to find out more. &lt;br&gt;&lt;a href=&apos;https://www.rspb.org.uk/days-out/reserves/ouse-fen&apos; target=&apos;_blank&apos;&gt;RSPB Ouse Fen&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=rspb_ouse_fen&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/rspb_ouse_fen.mp3' type='audio/mpeg' length='21864973'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/rspb_ouse_fen.mp3</guid>
@@ -448,7 +463,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>The Fens are Britain&apos;s bread-basket thanks to pumping stations keeping the land drained. Volunteer Nick Sharpe shows us how Stretham Old Engine has been helping keep the country fed. &lt;br&gt;&lt;a href=&apos;https://strethamoldengine.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stretham_old_engine&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>29</itunes:order>
+        <itunes:order>30</itunes:order>
         <content:encoded>The Fens are Britain&apos;s bread-basket thanks to pumping stations keeping the land drained. Volunteer Nick Sharpe shows us how Stretham Old Engine has been helping keep the country fed. &lt;br&gt;&lt;a href=&apos;https://strethamoldengine.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stretham_old_engine&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/stretham_old_engine.mp3' type='audio/mpeg' length='13380889'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/stretham_old_engine.mp3</guid>
@@ -463,7 +478,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through. &lt;br&gt;&lt;a href=&apos;https://stainedglassmuseum.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stained_glass_museum&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>30</itunes:order>
+        <itunes:order>31</itunes:order>
         <content:encoded>Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through. &lt;br&gt;&lt;a href=&apos;https://stainedglassmuseum.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stained_glass_museum&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/stained_glass_museum.mp3' type='audio/mpeg' length='14359218'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/stained_glass_museum.mp3</guid>
@@ -478,7 +493,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>An obvious place to start any visit to Ely is at the tourist information office and it comes with an added bonus - it was also Oliver Cromwell’s family home which Anna Bennett shows us around. &lt;br&gt;&lt;a href=&apos;https://www.olivercromwellshouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cromwells_house&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>31</itunes:order>
+        <itunes:order>32</itunes:order>
         <content:encoded>An obvious place to start any visit to Ely is at the tourist information office and it comes with an added bonus - it was also Oliver Cromwell’s family home which Anna Bennett shows us around. &lt;br&gt;&lt;a href=&apos;https://www.olivercromwellshouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cromwells_house&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/cromwells_house.mp3' type='audio/mpeg' length='6229240'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/cromwells_house.mp3</guid>
@@ -493,7 +508,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Discover Downham volunteer, Kathleen Wiseman, takes us on a tour of Downham to find out why it&apos;s known as the &lt;i&gt;Gingerbread Town&lt;/i&gt;. It&apos;s also a chance to meet the dedicated volunteers who have been determined to save the artifacts and share the stories of their town. &lt;br&gt;&lt;a href=&apos;https://www.discoverdownham.org.uk/&apos; target=&apos;_blank&apos;&gt;Discover Downham&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=downham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>32</itunes:order>
+        <itunes:order>33</itunes:order>
         <content:encoded>Discover Downham volunteer, Kathleen Wiseman, takes us on a tour of Downham to find out why it&apos;s known as the &lt;i&gt;Gingerbread Town&lt;/i&gt;. It&apos;s also a chance to meet the dedicated volunteers who have been determined to save the artifacts and share the stories of their town. &lt;br&gt;&lt;a href=&apos;https://www.discoverdownham.org.uk/&apos; target=&apos;_blank&apos;&gt;Discover Downham&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=downham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/downham.mp3' type='audio/mpeg' length='22891200'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/downham.mp3</guid>
@@ -508,7 +523,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>We&apos;re in a couryard where in medieval times people would have been talking German. Let&apos;s talk to Dr Paul Richards to find out why. &lt;br&gt;&lt;a href=&apos;https://www.hansehouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Hanse House&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hanse&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>33</itunes:order>
+        <itunes:order>34</itunes:order>
         <content:encoded>We&apos;re in a couryard where in medieval times people would have been talking German. Let&apos;s talk to Dr Paul Richards to find out why. &lt;br&gt;&lt;a href=&apos;https://www.hansehouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Hanse House&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hanse&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/hanse.mp3' type='audio/mpeg' length='9722890'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/hanse.mp3</guid>
