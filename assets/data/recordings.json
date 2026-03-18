@@ -304,7 +304,7 @@
 		"longitude": -0.31671641880452844,
 		"filepath": "/assets/audio/roxton_chapel_bonus.mp3",
 		"heading": "Roxton Chapel bonus",
-		"about": "If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selction of hymns with us.",
+		"about": "If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selection of hymns with us.",
 		"image": "/assets/images/thumbnails/roxton_chapel_bonus.jpg",
 		"pod_image": "/assets/images/podthumbs/roxton_chapel_bonus.jpg",
 		"image_attribution": "",
@@ -329,6 +329,21 @@
 		"order": 22,
 		"stage": 10
 	},
+	"buckden_towers": {
+		"latitude": 52.29644808283569, 
+		"longitude": -0.25272795574742984,
+		"filepath": "/assets/audio/buckden_towers.mp3",
+		"heading": "Buckden Towers",
+		"about": "Frances Farmer takes us on a tour of a place where Catherine of Aragon has made a big impression.<br><a href='https://friendsofbuckdentowers.co.uk/' target='_blank'>Friends of Buckden Towers</a>",
+		"image": "/assets/images/thumbnails/buckden_towers.jpg",
+		"pod_image": "/assets/images/podthumbs/buckden_towers.jpg",
+		"image_attribution": "",
+		"date": "2025/10/21 00:02:00 +0000",
+		"size" : 6209861,
+		"draft":  "false",
+		"order": 23,
+		"stage": 10
+	},
 		"cromwell_museum": {
 		"latitude": 52.33087834739903, 
 		"longitude": -0.18452474005418837,
@@ -341,7 +356,7 @@
 		"date": "2025/10/22 00:01:00 +0000",
 		"size" : 36554175,
 		"draft":  "false",
-		"order": 23,
+		"order": 24,
 		"stage": 10
 	},
 	"govt": {
@@ -356,7 +371,7 @@
 		"date": "2025/10/23 00:01:00 +0000",
 		"size" : 13427247,
 		"draft":  "false",
-		"order": 24,
+		"order": 25,
 		"stage": 11
 	},
 	"citizenscience": {
@@ -371,7 +386,7 @@
 		"date": "2025/10/24 00:01:00 +0000",
 		"size" : 3674799,
 		"draft":  "false",
-		"order": 25,
+		"order": 26,
 		"stage": 11
 	},
 	"watermills": {
@@ -386,7 +401,7 @@
 		"date": "2025/10/25 00:01:00 +0000",
 		"size" : 28998648,
 		"draft":  "false",
-		"order": 26,
+		"order": 27,
 		"stage": 11
 	},
 	"hartford_marina": {
@@ -401,7 +416,7 @@
 		"date": "2025/10/25 00:01:00 +0000",
 		"size" : 5440944,
 		"draft":  "false",
-		"order": 27,
+		"order": 28,
 		"stage": 11
 	},
 	"norris": {
@@ -416,7 +431,7 @@
 		"date": "2025/10/26 00:01:00 +0000",
 		"size" : 17634013,
 		"draft":  "false",
-		"order": 28,
+		"order": 29,
 		"stage": 11
 	},
 	"rspb_ouse_fen": {
@@ -431,7 +446,7 @@
 		"date": "2025/10/27 00:01:00 +0000",
 		"size" : 21864973,
 		"draft":  "false",
-		"order": 29,
+		"order": 30,
 		"stage": 12
 	},
 	"stretham_old_engine": {
@@ -446,7 +461,7 @@
 		"date": "2025/10/28 00:01:00 +0000",
 		"size" : 13380889,
 		"draft":  "false",
-		"order": 30,
+		"order": 31,
 		"stage": 13
 	},
 	"stained_glass_museum": {
@@ -461,7 +476,7 @@
 		"date": "2025/10/29 00:01:00 +0000",
 		"size" : 14359218,
 		"draft":  "false",
-		"order": 31,
+		"order": 32,
 		"stage": 13
 	},	
 	"cromwells_house": {
@@ -476,7 +491,7 @@
 		"date": "2025/10/30 00:01:00 +0000",
 		"size" : 6229240,
 		"draft":  "false",
-		"order": 32,
+		"order": 33,
 		"stage": 13
 	},	
 	"downham": {
@@ -491,7 +506,7 @@
 		"date": "2025/10/31 00:01:00 +0000",
 		"size" : 22891200,
 		"draft":  "false",
-		"order": 33,
+		"order": 34,
 		"stage": 14
 	},	
 	"hanse": {
@@ -506,7 +521,7 @@
 		"date": "2025/11/01 00:01:00 +0000",
 		"size" : 9722890,
 		"draft":  "false",
-		"order": 34,
+		"order": 35,
 		"stage": 15
 	}
 }
