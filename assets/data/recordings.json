@@ -450,8 +450,8 @@
 		"stage": 11
 	},
 	"holt_island": {
-		"latitude": 52.325342009944684,
-		"longitude": -0.07704715317206245,
+		"latitude": 52.32562515779925,
+		"longitude": -0.07871147872463374,
 		"filepath": "/assets/audio/holt_island.mp3",
 		"heading": "Holt, who goes there?",
 		"about": "Let's go on a tour of Holt Island with Keith Grimwade to find out more about the nature reserve that used to be a hive of industry.<br><a href='https://www.holtisland.org/' target='_blank'>Holt Island</a>",
@@ -459,7 +459,7 @@
 		"pod_image": "/assets/images/podthumbs/holt_island.jpg",
 		"image_attribution": "",
 		"date": "2026/05/12 00:01:00 +0000",
-		"size" : 17634013,
+		"size" : 19832292,
 		"draft":  "false",
 		"order": 31,
 		"stage": 11

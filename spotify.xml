@@ -17,8 +17,8 @@
     <itunes:type>serial</itunes:type>
     <spotify:countryOfOrigin>uk</spotify:countryOfOrigin>
     <atom:link href="https://greatouseways.info/spotify.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2026 17:17:37 +0100</pubDate>
-    <lastBuildDate>Wed, 13 May 2026 17:17:37 +0100</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 18:37:01 +0100</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 18:37:01 +0100</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -480,7 +480,7 @@
         <itunes:author>Howard Osborne</itunes:author>
         <itunes:order>31</itunes:order>
         <content:encoded>Let&apos;s go on a tour of Holt Island with Keith Grimwade to find out more about the nature reserve that used to be a hive of industry.&lt;br&gt;&lt;a href=&apos;https://www.holtisland.org/&apos; target=&apos;_blank&apos;&gt;Holt Island&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=holt_island&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
-        <enclosure url='https://greatouseways.info/assets/audio/holt_island.mp3' type='audio/mpeg' length='17634013'/>
+        <enclosure url='https://greatouseways.info/assets/audio/holt_island.mp3' type='audio/mpeg' length='19832292'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/holt_island.mp3</guid>
       </item>
     
