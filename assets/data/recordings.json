@@ -449,6 +449,21 @@
 		"order": 30,
 		"stage": 11
 	},
+	"holt_island": {
+		"latitude": 52.325342009944684,
+		"longitude": -0.07704715317206245,
+		"filepath": "/assets/audio/holt_island.mp3",
+		"heading": "Holt, who goes there?",
+		"about": "Let's go on a tour of Holt Island with Keith Grimwade to find out more about the nature reserve that used to a hive of industry.<br><a href='https://www.holtisland.org/' target='_blank'>Holt Island</a>",
+		"image": "/assets/images/thumbnails/holt_island.jpg",
+		"pod_image": "/assets/images/podthumbs/holt_island.jpg",
+		"image_attribution": "",
+		"date": "2026/05/12 00:01:00 +0000",
+		"size" : 17634013,
+		"draft":  "false",
+		"order": 31,
+		"stage": 11
+	},
 	"norris": {
 		"latitude": 52.325342009944684,
 		"longitude": -0.07704715317206245,
@@ -461,7 +476,7 @@
 		"date": "2025/10/26 00:01:00 +0000",
 		"size" : 17634013,
 		"draft":  "false",
-		"order": 31,
+		"order": 32,
 		"stage": 11
 	},
 	"rspb_ouse_fen": {
@@ -476,7 +491,7 @@
 		"date": "2025/10/27 00:01:00 +0000",
 		"size" : 21864973,
 		"draft":  "false",
-		"order": 32,
+		"order": 33,
 		"stage": 12
 	},
 	"stretham_old_engine": {
@@ -491,7 +506,7 @@
 		"date": "2025/10/28 00:01:00 +0000",
 		"size" : 13380889,
 		"draft":  "false",
-		"order": 33,
+		"order": 34,
 		"stage": 13
 	},
 	"stained_glass_museum": {
@@ -506,7 +521,7 @@
 		"date": "2025/10/29 00:01:00 +0000",
 		"size" : 14359218,
 		"draft":  "false",
-		"order": 34,
+		"order": 35,
 		"stage": 13
 	},	
 	"cromwells_house": {
@@ -521,7 +536,7 @@
 		"date": "2025/10/30 00:01:00 +0000",
 		"size" : 6229240,
 		"draft":  "false",
-		"order": 35,
+		"order": 36,
 		"stage": 13
 	},	
 	"downham": {
@@ -536,7 +551,7 @@
 		"date": "2025/10/31 00:01:00 +0000",
 		"size" : 22891200,
 		"draft":  "false",
-		"order": 36,
+		"order": 37,
 		"stage": 14
 	},	
 	"hanse": {
@@ -551,7 +566,7 @@
 		"date": "2025/11/01 00:01:00 +0000",
 		"size" : 9722890,
 		"draft":  "false",
-		"order": 37,
+		"order": 38,
 		"stage": 15
 	}
 }

@@ -209,7 +209,7 @@ async function addSpecificLines(sourceData,names){
   })
   routeLayer.addEventListener('click', _lineOnClick);
   routeLayer.eachLayer(lay=> {polys.push(lay)});
-  layerControl.addOverlay(routeLayer, name);
+  layerControl.addOverlay(routeLayer, "path");
   routeLayer.addTo(map);
 }
 async function addArrayOfPoints(url,show=false){
