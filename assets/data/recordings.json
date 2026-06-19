@@ -479,6 +479,21 @@
 		"order": 32,
 		"stage": 11
 	},
+	"holywell": {
+		"latitude": 52.319015694320086,
+		"longitude": -0.04029200551825914,
+		"filepath": "/assets/audio/holywell.mp3",
+		"heading": "A well-dressed well",
+		"about": "It's well-dressing time at Holywell so let's talk to Ben Peilow to find out more.<br><a href='https://www.needingworthvillager.org.uk/' target='_blank'>Local Magazine</a>",
+		"image": "/assets/images/thumbnails/holywell_dressing.jpg",
+		"pod_image": "/assets/images/podthumbs/holywell_dressing.png",
+		"image_attribution": "",
+		"date": "2026/06/19 00:01:00 +0000",
+		"size" : 17634013,
+		"draft":  "false",
+		"order": 33,
+		"stage": 12
+	},
 	"rspb_ouse_fen": {
 		"latitude": 52.33489515288912, 
 		"longitude": 0.01115931883512373,
@@ -491,7 +506,7 @@
 		"date": "2025/10/27 00:01:00 +0000",
 		"size" : 21864973,
 		"draft":  "false",
-		"order": 33,
+		"order": 34,
 		"stage": 12
 	},
 	"stretham_old_engine": {
@@ -506,7 +521,7 @@
 		"date": "2025/10/28 00:01:00 +0000",
 		"size" : 13380889,
 		"draft":  "false",
-		"order": 34,
+		"order": 35,
 		"stage": 13
 	},
 	"stained_glass_museum": {
@@ -521,7 +536,7 @@
 		"date": "2025/10/29 00:01:00 +0000",
 		"size" : 14359218,
 		"draft":  "false",
-		"order": 35,
+		"order": 36,
 		"stage": 13
 	},	
 	"cromwells_house": {
@@ -536,7 +551,7 @@
 		"date": "2025/10/30 00:01:00 +0000",
 		"size" : 6229240,
 		"draft":  "false",
-		"order": 36,
+		"order": 37,
 		"stage": 13
 	},	
 	"downham": {
@@ -551,7 +566,7 @@
 		"date": "2025/10/31 00:01:00 +0000",
 		"size" : 22891200,
 		"draft":  "false",
-		"order": 37,
+		"order": 38,
 		"stage": 14
 	},	
 	"hanse": {
@@ -566,7 +581,7 @@
 		"date": "2025/11/01 00:01:00 +0000",
 		"size" : 9722890,
 		"draft":  "false",
-		"order": 38,
+		"order": 39,
 		"stage": 15
 	}
 }
