@@ -239,6 +239,21 @@
 		"order": 16,
 		"stage": 5
 	},
+	"stevington_holywell": {
+		"latitude": 52.17240844813587,  
+		"longitude": -0.5528466619801836,
+		"filepath": "/assets/audio/stevington_holywell.mp3",
+		"heading": "Stevington Holywell",
+		"about": "Nisha tells us why she has been visiting holywells and other special places around the country.",
+		"image": "/assets/images/thumbnails/stevington_holywell.jpg",
+		"pod_image": "/assets/images/podthumbs/stevington_holywell_square.jpg",
+		"image_attribution": "",
+		"date": "2026/08/02 14:00:00 +0000",
+		"size" : 8074908,
+		"draft":  "false",
+		"order": 17,
+		"stage": 7
+	},
 	"john_bunyan": {
 		"latitude": 52.144980228358975, 
 		"longitude": -0.5247141174207195,
@@ -251,7 +266,7 @@
 		"date": "2025/10/15 00:01:00 +0000",
 		"size" : 18108274,
 		"draft":  "false",
-		"order": 17,
+		"order": 18,
 		"stage": 7
 	},
 	"guru_nanak_temple": {
@@ -266,7 +281,7 @@
 		"date": "2025/10/16 00:01:00 +0000",
 		"size" : 7139659,
 		"draft":  "false",
-		"order": 18,
+		"order": 19,
 		"stage": 7
 	},
 	"la_piazza": {
@@ -281,7 +296,7 @@
 		"date": "2026/03/19 00:02:00 +0000",
 		"size" : 36944902,
 		"draft":  "false",
-		"order": 19,
+		"order": 20,
 		"stage": 7
 	},
 	"panacea": {
@@ -296,7 +311,7 @@
 		"date": "2025/10/17 00:01:00 +0000",
 		"size" : 36944902,
 		"draft":  "false",
-		"order": 20,
+		"order": 21,
 		"stage": 7
 	},
 	"higgins": {
@@ -311,7 +326,7 @@
 		"date": "2025/10/18 00:01:00 +0000",
 		"size" : 14432132,
 		"draft":  "false",
-		"order": 21,
+		"order": 22,
 		"stage": 7
 	},
 	"roxtonchapel": {
@@ -326,7 +341,7 @@
 		"date": "2025/10/19 00:01:00 +0000",
 		"size" : 9253405,
 		"draft":  "false",
-		"order": 22,
+		"order": 23,
 		"stage": 9
 	},
 	"roxtonchapelbonus": {
@@ -341,7 +356,7 @@
 		"date": "2025/10/20 00:01:00 +0000",
 		"size" : 3785203,
 		"draft":  "false",
-		"order": 23,
+		"order": 24,
 		"stage": 9
 	},
 	"paxton_pits": {
@@ -356,7 +371,7 @@
 		"date": "2025/10/21 00:01:00 +0000",
 		"size" : 6209861,
 		"draft":  "false",
-		"order": 24,
+		"order": 25,
 		"stage": 10
 	},
 	"buckden_towers": {
@@ -371,7 +386,7 @@
 		"date": "2026/03/17 00:03:00 +0000",
 		"size" : 15527124,
 		"draft":  "false",
-		"order": 25,
+		"order": 26,
 		"stage": 10
 	},
 	"cromwell_museum": {
@@ -386,7 +401,7 @@
 		"date": "2025/10/22 00:01:00 +0000",
 		"size" : 36554175,
 		"draft":  "false",
-		"order": 26,
+		"order": 27,
 		"stage": 10
 	},
 	"govt": {
@@ -401,7 +416,7 @@
 		"date": "2025/10/23 00:01:00 +0000",
 		"size" : 13427247,
 		"draft":  "false",
-		"order": 27,
+		"order": 28,
 		"stage": 11
 	},
 	"citizenscience": {
@@ -416,7 +431,7 @@
 		"date": "2025/10/24 00:01:00 +0000",
 		"size" : 3674799,
 		"draft":  "false",
-		"order": 28,
+		"order": 29,
 		"stage": 11
 	},
 	"watermills": {
@@ -431,7 +446,7 @@
 		"date": "2025/10/25 00:01:00 +0000",
 		"size" : 28998648,
 		"draft":  "false",
-		"order": 29,
+		"order": 30,
 		"stage": 11
 	},
 	"hartford_marina": {
@@ -446,7 +461,7 @@
 		"date": "2025/10/25 00:01:00 +0000",
 		"size" : 5440944,
 		"draft":  "false",
-		"order": 30,
+		"order": 31,
 		"stage": 11
 	},
 	"holt_island": {
@@ -461,7 +476,7 @@
 		"date": "2026/05/12 00:01:00 +0000",
 		"size" : 19832292,
 		"draft":  "false",
-		"order": 31,
+		"order": 32,
 		"stage": 11
 	},
 	"norris": {
@@ -476,7 +491,7 @@
 		"date": "2025/10/26 00:01:00 +0000",
 		"size" : 17634013,
 		"draft":  "false",
-		"order": 32,
+		"order": 33,
 		"stage": 11
 	},
 	"holywell": {
@@ -491,7 +506,7 @@
 		"date": "2026/06/19 00:01:00 +0000",
 		"size" : 17634013,
 		"draft":  "false",
-		"order": 33,
+		"order": 34,
 		"stage": 12
 	},
 	"rspb_ouse_fen": {
@@ -506,7 +521,7 @@
 		"date": "2025/10/27 00:01:00 +0000",
 		"size" : 21864973,
 		"draft":  "false",
-		"order": 34,
+		"order": 35,
 		"stage": 12
 	},
 	"stretham_old_engine": {
@@ -521,7 +536,7 @@
 		"date": "2025/10/28 00:01:00 +0000",
 		"size" : 13380889,
 		"draft":  "false",
-		"order": 35,
+		"order": 36,
 		"stage": 13
 	},
 	"stained_glass_museum": {
@@ -536,7 +551,7 @@
 		"date": "2025/10/29 00:01:00 +0000",
 		"size" : 14359218,
 		"draft":  "false",
-		"order": 36,
+		"order": 37,
 		"stage": 13
 	},	
 	"cromwells_house": {
@@ -551,7 +566,7 @@
 		"date": "2025/10/30 00:01:00 +0000",
 		"size" : 6229240,
 		"draft":  "false",
-		"order": 37,
+		"order": 38,
 		"stage": 13
 	},	
 	"downham": {
@@ -566,7 +581,7 @@
 		"date": "2025/10/31 00:01:00 +0000",
 		"size" : 22891200,
 		"draft":  "false",
-		"order": 38,
+		"order": 39,
 		"stage": 14
 	},	
 	"hanse": {
@@ -581,7 +596,7 @@
 		"date": "2025/11/01 00:01:00 +0000",
 		"size" : 9722890,
 		"draft":  "false",
-		"order": 39,
+		"order": 40,
 		"stage": 15
 	}
 }

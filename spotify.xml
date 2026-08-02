@@ -17,8 +17,8 @@
     <itunes:type>serial</itunes:type>
     <spotify:countryOfOrigin>uk</spotify:countryOfOrigin>
     <atom:link href="https://greatouseways.info/spotify.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jul 2026 19:51:25 +0100</pubDate>
-    <lastBuildDate>Fri, 03 Jul 2026 19:51:25 +0100</lastBuildDate>
+    <pubDate>Sun, 02 Aug 2026 21:53:33 +0100</pubDate>
+    <lastBuildDate>Sun, 02 Aug 2026 21:53:33 +0100</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
@@ -260,6 +260,21 @@
       </item>
     
       <item>
+        <title>Stevington Holywell</title>
+        <description>Nisha tells us why she has been visiting holywells and other special places around the country.</description>
+        <pubDate>Sun, 02 Aug 2026 15:00:00 +0100</pubDate>
+        <itunes:image href='https://greatouseways.info/assets/images/podthumbs/stevington_holywell_square.jpg' />
+        <link>https://greatouseways.info/audio.html?chat=stevington_holywell</link>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:summary>Nisha tells us why she has been visiting holywells and other special places around the country.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stevington_holywell&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
+        <itunes:author>Howard Osborne</itunes:author>
+        <itunes:order>17</itunes:order>
+        <content:encoded>Nisha tells us why she has been visiting holywells and other special places around the country.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stevington_holywell&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
+        <enclosure url='https://greatouseways.info/assets/audio/stevington_holywell.mp3' type='audio/mpeg' length='8074908'/>
+        <guid isPermaLink="true">https://greatouseways.info/assets/audio/stevington_holywell.mp3</guid>
+      </item>
+    
+      <item>
         <title>A Pilgrim&apos;s Progress</title>
         <description>Between Pavenham and Bromham Mill, the Ouse Valley Way joins another walking route - The John Bunyan Trail. I met with John Pestell from the Bunyan Museum to find out more about the man and his greatest work. &lt;br&gt;&lt;a href=&apos;https://www.bunyanmeeting.co.uk/museum&apos; target=&apos;_blank&apos;&gt;Bunyan Museum&lt;/a&gt;</description>
         <pubDate>Wed, 15 Oct 2025 01:01:00 +0100</pubDate>
@@ -268,7 +283,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Between Pavenham and Bromham Mill, the Ouse Valley Way joins another walking route - The John Bunyan Trail. I met with John Pestell from the Bunyan Museum to find out more about the man and his greatest work. &lt;br&gt;&lt;a href=&apos;https://www.bunyanmeeting.co.uk/museum&apos; target=&apos;_blank&apos;&gt;Bunyan Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=john_bunyan&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>17</itunes:order>
+        <itunes:order>18</itunes:order>
         <content:encoded>Between Pavenham and Bromham Mill, the Ouse Valley Way joins another walking route - The John Bunyan Trail. I met with John Pestell from the Bunyan Museum to find out more about the man and his greatest work. &lt;br&gt;&lt;a href=&apos;https://www.bunyanmeeting.co.uk/museum&apos; target=&apos;_blank&apos;&gt;Bunyan Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=john_bunyan&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/john_bunyan.mp3' type='audio/mpeg' length='18108274'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/john_bunyan.mp3</guid>
@@ -283,7 +298,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>There&apos;s an impressive temple visible from the Ouse Valley Way. Let&apos;s go visit it and learn some lessons for people of all faiths and none. &lt;br&gt;&lt;a href=&apos;https://www.facebook.com/GuruNanakGurdwaraBedford/&apos; target=&apos;_blank&apos;&gt;Facebook page&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=guru_nanak_temple&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>18</itunes:order>
+        <itunes:order>19</itunes:order>
         <content:encoded>There&apos;s an impressive temple visible from the Ouse Valley Way. Let&apos;s go visit it and learn some lessons for people of all faiths and none. &lt;br&gt;&lt;a href=&apos;https://www.facebook.com/GuruNanakGurdwaraBedford/&apos; target=&apos;_blank&apos;&gt;Facebook page&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=guru_nanak_temple&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/guru_nanak_gurdwara_temple.mp3' type='audio/mpeg' length='7139659'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/guru_nanak_gurdwara_temple.mp3</guid>
@@ -298,7 +313,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Let&apos;s talk to Libby, owner of La Piazza cafe and find out more about Bedford&apos;s Italian connection. &lt;br&gt;&lt;a href=&apos;https://www.lapiazzabedford.co.uk/&apos; target=&apos;_blank&apos;&gt;website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=la_piazza&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>19</itunes:order>
+        <itunes:order>20</itunes:order>
         <content:encoded>Let&apos;s talk to Libby, owner of La Piazza cafe and find out more about Bedford&apos;s Italian connection. &lt;br&gt;&lt;a href=&apos;https://www.lapiazzabedford.co.uk/&apos; target=&apos;_blank&apos;&gt;website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=la_piazza&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/la_piazza.mp3' type='audio/mpeg' length='36944902'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/la_piazza.mp3</guid>
@@ -313,7 +328,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>What would you do if an Apocalypse was imminent? Museum director, Zara Matthews, shows us what one incredible group of ladies decided to do. &lt;br&gt;&lt;a href=&apos;https://panaceamuseum.org/&apos; target=&apos;_blank&apos;&gt;Panacea Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=panacea&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>20</itunes:order>
+        <itunes:order>21</itunes:order>
         <content:encoded>What would you do if an Apocalypse was imminent? Museum director, Zara Matthews, shows us what one incredible group of ladies decided to do. &lt;br&gt;&lt;a href=&apos;https://panaceamuseum.org/&apos; target=&apos;_blank&apos;&gt;Panacea Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=panacea&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/panacea.mp3' type='audio/mpeg' length='36944902'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/panacea.mp3</guid>
@@ -328,7 +343,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Why did the R101&apos;s maiden flight end in tragedy? Lydia McDonald, Keeper of Social History at the Higgins, helps us find out. She also shows us why Bedford was a centre for innovation that made it the place to build airships. &lt;br&gt;&lt;a href=&apos;https://www.thehigginsbedford.org.uk/Home.aspx&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=higgins&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>21</itunes:order>
+        <itunes:order>22</itunes:order>
         <content:encoded>Why did the R101&apos;s maiden flight end in tragedy? Lydia McDonald, Keeper of Social History at the Higgins, helps us find out. She also shows us why Bedford was a centre for innovation that made it the place to build airships. &lt;br&gt;&lt;a href=&apos;https://www.thehigginsbedford.org.uk/Home.aspx&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=higgins&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/higgins.mp3' type='audio/mpeg' length='14432132'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/higgins.mp3</guid>
@@ -343,7 +358,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Richard Hooker shows us around a chapel that used to have a very different purpose.&lt;br&gt;&lt;a href=&apos;https://roxtonchapel.wixsite.com/about&apos; target=&apos;_blank&apos;&gt;Chapel Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapel&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>22</itunes:order>
+        <itunes:order>23</itunes:order>
         <content:encoded>Richard Hooker shows us around a chapel that used to have a very different purpose.&lt;br&gt;&lt;a href=&apos;https://roxtonchapel.wixsite.com/about&apos; target=&apos;_blank&apos;&gt;Chapel Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapel&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/roxtonchapel.mp3' type='audio/mpeg' length='9253405'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/roxtonchapel.mp3</guid>
@@ -358,7 +373,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selection of hymns with us.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapelbonus&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>23</itunes:order>
+        <itunes:order>24</itunes:order>
         <content:encoded>If you are curious to know what the wonderful organ at Roxton Chapel sounds like, Richard has very kindly agreed to record and share a selection of hymns with us.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=roxtonchapelbonus&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/roxton_chapel_bonus.mp3' type='audio/mpeg' length='3785203'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/roxton_chapel_bonus.mp3</guid>
@@ -373,7 +388,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to discover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=paxton_pits&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>24</itunes:order>
+        <itunes:order>25</itunes:order>
         <content:encoded>Paxton Pits Ranger, Robyn Staddon takes us to a bird hide to discover the special things to see and hear in the nature reserve.&lt;br&gt;&lt;a href=&apos;https://paxton-pits.org.uk/&apos; target=&apos;_blank&apos;&gt;Paxton Pits&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=paxton_pits&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/paxton_pits.mp3' type='audio/mpeg' length='6209861'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/paxton_pits.mp3</guid>
@@ -388,7 +403,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Frances Farmer takes us on a tour of a place where Catherine of Aragon has made a big impression.&lt;br&gt;&lt;a href=&apos;https://friendsofbuckdentowers.co.uk/&apos; target=&apos;_blank&apos;&gt;Friends of Buckden Towers&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=buckden_towers&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>25</itunes:order>
+        <itunes:order>26</itunes:order>
         <content:encoded>Frances Farmer takes us on a tour of a place where Catherine of Aragon has made a big impression.&lt;br&gt;&lt;a href=&apos;https://friendsofbuckdentowers.co.uk/&apos; target=&apos;_blank&apos;&gt;Friends of Buckden Towers&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=buckden_towers&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/buckden_towers.mp3' type='audio/mpeg' length='15527124'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/buckden_towers.mp3</guid>
@@ -403,7 +418,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Curator Stuart Orme takes us around the Cromwell Museum to learn about one of England&apos;s most consequential and controversial figures in history.&lt;br&gt;&lt;a href=&apos;https://www.cromwellmuseum.org/&apos; target=&apos;_blank&apos;&gt;Cromwell Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cromwell_museum&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>26</itunes:order>
+        <itunes:order>27</itunes:order>
         <content:encoded>Curator Stuart Orme takes us around the Cromwell Museum to learn about one of England&apos;s most consequential and controversial figures in history.&lt;br&gt;&lt;a href=&apos;https://www.cromwellmuseum.org/&apos; target=&apos;_blank&apos;&gt;Cromwell Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cromwell_museum&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/cromwell_museum.mp3' type='audio/mpeg' length='36554175'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/cromwell_museum.mp3</guid>
@@ -418,7 +433,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>What does it take to get the Ouse Valley Way in good shape? Graham Campbell tells us about the fantastic work of the &lt;a href=&apos;https://greatousevalleytrust.org.uk/&apos; target=&apos;_blank&apos;&gt;Great Ouse Valley Trust&lt;/a&gt; in improving the Huntingdonshire stretch and their ambitious plans for the future.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=govt&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>27</itunes:order>
+        <itunes:order>28</itunes:order>
         <content:encoded>What does it take to get the Ouse Valley Way in good shape? Graham Campbell tells us about the fantastic work of the &lt;a href=&apos;https://greatousevalleytrust.org.uk/&apos; target=&apos;_blank&apos;&gt;Great Ouse Valley Trust&lt;/a&gt; in improving the Huntingdonshire stretch and their ambitious plans for the future.&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=govt&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/govt.mp3' type='audio/mpeg' length='13427247'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/govt.mp3</guid>
@@ -433,7 +448,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Let&apos;s join Lucas Tatek who regularly tests the river checking for harmful bacteria at a popular paddling place. &lt;br&gt;&lt;a href=&apos;https://greatouseways.info/join.html&apos; target=&apos;_blank&apos;&gt;find a citizen science group&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://www.gov.uk/report-environmental-problem&apos; target=&apos;_blank&apos;&gt;Environment Agency&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=citizenscience&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>28</itunes:order>
+        <itunes:order>29</itunes:order>
         <content:encoded>Let&apos;s join Lucas Tatek who regularly tests the river checking for harmful bacteria at a popular paddling place. &lt;br&gt;&lt;a href=&apos;https://greatouseways.info/join.html&apos; target=&apos;_blank&apos;&gt;find a citizen science group&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://www.gov.uk/report-environmental-problem&apos; target=&apos;_blank&apos;&gt;Environment Agency&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=citizenscience&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/citizenscience.mp3' type='audio/mpeg' length='3674799'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/citizenscience.mp3</guid>
@@ -448,7 +463,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>On a stretch of river that was a powerhouse of watermilling, Keith Grimwade and Bridget Flannagan have done a deep dive into the history and landscape to find the missing mills.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=watermills&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>29</itunes:order>
+        <itunes:order>30</itunes:order>
         <content:encoded>On a stretch of river that was a powerhouse of watermilling, Keith Grimwade and Bridget Flannagan have done a deep dive into the history and landscape to find the missing mills.&lt;br&gt;&lt;a href=&apos;https://www.oxbowbooks.com/9781914427411/the-watermills-and-landscape-of-the-river-great-ouse-cambridgeshire/&apos; target=&apos;_blank&apos;&gt;Book details&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=watermills&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/watermills.mp3' type='audio/mpeg' length='28998648'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/watermills.mp3</guid>
@@ -463,7 +478,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>The Ouse Valley Way passes Hartford Marina. Let&apos;s go talk to Max and find out more about boating.&lt;br&gt;&lt;a href=&apos;https://tingdeneboating.com/inland-marinas-uk/hartford/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hartford_marina&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>30</itunes:order>
+        <itunes:order>31</itunes:order>
         <content:encoded>The Ouse Valley Way passes Hartford Marina. Let&apos;s go talk to Max and find out more about boating.&lt;br&gt;&lt;a href=&apos;https://tingdeneboating.com/inland-marinas-uk/hartford/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hartford_marina&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/hartford_marina.mp3' type='audio/mpeg' length='5440944'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/hartford_marina.mp3</guid>
@@ -478,7 +493,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Let&apos;s go on a tour of Holt Island with Keith Grimwade to find out more about the nature reserve that used to be a hive of industry.&lt;br&gt;&lt;a href=&apos;https://www.holtisland.org/&apos; target=&apos;_blank&apos;&gt;Holt Island&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=holt_island&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>31</itunes:order>
+        <itunes:order>32</itunes:order>
         <content:encoded>Let&apos;s go on a tour of Holt Island with Keith Grimwade to find out more about the nature reserve that used to be a hive of industry.&lt;br&gt;&lt;a href=&apos;https://www.holtisland.org/&apos; target=&apos;_blank&apos;&gt;Holt Island&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=holt_island&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/holt_island.mp3' type='audio/mpeg' length='19832292'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/holt_island.mp3</guid>
@@ -493,7 +508,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>When avid collector Herbert Norris died in 1931, he left his collection of Huntingdonshire artifacts to St Ives. Richard Carter takes us on a guided tour and shows us how people today are learning about Huntingdonshire.&lt;br&gt;&lt;a href=&apos;https://www.norrismuseum.org.uk/&apos; target=&apos;_blank&apos;&gt;Norris Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=norris&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>32</itunes:order>
+        <itunes:order>33</itunes:order>
         <content:encoded>When avid collector Herbert Norris died in 1931, he left his collection of Huntingdonshire artifacts to St Ives. Richard Carter takes us on a guided tour and shows us how people today are learning about Huntingdonshire.&lt;br&gt;&lt;a href=&apos;https://www.norrismuseum.org.uk/&apos; target=&apos;_blank&apos;&gt;Norris Museum&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=norris&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/norris.mp3' type='audio/mpeg' length='17634013'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/norris.mp3</guid>
@@ -508,7 +523,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>It&apos;s well-dressing time at Holywell so let&apos;s talk to Ben Peilow to find out more.&lt;br&gt;&lt;a href=&apos;https://www.needingworthvillager.org.uk/&apos; target=&apos;_blank&apos;&gt;Local Magazine&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=holywell&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>33</itunes:order>
+        <itunes:order>34</itunes:order>
         <content:encoded>It&apos;s well-dressing time at Holywell so let&apos;s talk to Ben Peilow to find out more.&lt;br&gt;&lt;a href=&apos;https://www.needingworthvillager.org.uk/&apos; target=&apos;_blank&apos;&gt;Local Magazine&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=holywell&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/holywell.mp3' type='audio/mpeg' length='17634013'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/holywell.mp3</guid>
@@ -523,7 +538,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>A project is underway turning quarried land into a unique reserve based on reedbeds. Let&apos;s talk to the wardens Richard Taylor and Ian Weller to find out more. &lt;br&gt;&lt;a href=&apos;https://www.rspb.org.uk/days-out/reserves/ouse-fen&apos; target=&apos;_blank&apos;&gt;RSPB Ouse Fen&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=rspb_ouse_fen&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>34</itunes:order>
+        <itunes:order>35</itunes:order>
         <content:encoded>A project is underway turning quarried land into a unique reserve based on reedbeds. Let&apos;s talk to the wardens Richard Taylor and Ian Weller to find out more. &lt;br&gt;&lt;a href=&apos;https://www.rspb.org.uk/days-out/reserves/ouse-fen&apos; target=&apos;_blank&apos;&gt;RSPB Ouse Fen&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=rspb_ouse_fen&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/rspb_ouse_fen.mp3' type='audio/mpeg' length='21864973'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/rspb_ouse_fen.mp3</guid>
@@ -538,7 +553,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>The Fens are Britain&apos;s bread-basket thanks to pumping stations keeping the land drained. Volunteer Nick Sharpe shows us how Stretham Old Engine has been helping keep the country fed. &lt;br&gt;&lt;a href=&apos;https://strethamoldengine.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stretham_old_engine&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>35</itunes:order>
+        <itunes:order>36</itunes:order>
         <content:encoded>The Fens are Britain&apos;s bread-basket thanks to pumping stations keeping the land drained. Volunteer Nick Sharpe shows us how Stretham Old Engine has been helping keep the country fed. &lt;br&gt;&lt;a href=&apos;https://strethamoldengine.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stretham_old_engine&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/stretham_old_engine.mp3' type='audio/mpeg' length='13380889'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/stretham_old_engine.mp3</guid>
@@ -553,7 +568,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through. &lt;br&gt;&lt;a href=&apos;https://stainedglassmuseum.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stained_glass_museum&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>36</itunes:order>
+        <itunes:order>37</itunes:order>
         <content:encoded>Most of the churches along the Ouse Valley Way contain treasures hiding in plain sight - stained glass. Emily Allen from the Stained Glass Museum is going to help us see what we have been looking through. &lt;br&gt;&lt;a href=&apos;https://stainedglassmuseum.com/&apos; target=&apos;_blank&apos;&gt;Museum website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=stained_glass_museum&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/stained_glass_museum.mp3' type='audio/mpeg' length='14359218'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/stained_glass_museum.mp3</guid>
@@ -568,7 +583,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>An obvious place to start any visit to Ely is at the tourist information office and it comes with an added bonus - it was also Oliver Cromwell’s family home which Anna Bennett shows us around. &lt;br&gt;&lt;a href=&apos;https://www.olivercromwellshouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cromwells_house&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>37</itunes:order>
+        <itunes:order>38</itunes:order>
         <content:encoded>An obvious place to start any visit to Ely is at the tourist information office and it comes with an added bonus - it was also Oliver Cromwell’s family home which Anna Bennett shows us around. &lt;br&gt;&lt;a href=&apos;https://www.olivercromwellshouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Website&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=cromwells_house&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/cromwells_house.mp3' type='audio/mpeg' length='6229240'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/cromwells_house.mp3</guid>
@@ -583,7 +598,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>Discover Downham volunteer, Kathleen Wiseman, takes us on a tour of Downham to find out why it&apos;s known as the &lt;i&gt;Gingerbread Town&lt;/i&gt;. It&apos;s also a chance to meet the dedicated volunteers who have been determined to save the artifacts and share the stories of their town. &lt;br&gt;&lt;a href=&apos;https://www.discoverdownham.org.uk/&apos; target=&apos;_blank&apos;&gt;Discover Downham&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=downham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>38</itunes:order>
+        <itunes:order>39</itunes:order>
         <content:encoded>Discover Downham volunteer, Kathleen Wiseman, takes us on a tour of Downham to find out why it&apos;s known as the &lt;i&gt;Gingerbread Town&lt;/i&gt;. It&apos;s also a chance to meet the dedicated volunteers who have been determined to save the artifacts and share the stories of their town. &lt;br&gt;&lt;a href=&apos;https://www.discoverdownham.org.uk/&apos; target=&apos;_blank&apos;&gt;Discover Downham&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=downham&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/downham.mp3' type='audio/mpeg' length='22891200'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/downham.mp3</guid>
@@ -598,7 +613,7 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:summary>We&apos;re in a couryard where in medieval times people would have been talking German. Let&apos;s talk to Dr Paul Richards to find out why. &lt;br&gt;&lt;a href=&apos;https://www.hansehouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Hanse House&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hanse&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
         <itunes:author>Howard Osborne</itunes:author>
-        <itunes:order>39</itunes:order>
+        <itunes:order>40</itunes:order>
         <content:encoded>We&apos;re in a couryard where in medieval times people would have been talking German. Let&apos;s talk to Dr Paul Richards to find out why. &lt;br&gt;&lt;a href=&apos;https://www.hansehouse.co.uk/&apos; target=&apos;_blank&apos;&gt;Hanse House&lt;/a&gt;&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat=hanse&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
         <enclosure url='https://greatouseways.info/assets/audio/hanse.mp3' type='audio/mpeg' length='9722890'/>
         <guid isPermaLink="true">https://greatouseways.info/assets/audio/hanse.mp3</guid>
