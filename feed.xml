@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:psc="http://podlove.org/simple-chapters">
   <channel>
     <title>Great Ouse Ways</title>
-    <image>https://greatouseways.info/assets/images/podthumb.jpg</image>
+    <image>https://greatouseways.info/assets/images/podcast.png</image>
     <itunes:owner>
         <itunes:email>howard@greatouseways.info</itunes:email>
     </itunes:owner>
     <itunes:author>Howard Osborne</itunes:author>
-    <itunes:image href="https://greatouseways.info/assets/images/podthumb.jpg"/>
+    <itunes:image href="https://greatouseways.info/assets/images/podcast.png"/>
     <language>en-uk</language>
     <description><![CDATA[<p>The source-to-sea audio companion for the Great Ouse.</p><p>For 150 miles, the Great Ouse meanders through Middle England and you can follow its route by walking the Ouse Valley Way.</p><p>I've met all sorts of people on the way from rangers to river rinsers. You can listen to the conversations we had along the way.</p><p>More details are available including a map on the <a href='https://greatouseways.info'>Great Ouse Ways website</a></p>]]></description>
     <content:encoded><![CDATA[<p>A source-to-sea audio companion for for the Great Ouse.</p><p>For 150 miles, the Great Ouse meanders through Middle England and you can follow its route by walking the Ouse Valley Way.</p><p>I've met all sorts of people on the way from rangers to river rinsers. You can listen to the conversations we had along the way.</p><p>More details are available including a map on the <a href='https://greatouseways.info'>Great Ouse Ways website</a></p>]]></content:encoded>
@@ -17,8 +17,8 @@
     <itunes:type>serial</itunes:type>
     <spotify:countryOfOrigin>uk</spotify:countryOfOrigin>
     <atom:link href="https://greatouseways.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Aug 2026 13:52:15 +0100</pubDate>
-    <lastBuildDate>Tue, 11 Aug 2026 13:52:15 +0100</lastBuildDate>
+    <pubDate>Sat, 15 Aug 2026 14:11:20 +0100</pubDate>
+    <lastBuildDate>Sat, 15 Aug 2026 14:11:20 +0100</lastBuildDate>
       <item>
         <title>Introduction</title>
         <description>About this series</description>
